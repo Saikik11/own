@@ -1,0 +1,1501 @@
+invoice_no,customer_id,gender,category,quantity,price,payment_method,shopping_mall
+I100000,C200000,Female,Shoes,1,1142.04,Cash,Istinye Park
+I100001,C200001,Male,Cosmetics,2,240.88,Cash,Istinye Park
+I100002,C200002,Male,Books,1,146.0,Cash,Istinye Park
+I100003,C200003,Female,Food & Beverage,1,45.0,Credit Card,Cevahir AVM
+I100004,C200004,Female,Toys,3,336.2,Cash,Istinye Park
+I100005,C200005,Male,Books,2,150.31,Credit Card,Istinye Park
+I100006,C200006,Male,Toys,3,455.3,Credit Card,Metrocity
+I100007,C200007,Female,Shoes,1,1239.4,Cash,Cevahir AVM
+I100008,C200008,Female,Shoes,1,1194.65,Cash,Cevahir AVM
+I100009,C200009,Male,Toys,2,464.13,Credit Card,Kanyon
+I100010,C200010,Male,Shoes,1,1286.75,Cash,Kanyon
+I100011,C200011,Male,Clothing,4,824.56,Cash,Metrocity
+I100012,C200012,Female,Toys,3,381.69,Credit Card,Mall of Istanbul
+I100013,C200013,Female,Clothing,3,878.13,Cash,Cevahir AVM
+I100014,C200014,Male,Toys,4,475.93,Credit Card,Kanyon
+I100015,C200015,Male,Cosmetics,2,312.67,Credit Card,Istinye Park
+I100016,C200016,Female,Cosmetics,2,361.14,Credit Card,Cevahir AVM
+I100017,C200017,Female,Books,1,110.94,Credit Card,Cevahir AVM
+I100018,C200018,Female,Shoes,2,1096.64,Credit Card,Cevahir AVM
+I100019,C200019,Female,Cosmetics,4,251.44,Cash,Kanyon
+I100020,C200020,Male,Shoes,2,1210.33,Credit Card,Metrocity
+I100021,C200021,Female,Books,1,146.29,Credit Card,Kanyon
+I100022,C200022,Female,Clothing,4,848.09,Cash,Istinye Park
+I100023,C200023,Female,Cosmetics,1,225.72,Credit Card,Istinye Park
+I100024,C200024,Male,Food & Beverage,3,26.69,Credit Card,Mall of Istanbul
+I100025,C200025,Male,Food & Beverage,3,138.12,Cash,Kanyon
+I100026,C200026,Male,Food & Beverage,2,28.2,Cash,Kanyon
+I100027,C200027,Female,Technology,4,3486.46,Cash,Mall of Istanbul
+I100028,C200028,Female,Food & Beverage,4,101.23,Credit Card,Mall of Istanbul
+I100029,C200029,Female,Food & Beverage,4,67.48,Credit Card,Cevahir AVM
+I100030,C200030,Female,Food & Beverage,1,128.89,Credit Card,Cevahir AVM
+I100031,C200031,Male,Food & Beverage,4,-3.09,Cash,Istinye Park
+I100032,C200032,Female,Cosmetics,2,391.6,Credit Card,Metrocity
+I100033,C200033,Male,Food & Beverage,3,83.49,Credit Card,Istinye Park
+I100034,C200034,Female,Toys,2,391.49,Credit Card,Kanyon
+I100035,C200035,Female,Toys,3,534.68,Cash,Metrocity
+I100036,C200036,Female,Food & Beverage,3,32.0,Cash,Cevahir AVM
+I100037,C200037,Female,Technology,2,3447.75,Cash,Mall of Istanbul
+I100038,C200038,Female,Books,3,220.22,Cash,Mall of Istanbul
+I100039,C200039,Female,Cosmetics,3,222.18,Credit Card,Istinye Park
+I100040,C200040,Male,Toys,1,424.76,Credit Card,Kanyon
+I100041,C200041,Male,Books,2,119.69,Credit Card,Kanyon
+I100042,C200042,Male,Shoes,2,1119.19,Cash,Mall of Istanbul
+I100043,C200043,Male,Food & Beverage,2,126.34,Credit Card,Istinye Park
+I100044,C200044,Male,Clothing,3,827.81,Credit Card,Istinye Park
+I100045,C200045,Female,Technology,4,3500.07,Credit Card,Cevahir AVM
+I100046,C200046,Female,Technology,4,3603.45,Credit Card,Cevahir AVM
+I100047,C200047,Male,Technology,3,3461.43,Cash,Cevahir AVM
+I100048,C200048,Female,Food & Beverage,4,143.33,Credit Card,Metrocity
+I100049,C200049,Female,Food & Beverage,4,116.37,Cash,Istinye Park
+I100050,C200050,Female,Books,3,198.58,Credit Card,Istinye Park
+I100051,C200051,Female,Technology,2,3474.8,Cash,Cevahir AVM
+I100052,C200052,Male,Technology,1,3430.77,Cash,Mall of Istanbul
+I100053,C200053,Female,Technology,2,3465.9,Cash,Cevahir AVM
+I100054,C200054,Male,Shoes,2,1196.81,Credit Card,Metrocity
+I100055,C200055,Male,Books,2,184.04,Cash,Mall of Istanbul
+I100056,C200056,Female,Cosmetics,1,300.86,Cash,Istinye Park
+I100057,C200057,Female,Technology,2,3510.75,Credit Card,Metrocity
+I100058,C200058,Female,Shoes,4,1286.28,Credit Card,Metrocity
+I100059,C200059,Male,Toys,1,398.79,Credit Card,Mall of Istanbul
+I100060,C200060,Female,Shoes,4,1173.38,Credit Card,Cevahir AVM
+I100061,C200061,Male,Shoes,1,1222.02,Cash,Cevahir AVM
+I100062,C200062,Female,Books,4,64.21,Cash,Kanyon
+I100063,C200063,Male,Food & Beverage,2,14.1,Credit Card,Mall of Istanbul
+I100064,C200064,Male,Food & Beverage,2,93.3,Cash,Cevahir AVM
+I100065,C200065,Male,Food & Beverage,2,53.35,Cash,Metrocity
+I100066,C200066,Male,Food & Beverage,4,69.59,Cash,Cevahir AVM
+I100067,C200067,Male,Food & Beverage,4,146.74,Cash,Cevahir AVM
+I100068,C200068,Male,Cosmetics,3,326.31,Cash,Metrocity
+I100069,C200069,Male,Clothing,4,796.15,Credit Card,Mall of Istanbul
+I100070,C200070,Female,Toys,1,404.15,Credit Card,Kanyon
+I100071,C200071,Male,Shoes,2,1178.77,Credit Card,Cevahir AVM
+I100072,C200072,Female,Clothing,1,842.47,Credit Card,Cevahir AVM
+I100073,C200073,Female,Cosmetics,3,339.63,Credit Card,Cevahir AVM
+I100074,C200074,Female,Technology,3,3549.55,Credit Card,Mall of Istanbul
+I100075,C200075,Male,Technology,4,3547.25,Credit Card,Metrocity
+I100076,C200076,Male,Food & Beverage,2,102.7,Cash,Metrocity
+I100077,C200077,Female,Technology,1,3465.09,Credit Card,Metrocity
+I100078,C200078,Male,Cosmetics,3,291.63,Cash,Metrocity
+I100079,C200079,Male,Toys,3,405.83,Cash,Metrocity
+I100080,C200080,Female,Toys,1,366.3,Cash,Metrocity
+I100081,C200081,Female,Cosmetics,3,381.49,Cash,Cevahir AVM
+I100082,C200082,Female,Technology,1,3581.74,Cash,Cevahir AVM
+I100083,C200083,Female,Clothing,2,794.0,Credit Card,Metrocity
+I100084,C200084,Female,Shoes,4,1251.54,Cash,Metrocity
+I100085,C200085,Female,Books,1,178.0,Credit Card,Mall of Istanbul
+I100086,C200086,Female,Books,2,125.17,Credit Card,Mall of Istanbul
+I100087,C200087,Male,Toys,1,420.6,Credit Card,Istinye Park
+I100088,C200088,Male,Shoes,3,1161.29,Cash,Cevahir AVM
+I100089,C200089,Male,Food & Beverage,2,56.0,Cash,Metrocity
+I100090,C200090,Female,Cosmetics,1,323.85,Credit Card,Cevahir AVM
+I100091,C200091,Male,Technology,2,3524.44,Credit Card,Istinye Park
+I100092,C200092,Female,Food & Beverage,1,234.7,Credit Card,Mall of Istanbul
+I100093,C200093,Female,Toys,1,392.23,Credit Card,Istinye Park
+I100094,C200094,Female,Cosmetics,2,273.55,Credit Card,Kanyon
+I100095,C200095,Male,Books,2,196.14,Cash,Mall of Istanbul
+I100096,C200096,Female,Toys,2,398.75,Credit Card,Cevahir AVM
+I100097,C200097,Female,Toys,3,367.62,Credit Card,Mall of Istanbul
+I100098,C200098,Female,Shoes,4,1170.71,Credit Card,Istinye Park
+I100099,C200099,Male,Clothing,1,791.02,Credit Card,Metrocity
+I100100,C200100,Male,Toys,1,452.72,Cash,Istinye Park
+I100101,C200101,Female,Clothing,2,821.58,Credit Card,Istinye Park
+I100102,C200102,Female,Shoes,1,1158.33,Credit Card,Metrocity
+I100103,C200103,Female,Toys,4,491.74,Cash,Cevahir AVM
+I100104,C200104,Male,Technology,4,3454.63,Credit Card,Cevahir AVM
+I100105,C200105,Female,Toys,1,363.13,Cash,Mall of Istanbul
+I100106,C200106,Female,Books,1,208.35,Cash,Istinye Park
+I100107,C200107,Male,Cosmetics,2,374.88,Credit Card,Mall of Istanbul
+I100108,C200108,Male,Technology,4,3517.68,Credit Card,Metrocity
+I100109,C200109,Male,Clothing,1,735.47,Cash,Kanyon
+I100110,C200110,Male,Books,4,154.84,Cash,Cevahir AVM
+I100111,C200111,Male,Technology,1,3431.65,Credit Card,Metrocity
+I100112,C200112,Male,Toys,3,524.24,Credit Card,Cevahir AVM
+I100113,C200113,Female,Shoes,4,1214.36,Cash,Mall of Istanbul
+I100114,C200114,Male,Food & Beverage,3,140.07,Credit Card,Kanyon
+I100115,C200115,Male,Books,2,131.49,Cash,Istinye Park
+I100116,C200116,Female,Books,4,240.28,Credit Card,Cevahir AVM
+I100117,C200117,Female,Food & Beverage,1,74.88,Credit Card,Istinye Park
+I100118,C200118,Female,Toys,1,357.06,Cash,Mall of Istanbul
+I100119,C200119,Male,Books,3,165.24,Cash,Cevahir AVM
+I100120,C200120,Male,Clothing,4,844.0,Credit Card,Mall of Istanbul
+I100121,C200121,Male,Toys,4,506.43,Cash,Istinye Park
+I100122,C200122,Male,Clothing,4,880.71,Credit Card,Mall of Istanbul
+I100123,C200123,Male,Clothing,2,859.75,Credit Card,Mall of Istanbul
+I100124,C200124,Female,Books,4,115.74,Cash,Mall of Istanbul
+I100125,C200125,Female,Toys,2,364.68,Credit Card,Metrocity
+I100126,C200126,Male,Books,1,106.11,Credit Card,Metrocity
+I100127,C200127,Male,Books,3,142.47,Cash,Cevahir AVM
+I100128,C200128,Female,Toys,3,304.34,Cash,Mall of Istanbul
+I100129,C200129,Male,Toys,4,468.27,Cash,Mall of Istanbul
+I100130,C200130,Female,Toys,3,348.77,Credit Card,Mall of Istanbul
+I100131,C200131,Female,Technology,4,3442.6,Cash,Metrocity
+I100132,C200132,Female,Toys,1,379.71,Credit Card,Istinye Park
+I100133,C200133,Female,Shoes,1,1132.88,Cash,Mall of Istanbul
+I100134,C200134,Female,Toys,1,432.21,Credit Card,Kanyon
+I100135,C200135,Female,Food & Beverage,3,51.7,Credit Card,Cevahir AVM
+I100136,C200136,Female,Toys,4,425.07,Cash,Metrocity
+I100137,C200137,Female,Books,2,196.24,Credit Card,Istinye Park
+I100138,C200138,Male,Food & Beverage,1,72.53,Credit Card,Kanyon
+I100139,C200139,Female,Technology,1,3464.13,Cash,Mall of Istanbul
+I100140,C200140,Female,Cosmetics,2,259.89,Credit Card,Metrocity
+I100141,C200141,Female,Clothing,2,745.89,Credit Card,Mall of Istanbul
+I100142,C200142,Female,Shoes,3,1178.98,Credit Card,Cevahir AVM
+I100143,C200143,Female,Food & Beverage,1,103.37,Credit Card,Metrocity
+I100144,C200144,Male,Technology,3,3430.85,Credit Card,Kanyon
+I100145,C200145,Female,Clothing,1,767.9,Credit Card,Istinye Park
+I100146,C200146,Male,Shoes,3,1207.89,Cash,Istinye Park
+I100147,C200147,Female,Toys,3,401.73,Cash,Cevahir AVM
+I100148,C200148,Female,Technology,2,3366.64,Cash,Istinye Park
+I100149,C200149,Male,Clothing,4,831.68,Credit Card,Istinye Park
+I100150,C200150,Male,Technology,4,3561.92,Cash,Cevahir AVM
+I100151,C200151,Female,Books,4,121.37,Cash,Kanyon
+I100152,C200152,Female,Books,1,63.25,Credit Card,Metrocity
+I100153,C200153,Male,Toys,2,361.78,Cash,Metrocity
+I100154,C200154,Male,Clothing,2,760.31,Cash,Cevahir AVM
+I100155,C200155,Female,Toys,2,459.99,Credit Card,Mall of Istanbul
+I100156,C200156,Male,Toys,1,345.32,Cash,Cevahir AVM
+I100157,C200157,Male,Shoes,3,1182.1,Cash,Cevahir AVM
+I100158,C200158,Male,Clothing,3,883.91,Cash,Cevahir AVM
+I100159,C200159,Male,Cosmetics,4,308.05,Cash,Cevahir AVM
+I100160,C200160,Male,Toys,4,409.78,Cash,Istinye Park
+I100161,C200161,Female,Shoes,1,1194.94,Cash,Istinye Park
+I100162,C200162,Female,Shoes,1,1248.88,Credit Card,Kanyon
+I100163,C200163,Female,Clothing,4,820.2,Credit Card,Cevahir AVM
+I100164,C200164,Female,Food & Beverage,3,192.68,Cash,Metrocity
+I100165,C200165,Female,Technology,3,3598.13,Cash,Mall of Istanbul
+I100166,C200166,Female,Toys,2,415.69,Cash,Istinye Park
+I100167,C200167,Male,Toys,4,398.14,Credit Card,Metrocity
+I100168,C200168,Male,Clothing,4,808.18,Cash,Istinye Park
+I100169,C200169,Male,Food & Beverage,3,71.68,Credit Card,Kanyon
+I100170,C200170,Female,Shoes,2,1206.69,Credit Card,Mall of Istanbul
+I100171,C200171,Male,Technology,4,3427.9,Cash,Istinye Park
+I100172,C200172,Male,Books,3,114.4,Credit Card,Mall of Istanbul
+I100173,C200173,Male,Toys,3,439.32,Cash,Mall of Istanbul
+I100174,C200174,Male,Books,3,176.9,Credit Card,Metrocity
+I100175,C200175,Male,Technology,2,3493.64,Cash,Istinye Park
+I100176,C200176,Female,Toys,2,420.94,Cash,Mall of Istanbul
+I100177,C200177,Female,Technology,3,3575.31,Credit Card,Cevahir AVM
+I100178,C200178,Male,Clothing,2,780.72,Cash,Mall of Istanbul
+I100179,C200179,Male,Toys,2,328.24,Credit Card,Mall of Istanbul
+I100180,C200180,Female,Food & Beverage,2,131.36,Cash,Istinye Park
+I100181,C200181,Female,Toys,2,426.81,Credit Card,Cevahir AVM
+I100182,C200182,Male,Clothing,1,837.98,Cash,Mall of Istanbul
+I100183,C200183,Male,Technology,4,3440.14,Cash,Istinye Park
+I100184,C200184,Female,Cosmetics,4,224.99,Cash,Istinye Park
+I100185,C200185,Female,Clothing,2,813.25,Credit Card,Mall of Istanbul
+I100186,C200186,Male,Clothing,3,809.75,Credit Card,Kanyon
+I100187,C200187,Male,Clothing,4,782.14,Cash,Kanyon
+I100188,C200188,Female,Clothing,2,872.34,Cash,Metrocity
+I100189,C200189,Male,Food & Beverage,4,99.51,Cash,Kanyon
+I100190,C200190,Female,Toys,3,461.55,Credit Card,Kanyon
+I100191,C200191,Male,Food & Beverage,2,143.91,Cash,Istinye Park
+I100192,C200192,Male,Food & Beverage,3,45.5,Cash,Istinye Park
+I100193,C200193,Female,Cosmetics,4,255.65,Cash,Mall of Istanbul
+I100194,C200194,Male,Cosmetics,1,235.89,Credit Card,Mall of Istanbul
+I100195,C200195,Male,Toys,3,421.56,Cash,Istinye Park
+I100196,C200196,Female,Toys,2,404.91,Cash,Mall of Istanbul
+I100197,C200197,Female,Technology,2,3567.5,Credit Card,Istinye Park
+I100198,C200198,Female,Clothing,3,829.75,Cash,Kanyon
+I100199,C200199,Male,Food & Beverage,1,35.1,Credit Card,Mall of Istanbul
+I100200,C200200,Female,Cosmetics,4,276.9,Credit Card,Kanyon
+I100201,C200201,Female,Books,4,44.48,Credit Card,Metrocity
+I100202,C200202,Female,Clothing,4,814.67,Credit Card,Mall of Istanbul
+I100203,C200203,Female,Technology,4,3639.54,Credit Card,Istinye Park
+I100204,C200204,Male,Shoes,4,1206.54,Cash,Istinye Park
+I100205,C200205,Female,Food & Beverage,2,110.06,Cash,Metrocity
+I100206,C200206,Male,Clothing,2,799.13,Cash,Istinye Park
+I100207,C200207,Male,Toys,3,417.79,Cash,Kanyon
+I100208,C200208,Female,Clothing,3,792.19,Cash,Istinye Park
+I100209,C200209,Female,Shoes,4,1230.89,Cash,Metrocity
+I100210,C200210,Female,Toys,4,361.38,Cash,Cevahir AVM
+I100211,C200211,Male,Books,4,113.45,Cash,Cevahir AVM
+I100212,C200212,Female,Cosmetics,1,235.38,Credit Card,Kanyon
+I100213,C200213,Female,Cosmetics,3,298.37,Cash,Cevahir AVM
+I100214,C200214,Female,Shoes,2,1144.71,Cash,Istinye Park
+I100215,C200215,Male,Technology,4,3572.63,Credit Card,Metrocity
+I100216,C200216,Female,Shoes,3,1178.45,Cash,Kanyon
+I100217,C200217,Male,Technology,1,3401.55,Credit Card,Cevahir AVM
+I100218,C200218,Male,Technology,1,3443.23,Cash,Istinye Park
+I100219,C200219,Male,Cosmetics,4,306.75,Cash,Istinye Park
+I100220,C200220,Female,Books,2,182.62,Credit Card,Mall of Istanbul
+I100221,C200221,Female,Books,3,167.7,Cash,Mall of Istanbul
+I100222,C200222,Male,Clothing,2,758.88,Credit Card,Metrocity
+I100223,C200223,Female,Shoes,4,1171.44,Credit Card,Kanyon
+I100224,C200224,Male,Shoes,4,1165.58,Credit Card,Cevahir AVM
+I100225,C200225,Female,Shoes,1,1228.33,Cash,Cevahir AVM
+I100226,C200226,Female,Toys,1,405.81,Credit Card,Istinye Park
+I100227,C200227,Female,Cosmetics,3,277.63,Credit Card,Cevahir AVM
+I100228,C200228,Male,Cosmetics,4,267.03,Cash,Metrocity
+I100229,C200229,Female,Cosmetics,4,273.85,Credit Card,Mall of Istanbul
+I100230,C200230,Male,Books,3,150.42,Credit Card,Istinye Park
+I100231,C200231,Female,Cosmetics,2,367.04,Cash,Kanyon
+I100232,C200232,Female,Clothing,1,809.33,Cash,Istinye Park
+I100233,C200233,Female,Toys,4,383.17,Cash,Cevahir AVM
+I100234,C200234,Female,Cosmetics,4,279.27,Credit Card,Metrocity
+I100235,C200235,Male,Toys,2,485.09,Credit Card,Kanyon
+I100236,C200236,Male,Toys,2,441.24,Cash,Istinye Park
+I100237,C200237,Female,Books,2,198.94,Credit Card,Cevahir AVM
+I100238,C200238,Male,Shoes,1,1237.37,Credit Card,Istinye Park
+I100239,C200239,Male,Toys,3,397.5,Cash,Kanyon
+I100240,C200240,Male,Clothing,4,859.89,Cash,Cevahir AVM
+I100241,C200241,Female,Books,1,76.61,Cash,Mall of Istanbul
+I100242,C200242,Female,Food & Beverage,2,177.55,Credit Card,Kanyon
+I100243,C200243,Female,Toys,4,437.11,Cash,Mall of Istanbul
+I100244,C200244,Female,Technology,4,3524.3,Credit Card,Mall of Istanbul
+I100245,C200245,Male,Toys,1,362.15,Cash,Cevahir AVM
+I100246,C200246,Male,Shoes,2,1246.55,Credit Card,Istinye Park
+I100247,C200247,Female,Cosmetics,2,357.25,Cash,Istinye Park
+I100248,C200248,Female,Books,3,114.78,Credit Card,Metrocity
+I100249,C200249,Female,Food & Beverage,2,66.3,Credit Card,Kanyon
+I100250,C200250,Male,Books,1,98.32,Credit Card,Kanyon
+I100251,C200251,Female,Cosmetics,3,327.4,Credit Card,Cevahir AVM
+I100252,C200252,Female,Books,3,145.09,Credit Card,Cevahir AVM
+I100253,C200253,Female,Food & Beverage,3,206.12,Credit Card,Metrocity
+I100254,C200254,Male,Books,3,73.3,Credit Card,Metrocity
+I100255,C200255,Female,Clothing,3,756.47,Cash,Mall of Istanbul
+I100256,C200256,Male,Clothing,1,800.6,Credit Card,Metrocity
+I100257,C200257,Female,Cosmetics,4,333.25,Credit Card,Istinye Park
+I100258,C200258,Female,Technology,2,3530.99,Credit Card,Mall of Istanbul
+I100259,C200259,Female,Technology,4,3504.22,Credit Card,Metrocity
+I100260,C200260,Male,Food & Beverage,4,117.62,Credit Card,Istinye Park
+I100261,C200261,Female,Food & Beverage,2,105.92,Cash,Istinye Park
+I100262,C200262,Male,Food & Beverage,2,152.47,Cash,Mall of Istanbul
+I100263,C200263,Female,Food & Beverage,4,72.19,Cash,Mall of Istanbul
+I100264,C200264,Male,Food & Beverage,2,77.85,Credit Card,Istinye Park
+I100265,C200265,Female,Technology,3,3534.47,Credit Card,Cevahir AVM
+I100266,C200266,Female,Shoes,2,1278.62,Credit Card,Mall of Istanbul
+I100267,C200267,Male,Books,2,118.29,Cash,Kanyon
+I100268,C200268,Male,Toys,3,412.06,Cash,Cevahir AVM
+I100269,C200269,Female,Food & Beverage,3,81.08,Cash,Kanyon
+I100270,C200270,Female,Technology,3,3527.74,Credit Card,Metrocity
+I100271,C200271,Female,Toys,2,317.94,Credit Card,Mall of Istanbul
+I100272,C200272,Male,Clothing,3,782.71,Credit Card,Mall of Istanbul
+I100273,C200273,Female,Technology,3,3471.29,Credit Card,Istinye Park
+I100274,C200274,Male,Toys,1,382.88,Cash,Mall of Istanbul
+I100275,C200275,Male,Technology,1,3373.06,Cash,Kanyon
+I100276,C200276,Male,Toys,2,501.22,Cash,Cevahir AVM
+I100277,C200277,Female,Technology,3,3375.29,Cash,Metrocity
+I100278,C200278,Female,Books,2,173.81,Cash,Cevahir AVM
+I100279,C200279,Female,Toys,1,335.3,Credit Card,Kanyon
+I100280,C200280,Female,Cosmetics,1,237.76,Cash,Metrocity
+I100281,C200281,Male,Technology,3,3506.9,Credit Card,Istinye Park
+I100282,C200282,Female,Cosmetics,2,334.56,Credit Card,Mall of Istanbul
+I100283,C200283,Male,Technology,1,3446.23,Cash,Mall of Istanbul
+I100284,C200284,Male,Food & Beverage,4,44.6,Cash,Istinye Park
+I100285,C200285,Male,Shoes,3,1135.26,Credit Card,Kanyon
+I100286,C200286,Female,Technology,2,3510.74,Credit Card,Istinye Park
+I100287,C200287,Female,Shoes,4,1147.64,Credit Card,Kanyon
+I100288,C200288,Female,Books,3,214.44,Credit Card,Metrocity
+I100289,C200289,Male,Shoes,3,1142.31,Cash,Cevahir AVM
+I100290,C200290,Male,Toys,1,427.09,Credit Card,Cevahir AVM
+I100291,C200291,Female,Cosmetics,2,377.23,Cash,Istinye Park
+I100292,C200292,Male,Food & Beverage,1,103.44,Cash,Mall of Istanbul
+I100293,C200293,Male,Clothing,4,710.48,Cash,Istinye Park
+I100294,C200294,Male,Toys,4,420.0,Cash,Mall of Istanbul
+I100295,C200295,Female,Cosmetics,4,287.68,Credit Card,Istinye Park
+I100296,C200296,Female,Cosmetics,4,297.92,Credit Card,Istinye Park
+I100297,C200297,Female,Books,4,229.3,Cash,Cevahir AVM
+I100298,C200298,Male,Toys,2,402.58,Credit Card,Mall of Istanbul
+I100299,C200299,Female,Technology,2,3525.67,Cash,Cevahir AVM
+I100300,C200300,Female,Shoes,3,1166.9,Cash,Mall of Istanbul
+I100301,C200301,Male,Clothing,3,785.97,Credit Card,Metrocity
+I100302,C200302,Male,Clothing,2,856.16,Credit Card,Metrocity
+I100303,C200303,Female,Technology,3,3506.82,Credit Card,Metrocity
+I100304,C200304,Female,Shoes,1,1214.27,Credit Card,Kanyon
+I100305,C200305,Female,Technology,2,3550.06,Cash,Cevahir AVM
+I100306,C200306,Male,Food & Beverage,1,181.51,Cash,Cevahir AVM
+I100307,C200307,Female,Shoes,4,1142.21,Cash,Metrocity
+I100308,C200308,Male,Food & Beverage,4,75.42,Credit Card,Istinye Park
+I100309,C200309,Female,Clothing,3,872.9,Credit Card,Cevahir AVM
+I100310,C200310,Female,Toys,2,499.62,Cash,Mall of Istanbul
+I100311,C200311,Male,Books,4,136.9,Credit Card,Cevahir AVM
+I100312,C200312,Female,Cosmetics,3,313.57,Cash,Cevahir AVM
+I100313,C200313,Male,Toys,1,417.56,Cash,Mall of Istanbul
+I100314,C200314,Female,Clothing,2,811.71,Cash,Metrocity
+I100315,C200315,Female,Clothing,3,812.38,Credit Card,Metrocity
+I100316,C200316,Female,Clothing,4,868.24,Credit Card,Mall of Istanbul
+I100317,C200317,Female,Cosmetics,1,209.96,Cash,Cevahir AVM
+I100318,C200318,Female,Food & Beverage,1,67.24,Credit Card,Cevahir AVM
+I100319,C200319,Male,Books,3,181.94,Credit Card,Metrocity
+I100320,C200320,Female,Toys,2,375.19,Credit Card,Kanyon
+I100321,C200321,Female,Toys,3,414.32,Cash,Metrocity
+I100322,C200322,Male,Books,4,204.33,Credit Card,Mall of Istanbul
+I100323,C200323,Female,Books,2,230.01,Credit Card,Kanyon
+I100324,C200324,Male,Food & Beverage,4,113.87,Credit Card,Kanyon
+I100325,C200325,Female,Toys,1,474.48,Cash,Mall of Istanbul
+I100326,C200326,Female,Shoes,1,1207.09,Cash,Istinye Park
+I100327,C200327,Male,Shoes,4,1184.82,Cash,Metrocity
+I100328,C200328,Male,Books,4,72.84,Credit Card,Cevahir AVM
+I100329,C200329,Female,Clothing,1,749.84,Cash,Metrocity
+I100330,C200330,Male,Clothing,3,800.24,Credit Card,Mall of Istanbul
+I100331,C200331,Female,Cosmetics,3,301.28,Cash,Cevahir AVM
+I100332,C200332,Male,Shoes,3,1211.47,Credit Card,Istinye Park
+I100333,C200333,Male,Clothing,4,891.82,Cash,Mall of Istanbul
+I100334,C200334,Male,Technology,4,3537.56,Cash,Metrocity
+I100335,C200335,Male,Books,1,190.22,Credit Card,Kanyon
+I100336,C200336,Male,Cosmetics,2,391.4,Cash,Mall of Istanbul
+I100337,C200337,Female,Shoes,3,1182.18,Credit Card,Mall of Istanbul
+I100338,C200338,Female,Cosmetics,3,274.55,Credit Card,Metrocity
+I100339,C200339,Male,Clothing,3,861.12,Credit Card,Istinye Park
+I100340,C200340,Female,Books,1,174.29,Credit Card,Metrocity
+I100341,C200341,Male,Technology,2,3497.78,Credit Card,Metrocity
+I100342,C200342,Female,Books,2,146.97,Credit Card,Istinye Park
+I100343,C200343,Male,Books,2,141.4,Cash,Istinye Park
+I100344,C200344,Male,Clothing,3,794.95,Cash,Mall of Istanbul
+I100345,C200345,Female,Technology,4,3499.86,Cash,Kanyon
+I100346,C200346,Male,Technology,3,3485.13,Cash,Metrocity
+I100347,C200347,Female,Food & Beverage,2,127.77,Cash,Kanyon
+I100348,C200348,Male,Toys,1,437.33,Cash,Istinye Park
+I100349,C200349,Male,Toys,2,371.77,Credit Card,Istinye Park
+I100350,C200350,Male,Books,3,195.13,Credit Card,Metrocity
+I100351,C200351,Female,Toys,4,336.43,Credit Card,Mall of Istanbul
+I100352,C200352,Male,Food & Beverage,2,125.19,Cash,Metrocity
+I100353,C200353,Female,Books,4,177.69,Credit Card,Mall of Istanbul
+I100354,C200354,Female,Food & Beverage,2,95.81,Credit Card,Cevahir AVM
+I100355,C200355,Female,Shoes,4,1202.87,Credit Card,Mall of Istanbul
+I100356,C200356,Female,Toys,4,388.33,Credit Card,Metrocity
+I100357,C200357,Male,Technology,2,3474.62,Cash,Metrocity
+I100358,C200358,Male,Shoes,1,1200.03,Credit Card,Mall of Istanbul
+I100359,C200359,Male,Books,3,122.69,Credit Card,Kanyon
+I100360,C200360,Male,Technology,3,3556.98,Credit Card,Mall of Istanbul
+I100361,C200361,Female,Cosmetics,2,194.87,Cash,Cevahir AVM
+I100362,C200362,Female,Cosmetics,4,293.27,Cash,Cevahir AVM
+I100363,C200363,Female,Clothing,3,704.96,Credit Card,Kanyon
+I100364,C200364,Male,Shoes,4,1146.81,Credit Card,Cevahir AVM
+I100365,C200365,Female,Shoes,1,1171.16,Cash,Metrocity
+I100366,C200366,Female,Cosmetics,2,366.98,Cash,Kanyon
+I100367,C200367,Male,Books,1,207.68,Credit Card,Kanyon
+I100368,C200368,Male,Technology,4,3503.63,Cash,Kanyon
+I100369,C200369,Male,Technology,4,3503.19,Cash,Mall of Istanbul
+I100370,C200370,Male,Technology,2,3551.87,Cash,Mall of Istanbul
+I100371,C200371,Male,Clothing,4,856.57,Credit Card,Kanyon
+I100372,C200372,Male,Shoes,2,1171.26,Cash,Cevahir AVM
+I100373,C200373,Male,Clothing,2,833.64,Cash,Metrocity
+I100374,C200374,Female,Shoes,1,1152.18,Credit Card,Metrocity
+I100375,C200375,Female,Food & Beverage,3,80.53,Credit Card,Mall of Istanbul
+I100376,C200376,Female,Technology,3,3529.71,Credit Card,Istinye Park
+I100377,C200377,Male,Food & Beverage,4,67.12,Cash,Kanyon
+I100378,C200378,Male,Clothing,3,782.25,Cash,Istinye Park
+I100379,C200379,Female,Technology,4,3417.06,Credit Card,Metrocity
+I100380,C200380,Male,Technology,3,3522.54,Credit Card,Mall of Istanbul
+I100381,C200381,Female,Cosmetics,1,255.87,Credit Card,Mall of Istanbul
+I100382,C200382,Male,Cosmetics,3,258.94,Credit Card,Mall of Istanbul
+I100383,C200383,Female,Shoes,4,1267.76,Credit Card,Mall of Istanbul
+I100384,C200384,Female,Toys,4,365.63,Cash,Mall of Istanbul
+I100385,C200385,Male,Food & Beverage,3,137.62,Cash,Kanyon
+I100386,C200386,Male,Food & Beverage,2,154.96,Credit Card,Istinye Park
+I100387,C200387,Male,Clothing,1,845.86,Cash,Metrocity
+I100388,C200388,Male,Technology,2,3487.54,Credit Card,Metrocity
+I100389,C200389,Female,Toys,3,378.64,Cash,Mall of Istanbul
+I100390,C200390,Female,Clothing,2,754.33,Cash,Mall of Istanbul
+I100391,C200391,Female,Cosmetics,3,211.92,Credit Card,Mall of Istanbul
+I100392,C200392,Female,Cosmetics,4,338.61,Credit Card,Cevahir AVM
+I100393,C200393,Female,Toys,2,433.86,Credit Card,Metrocity
+I100394,C200394,Female,Toys,1,423.85,Credit Card,Mall of Istanbul
+I100395,C200395,Male,Cosmetics,2,158.09,Cash,Istinye Park
+I100396,C200396,Female,Books,4,141.14,Cash,Cevahir AVM
+I100397,C200397,Male,Technology,4,3531.48,Credit Card,Kanyon
+I100398,C200398,Female,Food & Beverage,4,164.33,Cash,Cevahir AVM
+I100399,C200399,Male,Food & Beverage,2,114.95,Credit Card,Cevahir AVM
+I100400,C200400,Male,Clothing,4,809.69,Credit Card,Cevahir AVM
+I100401,C200401,Female,Food & Beverage,4,66.06,Credit Card,Istinye Park
+I100402,C200402,Male,Clothing,2,818.93,Credit Card,Metrocity
+I100403,C200403,Female,Toys,2,388.16,Credit Card,Mall of Istanbul
+I100404,C200404,Male,Toys,3,363.53,Cash,Istinye Park
+I100405,C200405,Female,Books,2,92.13,Cash,Istinye Park
+I100406,C200406,Male,Technology,4,3452.71,Cash,Mall of Istanbul
+I100407,C200407,Female,Toys,1,416.25,Credit Card,Cevahir AVM
+I100408,C200408,Female,Technology,4,3430.61,Credit Card,Kanyon
+I100409,C200409,Female,Cosmetics,4,285.29,Cash,Cevahir AVM
+I100410,C200410,Male,Books,4,215.39,Cash,Cevahir AVM
+I100411,C200411,Female,Cosmetics,2,228.29,Credit Card,Metrocity
+I100412,C200412,Female,Cosmetics,1,322.46,Cash,Cevahir AVM
+I100413,C200413,Female,Clothing,4,827.36,Credit Card,Kanyon
+I100414,C200414,Female,Technology,2,3485.44,Credit Card,Istinye Park
+I100415,C200415,Male,Cosmetics,3,331.11,Credit Card,Cevahir AVM
+I100416,C200416,Male,Technology,1,3490.6,Cash,Istinye Park
+I100417,C200417,Male,Books,1,189.76,Credit Card,Metrocity
+I100418,C200418,Female,Shoes,2,1146.6,Credit Card,Kanyon
+I100419,C200419,Male,Toys,3,494.45,Cash,Mall of Istanbul
+I100420,C200420,Male,Clothing,4,871.86,Credit Card,Mall of Istanbul
+I100421,C200421,Male,Technology,3,3388.51,Credit Card,Metrocity
+I100422,C200422,Male,Toys,1,458.62,Cash,Kanyon
+I100423,C200423,Male,Cosmetics,2,271.15,Cash,Istinye Park
+I100424,C200424,Male,Cosmetics,3,371.63,Credit Card,Metrocity
+I100425,C200425,Female,Food & Beverage,4,150.44,Cash,Cevahir AVM
+I100426,C200426,Female,Technology,3,3445.64,Cash,Istinye Park
+I100427,C200427,Male,Clothing,3,828.75,Credit Card,Cevahir AVM
+I100428,C200428,Female,Clothing,2,764.96,Credit Card,Cevahir AVM
+I100429,C200429,Female,Books,2,176.9,Credit Card,Istinye Park
+I100430,C200430,Female,Shoes,1,1202.3,Credit Card,Cevahir AVM
+I100431,C200431,Female,Books,2,113.53,Credit Card,Mall of Istanbul
+I100432,C200432,Female,Books,3,83.15,Credit Card,Istinye Park
+I100433,C200433,Male,Books,4,161.5,Cash,Metrocity
+I100434,C200434,Male,Shoes,1,1223.2,Credit Card,Mall of Istanbul
+I100435,C200435,Female,Books,2,142.11,Cash,Metrocity
+I100436,C200436,Male,Toys,3,361.29,Cash,Kanyon
+I100437,C200437,Male,Clothing,3,775.84,Credit Card,Metrocity
+I100438,C200438,Male,Shoes,1,1145.19,Cash,Istinye Park
+I100439,C200439,Male,Cosmetics,1,336.81,Credit Card,Metrocity
+I100440,C200440,Male,Food & Beverage,2,-7.97,Cash,Kanyon
+I100441,C200441,Male,Food & Beverage,2,147.59,Cash,Cevahir AVM
+I100442,C200442,Male,Technology,4,3496.2,Cash,Istinye Park
+I100443,C200443,Female,Toys,1,426.08,Cash,Mall of Istanbul
+I100444,C200444,Female,Clothing,1,830.99,Cash,Mall of Istanbul
+I100445,C200445,Female,Food & Beverage,3,105.86,Cash,Metrocity
+I100446,C200446,Male,Toys,4,380.5,Credit Card,Mall of Istanbul
+I100447,C200447,Female,Toys,2,455.31,Cash,Kanyon
+I100448,C200448,Male,Food & Beverage,4,14.23,Credit Card,Mall of Istanbul
+I100449,C200449,Female,Food & Beverage,4,165.09,Credit Card,Metrocity
+I100450,C200450,Female,Toys,3,343.83,Cash,Mall of Istanbul
+I100451,C200451,Male,Toys,1,383.72,Cash,Cevahir AVM
+I100452,C200452,Female,Cosmetics,1,371.57,Cash,Cevahir AVM
+I100453,C200453,Male,Food & Beverage,1,211.47,Credit Card,Mall of Istanbul
+I100454,C200454,Female,Books,2,159.1,Cash,Istinye Park
+I100455,C200455,Female,Toys,1,332.27,Credit Card,Mall of Istanbul
+I100456,C200456,Male,Clothing,4,842.7,Cash,Cevahir AVM
+I100457,C200457,Female,Clothing,4,798.05,Cash,Cevahir AVM
+I100458,C200458,Female,Technology,1,3446.9,Credit Card,Kanyon
+I100459,C200459,Female,Toys,4,410.96,Cash,Metrocity
+I100460,C200460,Female,Clothing,2,734.51,Credit Card,Kanyon
+I100461,C200461,Female,Cosmetics,1,309.75,Cash,Istinye Park
+I100462,C200462,Male,Technology,2,3453.99,Cash,Metrocity
+I100463,C200463,Male,Cosmetics,1,201.6,Cash,Mall of Istanbul
+I100464,C200464,Male,Toys,2,316.91,Cash,Mall of Istanbul
+I100465,C200465,Male,Technology,2,3469.62,Cash,Istinye Park
+I100466,C200466,Male,Food & Beverage,2,125.09,Credit Card,Cevahir AVM
+I100467,C200467,Male,Books,4,212.7,Credit Card,Mall of Istanbul
+I100468,C200468,Female,Food & Beverage,2,171.38,Credit Card,Kanyon
+I100469,C200469,Male,Clothing,3,724.4,Credit Card,Cevahir AVM
+I100470,C200470,Male,Technology,2,3488.77,Credit Card,Mall of Istanbul
+I100471,C200471,Female,Books,2,119.49,Cash,Cevahir AVM
+I100472,C200472,Female,Clothing,2,794.68,Cash,Metrocity
+I100473,C200473,Male,Books,2,220.52,Cash,Mall of Istanbul
+I100474,C200474,Female,Toys,1,408.06,Cash,Mall of Istanbul
+I100475,C200475,Female,Shoes,4,1243.39,Cash,Cevahir AVM
+I100476,C200476,Female,Cosmetics,4,410.57,Credit Card,Metrocity
+I100477,C200477,Female,Technology,4,3421.76,Credit Card,Kanyon
+I100478,C200478,Male,Cosmetics,1,276.25,Credit Card,Metrocity
+I100479,C200479,Male,Technology,2,3528.56,Credit Card,Kanyon
+I100480,C200480,Female,Toys,2,413.33,Credit Card,Istinye Park
+I100481,C200481,Female,Clothing,4,852.43,Cash,Metrocity
+I100482,C200482,Female,Clothing,3,780.81,Cash,Kanyon
+I100483,C200483,Male,Shoes,2,1210.3,Cash,Cevahir AVM
+I100484,C200484,Female,Food & Beverage,2,62.19,Cash,Kanyon
+I100485,C200485,Male,Technology,2,3553.19,Credit Card,Istinye Park
+I100486,C200486,Male,Books,1,152.1,Credit Card,Kanyon
+I100487,C200487,Female,Toys,2,470.19,Cash,Metrocity
+I100488,C200488,Female,Shoes,4,1270.55,Cash,Kanyon
+I100489,C200489,Female,Toys,2,335.92,Cash,Metrocity
+I100490,C200490,Female,Shoes,4,1278.25,Cash,Istinye Park
+I100491,C200491,Female,Clothing,3,846.55,Cash,Kanyon
+I100492,C200492,Female,Clothing,1,792.17,Cash,Kanyon
+I100493,C200493,Female,Food & Beverage,3,142.06,Credit Card,Istinye Park
+I100494,C200494,Male,Technology,2,3474.61,Credit Card,Kanyon
+I100495,C200495,Male,Technology,3,3568.05,Credit Card,Metrocity
+I100496,C200496,Male,Toys,2,404.96,Credit Card,Mall of Istanbul
+I100497,C200497,Female,Toys,4,444.4,Cash,Mall of Istanbul
+I100498,C200498,Male,Food & Beverage,2,68.46,Cash,Metrocity
+I100499,C200499,Male,Clothing,1,814.09,Cash,Kanyon
+I100500,C200500,Female,Cosmetics,3,344.3,Cash,Metrocity
+I100501,C200501,Male,Food & Beverage,2,115.39,Credit Card,Istinye Park
+I100502,C200502,Female,Shoes,4,1228.07,Cash,Metrocity
+I100503,C200503,Male,Clothing,3,762.01,Cash,Mall of Istanbul
+I100504,C200504,Female,Toys,1,415.23,Credit Card,Cevahir AVM
+I100505,C200505,Female,Toys,2,362.27,Cash,Istinye Park
+I100506,C200506,Female,Books,1,149.08,Credit Card,Kanyon
+I100507,C200507,Male,Books,4,125.35,Cash,Metrocity
+I100508,C200508,Female,Cosmetics,3,289.77,Credit Card,Istinye Park
+I100509,C200509,Male,Toys,3,312.42,Credit Card,Mall of Istanbul
+I100510,C200510,Male,Clothing,3,801.32,Cash,Kanyon
+I100511,C200511,Female,Toys,4,394.62,Cash,Metrocity
+I100512,C200512,Male,Toys,2,324.23,Credit Card,Metrocity
+I100513,C200513,Male,Shoes,2,1217.06,Cash,Kanyon
+I100514,C200514,Male,Cosmetics,2,341.3,Credit Card,Cevahir AVM
+I100515,C200515,Female,Shoes,1,1215.76,Cash,Cevahir AVM
+I100516,C200516,Male,Technology,4,3539.28,Credit Card,Istinye Park
+I100517,C200517,Male,Books,3,123.65,Cash,Metrocity
+I100518,C200518,Male,Shoes,4,1189.36,Credit Card,Istinye Park
+I100519,C200519,Male,Books,4,153.71,Credit Card,Kanyon
+I100520,C200520,Male,Technology,4,3507.3,Cash,Istinye Park
+I100521,C200521,Male,Food & Beverage,3,-17.48,Cash,Metrocity
+I100522,C200522,Female,Technology,3,3453.96,Credit Card,Cevahir AVM
+I100523,C200523,Female,Books,1,200.12,Credit Card,Cevahir AVM
+I100524,C200524,Female,Toys,4,360.88,Credit Card,Kanyon
+I100525,C200525,Female,Technology,2,3487.65,Cash,Mall of Istanbul
+I100526,C200526,Male,Books,1,147.39,Credit Card,Istinye Park
+I100527,C200527,Male,Technology,3,3432.98,Credit Card,Kanyon
+I100528,C200528,Male,Toys,3,479.01,Cash,Cevahir AVM
+I100529,C200529,Male,Cosmetics,1,298.43,Credit Card,Metrocity
+I100530,C200530,Female,Toys,2,357.18,Cash,Metrocity
+I100531,C200531,Female,Technology,4,3532.42,Credit Card,Mall of Istanbul
+I100532,C200532,Male,Toys,4,385.16,Cash,Mall of Istanbul
+I100533,C200533,Male,Toys,2,402.94,Cash,Cevahir AVM
+I100534,C200534,Male,Cosmetics,4,370.44,Cash,Mall of Istanbul
+I100535,C200535,Female,Clothing,3,772.94,Cash,Mall of Istanbul
+I100536,C200536,Female,Technology,1,3557.14,Cash,Metrocity
+I100537,C200537,Female,Clothing,2,782.89,Cash,Istinye Park
+I100538,C200538,Male,Technology,1,3503.41,Credit Card,Metrocity
+I100539,C200539,Male,Books,4,165.16,Cash,Metrocity
+I100540,C200540,Male,Food & Beverage,4,82.77,Credit Card,Cevahir AVM
+I100541,C200541,Female,Clothing,3,749.16,Cash,Cevahir AVM
+I100542,C200542,Female,Books,3,172.66,Cash,Istinye Park
+I100543,C200543,Female,Cosmetics,4,356.07,Credit Card,Kanyon
+I100544,C200544,Male,Clothing,4,831.34,Cash,Mall of Istanbul
+I100545,C200545,Female,Clothing,3,829.9,Credit Card,Mall of Istanbul
+I100546,C200546,Male,Toys,3,377.12,Credit Card,Metrocity
+I100547,C200547,Male,Technology,2,3534.42,Credit Card,Metrocity
+I100548,C200548,Male,Toys,3,417.91,Cash,Istinye Park
+I100549,C200549,Female,Books,2,193.14,Credit Card,Mall of Istanbul
+I100550,C200550,Female,Toys,2,404.93,Credit Card,Metrocity
+I100551,C200551,Female,Books,1,179.84,Credit Card,Metrocity
+I100552,C200552,Female,Shoes,3,1175.84,Cash,Cevahir AVM
+I100553,C200553,Female,Technology,2,3534.77,Cash,Kanyon
+I100554,C200554,Female,Shoes,1,1137.02,Cash,Istinye Park
+I100555,C200555,Male,Food & Beverage,1,83.27,Cash,Kanyon
+I100556,C200556,Female,Technology,3,3465.13,Cash,Kanyon
+I100557,C200557,Female,Clothing,3,975.29,Credit Card,Istinye Park
+I100558,C200558,Male,Shoes,1,1232.61,Credit Card,Mall of Istanbul
+I100559,C200559,Female,Books,2,95.81,Credit Card,Metrocity
+I100560,C200560,Female,Toys,3,331.61,Credit Card,Istinye Park
+I100561,C200561,Male,Toys,1,312.71,Cash,Metrocity
+I100562,C200562,Female,Clothing,1,743.01,Cash,Cevahir AVM
+I100563,C200563,Male,Technology,2,3457.56,Cash,Kanyon
+I100564,C200564,Male,Shoes,4,1151.23,Cash,Cevahir AVM
+I100565,C200565,Male,Food & Beverage,2,76.64,Credit Card,Kanyon
+I100566,C200566,Female,Food & Beverage,1,141.73,Credit Card,Mall of Istanbul
+I100567,C200567,Male,Food & Beverage,2,90.04,Credit Card,Istinye Park
+I100568,C200568,Female,Food & Beverage,3,135.65,Cash,Mall of Istanbul
+I100569,C200569,Male,Toys,1,346.75,Credit Card,Kanyon
+I100570,C200570,Female,Toys,2,380.87,Credit Card,Cevahir AVM
+I100571,C200571,Male,Toys,2,353.1,Cash,Kanyon
+I100572,C200572,Female,Technology,2,3522.14,Cash,Mall of Istanbul
+I100573,C200573,Female,Books,2,140.94,Credit Card,Mall of Istanbul
+I100574,C200574,Female,Food & Beverage,1,188.65,Cash,Cevahir AVM
+I100575,C200575,Female,Cosmetics,2,266.48,Credit Card,Cevahir AVM
+I100576,C200576,Female,Toys,3,348.02,Credit Card,Mall of Istanbul
+I100577,C200577,Female,Food & Beverage,4,114.84,Credit Card,Kanyon
+I100578,C200578,Female,Shoes,4,1191.19,Credit Card,Kanyon
+I100579,C200579,Female,Technology,4,3525.13,Credit Card,Istinye Park
+I100580,C200580,Female,Clothing,3,796.92,Cash,Mall of Istanbul
+I100581,C200581,Male,Toys,4,392.97,Cash,Istinye Park
+I100582,C200582,Male,Toys,1,366.6,Cash,Mall of Istanbul
+I100583,C200583,Male,Shoes,1,1186.52,Credit Card,Istinye Park
+I100584,C200584,Male,Clothing,3,723.52,Credit Card,Metrocity
+I100585,C200585,Male,Books,3,209.88,Cash,Kanyon
+I100586,C200586,Female,Toys,1,463.48,Cash,Kanyon
+I100587,C200587,Male,Clothing,3,846.88,Cash,Metrocity
+I100588,C200588,Male,Cosmetics,3,277.11,Credit Card,Cevahir AVM
+I100589,C200589,Male,Toys,1,368.59,Cash,Metrocity
+I100590,C200590,Male,Food & Beverage,1,124.95,Cash,Kanyon
+I100591,C200591,Female,Technology,2,3452.42,Credit Card,Mall of Istanbul
+I100592,C200592,Female,Shoes,2,1256.83,Cash,Istinye Park
+I100593,C200593,Male,Clothing,4,680.95,Cash,Kanyon
+I100594,C200594,Male,Shoes,3,1177.4,Credit Card,Metrocity
+I100595,C200595,Male,Food & Beverage,1,46.77,Credit Card,Mall of Istanbul
+I100596,C200596,Male,Books,4,212.35,Cash,Kanyon
+I100597,C200597,Female,Technology,2,3553.67,Credit Card,Metrocity
+I100598,C200598,Female,Food & Beverage,3,128.22,Cash,Kanyon
+I100599,C200599,Female,Books,4,245.78,Cash,Metrocity
+I100600,C200600,Male,Shoes,3,1200.5,Cash,Metrocity
+I100601,C200601,Female,Books,4,181.56,Cash,Kanyon
+I100602,C200602,Male,Toys,3,320.12,Credit Card,Mall of Istanbul
+I100603,C200603,Female,Books,3,133.99,Credit Card,Kanyon
+I100604,C200604,Female,Books,1,155.5,Credit Card,Kanyon
+I100605,C200605,Male,Toys,3,354.16,Cash,Mall of Istanbul
+I100606,C200606,Female,Books,2,162.78,Cash,Kanyon
+I100607,C200607,Female,Toys,1,301.56,Cash,Istinye Park
+I100608,C200608,Male,Toys,3,425.01,Credit Card,Istinye Park
+I100609,C200609,Female,Technology,2,3478.27,Cash,Istinye Park
+I100610,C200610,Female,Books,2,110.63,Cash,Metrocity
+I100611,C200611,Male,Toys,4,437.17,Cash,Cevahir AVM
+I100612,C200612,Female,Clothing,1,873.19,Credit Card,Kanyon
+I100613,C200613,Male,Books,1,194.59,Cash,Cevahir AVM
+I100614,C200614,Male,Books,4,109.43,Cash,Istinye Park
+I100615,C200615,Male,Food & Beverage,4,133.41,Credit Card,Mall of Istanbul
+I100616,C200616,Male,Food & Beverage,4,87.2,Credit Card,Istinye Park
+I100617,C200617,Male,Technology,1,3556.47,Cash,Kanyon
+I100618,C200618,Male,Technology,2,3511.06,Cash,Cevahir AVM
+I100619,C200619,Male,Technology,2,3426.27,Credit Card,Cevahir AVM
+I100620,C200620,Male,Food & Beverage,3,87.9,Credit Card,Metrocity
+I100621,C200621,Male,Books,1,108.74,Credit Card,Mall of Istanbul
+I100622,C200622,Male,Food & Beverage,1,61.14,Cash,Istinye Park
+I100623,C200623,Male,Clothing,4,783.75,Credit Card,Mall of Istanbul
+I100624,C200624,Male,Shoes,1,1213.71,Cash,Kanyon
+I100625,C200625,Male,Food & Beverage,1,145.4,Credit Card,Metrocity
+I100626,C200626,Female,Toys,2,373.73,Cash,Istinye Park
+I100627,C200627,Male,Food & Beverage,1,160.63,Cash,Kanyon
+I100628,C200628,Male,Clothing,2,714.88,Credit Card,Mall of Istanbul
+I100629,C200629,Male,Toys,2,358.11,Credit Card,Metrocity
+I100630,C200630,Female,Toys,1,502.41,Cash,Istinye Park
+I100631,C200631,Male,Toys,2,342.87,Credit Card,Mall of Istanbul
+I100632,C200632,Female,Toys,4,462.56,Cash,Istinye Park
+I100633,C200633,Male,Cosmetics,2,298.7,Cash,Metrocity
+I100634,C200634,Female,Cosmetics,1,296.46,Credit Card,Metrocity
+I100635,C200635,Female,Toys,4,446.76,Cash,Mall of Istanbul
+I100636,C200636,Female,Toys,4,439.76,Credit Card,Istinye Park
+I100637,C200637,Female,Toys,1,466.69,Cash,Cevahir AVM
+I100638,C200638,Female,Clothing,3,787.65,Cash,Kanyon
+I100639,C200639,Male,Food & Beverage,2,107.15,Credit Card,Metrocity
+I100640,C200640,Male,Shoes,2,1187.49,Cash,Istinye Park
+I100641,C200641,Male,Technology,3,3444.41,Cash,Mall of Istanbul
+I100642,C200642,Female,Toys,4,408.53,Cash,Mall of Istanbul
+I100643,C200643,Female,Technology,3,3491.76,Credit Card,Metrocity
+I100644,C200644,Female,Food & Beverage,1,6.43,Credit Card,Metrocity
+I100645,C200645,Female,Clothing,3,855.47,Cash,Cevahir AVM
+I100646,C200646,Male,Technology,4,3507.41,Cash,Mall of Istanbul
+I100647,C200647,Female,Clothing,1,764.99,Cash,Istinye Park
+I100648,C200648,Male,Toys,1,416.62,Credit Card,Kanyon
+I100649,C200649,Female,Technology,1,3473.79,Cash,Kanyon
+I100650,C200650,Female,Books,2,160.07,Cash,Cevahir AVM
+I100651,C200651,Female,Clothing,2,869.36,Credit Card,Istinye Park
+I100652,C200652,Female,Books,1,169.94,Credit Card,Kanyon
+I100653,C200653,Female,Technology,3,3475.65,Cash,Kanyon
+I100654,C200654,Male,Technology,2,3448.45,Credit Card,Istinye Park
+I100655,C200655,Female,Clothing,4,764.28,Cash,Istinye Park
+I100656,C200656,Male,Books,2,190.6,Credit Card,Metrocity
+I100657,C200657,Male,Books,3,147.17,Credit Card,Kanyon
+I100658,C200658,Female,Toys,2,427.99,Credit Card,Kanyon
+I100659,C200659,Female,Toys,3,386.02,Credit Card,Cevahir AVM
+I100660,C200660,Female,Technology,3,3453.33,Cash,Metrocity
+I100661,C200661,Female,Food & Beverage,2,129.95,Cash,Metrocity
+I100662,C200662,Female,Books,3,109.56,Credit Card,Kanyon
+I100663,C200663,Female,Cosmetics,3,279.6,Cash,Mall of Istanbul
+I100664,C200664,Male,Clothing,4,738.8,Cash,Mall of Istanbul
+I100665,C200665,Male,Toys,1,353.24,Cash,Istinye Park
+I100666,C200666,Female,Shoes,1,1244.79,Credit Card,Metrocity
+I100667,C200667,Female,Technology,2,3552.39,Credit Card,Kanyon
+I100668,C200668,Male,Clothing,3,854.57,Cash,Kanyon
+I100669,C200669,Male,Food & Beverage,2,154.75,Cash,Kanyon
+I100670,C200670,Male,Food & Beverage,2,82.3,Cash,Cevahir AVM
+I100671,C200671,Female,Books,1,183.27,Cash,Mall of Istanbul
+I100672,C200672,Male,Food & Beverage,3,152.64,Credit Card,Cevahir AVM
+I100673,C200673,Female,Toys,2,356.37,Cash,Kanyon
+I100674,C200674,Female,Food & Beverage,2,109.69,Cash,Kanyon
+I100675,C200675,Male,Clothing,1,793.62,Cash,Metrocity
+I100676,C200676,Male,Technology,1,3406.43,Cash,Metrocity
+I100677,C200677,Male,Cosmetics,1,316.28,Cash,Mall of Istanbul
+I100678,C200678,Female,Cosmetics,2,264.27,Credit Card,Istinye Park
+I100679,C200679,Female,Technology,3,3552.56,Credit Card,Kanyon
+I100680,C200680,Male,Technology,1,3461.88,Credit Card,Metrocity
+I100681,C200681,Female,Books,1,166.46,Credit Card,Mall of Istanbul
+I100682,C200682,Male,Technology,3,3505.61,Credit Card,Cevahir AVM
+I100683,C200683,Female,Food & Beverage,2,13.85,Cash,Kanyon
+I100684,C200684,Male,Food & Beverage,2,83.98,Credit Card,Istinye Park
+I100685,C200685,Female,Cosmetics,3,317.86,Credit Card,Mall of Istanbul
+I100686,C200686,Male,Technology,1,3551.18,Credit Card,Istinye Park
+I100687,C200687,Female,Books,4,150.93,Cash,Kanyon
+I100688,C200688,Female,Food & Beverage,3,145.3,Cash,Mall of Istanbul
+I100689,C200689,Female,Books,4,176.87,Cash,Metrocity
+I100690,C200690,Male,Toys,2,428.54,Cash,Istinye Park
+I100691,C200691,Female,Clothing,2,830.78,Credit Card,Cevahir AVM
+I100692,C200692,Female,Toys,4,386.27,Credit Card,Cevahir AVM
+I100693,C200693,Male,Food & Beverage,1,50.54,Credit Card,Istinye Park
+I100694,C200694,Male,Food & Beverage,4,178.49,Cash,Kanyon
+I100695,C200695,Female,Food & Beverage,1,138.42,Credit Card,Kanyon
+I100696,C200696,Female,Cosmetics,3,296.58,Credit Card,Kanyon
+I100697,C200697,Male,Cosmetics,2,330.86,Cash,Cevahir AVM
+I100698,C200698,Female,Food & Beverage,2,119.87,Cash,Cevahir AVM
+I100699,C200699,Female,Food & Beverage,4,57.29,Credit Card,Metrocity
+I100700,C200700,Male,Clothing,3,783.11,Credit Card,Kanyon
+I100701,C200701,Male,Clothing,4,866.32,Credit Card,Cevahir AVM
+I100702,C200702,Male,Books,4,149.74,Credit Card,Cevahir AVM
+I100703,C200703,Female,Technology,4,3518.76,Credit Card,Kanyon
+I100704,C200704,Female,Books,1,212.98,Credit Card,Kanyon
+I100705,C200705,Male,Cosmetics,2,299.58,Cash,Cevahir AVM
+I100706,C200706,Male,Shoes,2,1153.43,Cash,Istinye Park
+I100707,C200707,Female,Clothing,4,805.67,Credit Card,Cevahir AVM
+I100708,C200708,Male,Books,1,122.08,Cash,Metrocity
+I100709,C200709,Female,Technology,2,3430.42,Credit Card,Mall of Istanbul
+I100710,C200710,Male,Technology,1,3540.15,Credit Card,Kanyon
+I100711,C200711,Male,Clothing,3,787.18,Cash,Metrocity
+I100712,C200712,Female,Clothing,1,650.74,Cash,Istinye Park
+I100713,C200713,Female,Toys,1,412.68,Credit Card,Mall of Istanbul
+I100714,C200714,Male,Shoes,3,1213.29,Cash,Cevahir AVM
+I100715,C200715,Female,Clothing,2,897.54,Credit Card,Kanyon
+I100716,C200716,Female,Toys,2,399.79,Cash,Cevahir AVM
+I100717,C200717,Male,Technology,1,3553.38,Credit Card,Metrocity
+I100718,C200718,Female,Shoes,1,1232.33,Cash,Kanyon
+I100719,C200719,Female,Technology,3,3470.53,Credit Card,Cevahir AVM
+I100720,C200720,Female,Toys,3,417.41,Cash,Kanyon
+I100721,C200721,Female,Technology,2,3491.78,Cash,Metrocity
+I100722,C200722,Male,Toys,2,365.61,Cash,Cevahir AVM
+I100723,C200723,Male,Shoes,3,1174.17,Credit Card,Mall of Istanbul
+I100724,C200724,Male,Clothing,1,767.39,Cash,Istinye Park
+I100725,C200725,Male,Clothing,3,799.52,Cash,Cevahir AVM
+I100726,C200726,Male,Books,2,149.76,Credit Card,Kanyon
+I100727,C200727,Female,Clothing,1,772.51,Credit Card,Cevahir AVM
+I100728,C200728,Female,Technology,4,3489.59,Cash,Kanyon
+I100729,C200729,Female,Clothing,4,706.2,Cash,Metrocity
+I100730,C200730,Male,Clothing,3,749.58,Cash,Istinye Park
+I100731,C200731,Male,Books,2,135.38,Cash,Kanyon
+I100732,C200732,Male,Shoes,1,1283.58,Credit Card,Cevahir AVM
+I100733,C200733,Female,Books,4,181.66,Cash,Metrocity
+I100734,C200734,Female,Technology,1,3451.13,Credit Card,Mall of Istanbul
+I100735,C200735,Female,Technology,1,3580.74,Credit Card,Cevahir AVM
+I100736,C200736,Male,Clothing,1,799.92,Cash,Istinye Park
+I100737,C200737,Male,Food & Beverage,1,43.27,Credit Card,Metrocity
+I100738,C200738,Female,Clothing,3,796.05,Cash,Cevahir AVM
+I100739,C200739,Female,Books,1,199.25,Credit Card,Kanyon
+I100740,C200740,Female,Toys,4,343.31,Credit Card,Kanyon
+I100741,C200741,Male,Toys,4,348.19,Credit Card,Kanyon
+I100742,C200742,Male,Books,3,240.32,Cash,Cevahir AVM
+I100743,C200743,Female,Cosmetics,4,314.82,Credit Card,Istinye Park
+I100744,C200744,Female,Technology,1,3476.42,Credit Card,Kanyon
+I100745,C200745,Male,Toys,4,394.69,Credit Card,Cevahir AVM
+I100746,C200746,Female,Food & Beverage,2,114.28,Credit Card,Cevahir AVM
+I100747,C200747,Female,Books,1,140.33,Credit Card,Istinye Park
+I100748,C200748,Male,Toys,3,467.49,Credit Card,Metrocity
+I100749,C200749,Female,Toys,2,404.95,Cash,Metrocity
+I100750,C200750,Female,Shoes,4,1233.19,Credit Card,Cevahir AVM
+I100751,C200751,Female,Clothing,2,804.17,Credit Card,Metrocity
+I100752,C200752,Male,Toys,4,398.13,Cash,Mall of Istanbul
+I100753,C200753,Female,Toys,4,444.65,Credit Card,Istinye Park
+I100754,C200754,Female,Shoes,4,1245.7,Credit Card,Cevahir AVM
+I100755,C200755,Male,Technology,3,3418.32,Cash,Metrocity
+I100756,C200756,Female,Books,2,149.04,Cash,Metrocity
+I100757,C200757,Female,Books,3,252.49,Credit Card,Istinye Park
+I100758,C200758,Male,Shoes,4,1177.69,Credit Card,Kanyon
+I100759,C200759,Female,Shoes,1,1222.7,Credit Card,Metrocity
+I100760,C200760,Female,Cosmetics,1,362.36,Credit Card,Istinye Park
+I100761,C200761,Female,Clothing,3,744.59,Cash,Kanyon
+I100762,C200762,Male,Shoes,1,1181.34,Credit Card,Cevahir AVM
+I100763,C200763,Female,Clothing,2,721.41,Cash,Kanyon
+I100764,C200764,Male,Toys,1,405.22,Credit Card,Metrocity
+I100765,C200765,Male,Food & Beverage,1,119.24,Cash,Cevahir AVM
+I100766,C200766,Male,Books,4,182.17,Credit Card,Cevahir AVM
+I100767,C200767,Male,Shoes,2,1278.69,Cash,Kanyon
+I100768,C200768,Male,Food & Beverage,2,103.18,Cash,Cevahir AVM
+I100769,C200769,Male,Books,1,92.37,Cash,Kanyon
+I100770,C200770,Male,Cosmetics,4,255.95,Cash,Kanyon
+I100771,C200771,Female,Books,1,111.89,Cash,Kanyon
+I100772,C200772,Female,Shoes,1,1210.38,Credit Card,Istinye Park
+I100773,C200773,Male,Food & Beverage,3,217.5,Credit Card,Metrocity
+I100774,C200774,Female,Food & Beverage,4,96.4,Credit Card,Cevahir AVM
+I100775,C200775,Female,Food & Beverage,3,168.7,Cash,Mall of Istanbul
+I100776,C200776,Female,Books,1,144.3,Cash,Metrocity
+I100777,C200777,Male,Clothing,1,741.92,Credit Card,Mall of Istanbul
+I100778,C200778,Female,Technology,4,3459.18,Cash,Kanyon
+I100779,C200779,Male,Clothing,2,763.55,Cash,Cevahir AVM
+I100780,C200780,Male,Books,1,143.89,Cash,Metrocity
+I100781,C200781,Female,Shoes,1,1220.28,Cash,Mall of Istanbul
+I100782,C200782,Male,Books,3,117.07,Credit Card,Mall of Istanbul
+I100783,C200783,Male,Clothing,3,839.53,Credit Card,Mall of Istanbul
+I100784,C200784,Male,Books,4,202.36,Credit Card,Metrocity
+I100785,C200785,Female,Food & Beverage,3,86.83,Cash,Istinye Park
+I100786,C200786,Female,Shoes,2,1245.91,Credit Card,Kanyon
+I100787,C200787,Female,Technology,1,3402.89,Cash,Cevahir AVM
+I100788,C200788,Male,Shoes,3,1082.09,Credit Card,Mall of Istanbul
+I100789,C200789,Female,Cosmetics,2,341.64,Credit Card,Metrocity
+I100790,C200790,Female,Technology,1,3478.9,Cash,Mall of Istanbul
+I100791,C200791,Female,Books,1,260.18,Credit Card,Metrocity
+I100792,C200792,Male,Toys,2,395.36,Cash,Istinye Park
+I100793,C200793,Male,Toys,1,349.99,Credit Card,Mall of Istanbul
+I100794,C200794,Female,Technology,2,3584.33,Credit Card,Mall of Istanbul
+I100795,C200795,Male,Technology,2,3532.79,Credit Card,Cevahir AVM
+I100796,C200796,Female,Technology,3,3577.44,Credit Card,Metrocity
+I100797,C200797,Female,Toys,4,370.67,Credit Card,Metrocity
+I100798,C200798,Male,Food & Beverage,2,118.22,Credit Card,Istinye Park
+I100799,C200799,Male,Toys,3,356.22,Cash,Mall of Istanbul
+I100800,C200800,Male,Books,1,62.71,Credit Card,Cevahir AVM
+I100801,C200801,Male,Cosmetics,3,337.12,Credit Card,Kanyon
+I100802,C200802,Male,Cosmetics,2,277.16,Cash,Cevahir AVM
+I100803,C200803,Male,Books,3,100.21,Cash,Cevahir AVM
+I100804,C200804,Female,Toys,4,330.59,Credit Card,Cevahir AVM
+I100805,C200805,Female,Books,1,159.14,Credit Card,Cevahir AVM
+I100806,C200806,Male,Technology,3,3503.21,Cash,Mall of Istanbul
+I100807,C200807,Male,Technology,1,3475.83,Credit Card,Cevahir AVM
+I100808,C200808,Female,Books,2,116.29,Credit Card,Metrocity
+I100809,C200809,Female,Technology,4,3538.3,Credit Card,Metrocity
+I100810,C200810,Male,Clothing,4,675.89,Cash,Cevahir AVM
+I100811,C200811,Male,Cosmetics,3,331.55,Credit Card,Metrocity
+I100812,C200812,Female,Shoes,1,1223.26,Cash,Mall of Istanbul
+I100813,C200813,Female,Toys,1,338.48,Credit Card,Kanyon
+I100814,C200814,Female,Toys,3,303.28,Cash,Cevahir AVM
+I100815,C200815,Female,Clothing,3,829.43,Cash,Metrocity
+I100816,C200816,Female,Food & Beverage,3,41.31,Credit Card,Metrocity
+I100817,C200817,Male,Shoes,3,1278.67,Cash,Mall of Istanbul
+I100818,C200818,Female,Shoes,4,1305.9,Cash,Mall of Istanbul
+I100819,C200819,Male,Shoes,3,1221.34,Credit Card,Kanyon
+I100820,C200820,Female,Technology,1,3494.93,Cash,Istinye Park
+I100821,C200821,Male,Cosmetics,2,289.05,Cash,Istinye Park
+I100822,C200822,Female,Food & Beverage,1,14.7,Cash,Istinye Park
+I100823,C200823,Male,Clothing,3,785.71,Cash,Kanyon
+I100824,C200824,Female,Technology,4,3477.07,Credit Card,Cevahir AVM
+I100825,C200825,Male,Food & Beverage,3,68.19,Credit Card,Istinye Park
+I100826,C200826,Female,Toys,2,419.59,Credit Card,Istinye Park
+I100827,C200827,Male,Clothing,3,806.57,Cash,Metrocity
+I100828,C200828,Male,Technology,2,3539.31,Credit Card,Metrocity
+I100829,C200829,Male,Cosmetics,3,277.82,Cash,Cevahir AVM
+I100830,C200830,Male,Toys,4,430.13,Credit Card,Mall of Istanbul
+I100831,C200831,Female,Food & Beverage,1,100.4,Cash,Kanyon
+I100832,C200832,Female,Shoes,2,1229.82,Credit Card,Istinye Park
+I100833,C200833,Male,Food & Beverage,1,96.11,Cash,Kanyon
+I100834,C200834,Female,Toys,3,488.9,Cash,Metrocity
+I100835,C200835,Male,Technology,1,3377.92,Cash,Kanyon
+I100836,C200836,Female,Technology,4,3531.28,Cash,Metrocity
+I100837,C200837,Female,Cosmetics,4,342.82,Credit Card,Kanyon
+I100838,C200838,Male,Cosmetics,1,236.66,Cash,Metrocity
+I100839,C200839,Female,Cosmetics,1,391.25,Cash,Kanyon
+I100840,C200840,Male,Clothing,4,801.12,Cash,Istinye Park
+I100841,C200841,Female,Food & Beverage,2,93.77,Credit Card,Istinye Park
+I100842,C200842,Female,Shoes,2,1218.56,Credit Card,Cevahir AVM
+I100843,C200843,Female,Technology,4,3544.38,Credit Card,Kanyon
+I100844,C200844,Male,Shoes,4,1206.61,Cash,Mall of Istanbul
+I100845,C200845,Female,Books,2,155.03,Cash,Cevahir AVM
+I100846,C200846,Male,Cosmetics,1,341.89,Credit Card,Kanyon
+I100847,C200847,Male,Toys,1,448.44,Cash,Mall of Istanbul
+I100848,C200848,Female,Shoes,3,1216.83,Credit Card,Istinye Park
+I100849,C200849,Male,Cosmetics,2,222.62,Cash,Istinye Park
+I100850,C200850,Female,Shoes,4,1149.07,Cash,Istinye Park
+I100851,C200851,Male,Food & Beverage,3,154.23,Credit Card,Mall of Istanbul
+I100852,C200852,Female,Books,1,136.1,Cash,Metrocity
+I100853,C200853,Male,Cosmetics,2,270.07,Cash,Kanyon
+I100854,C200854,Male,Clothing,3,822.0,Cash,Cevahir AVM
+I100855,C200855,Male,Clothing,1,815.8,Credit Card,Cevahir AVM
+I100856,C200856,Male,Shoes,4,1189.09,Cash,Istinye Park
+I100857,C200857,Female,Technology,1,3537.18,Cash,Metrocity
+I100858,C200858,Female,Food & Beverage,1,36.6,Cash,Kanyon
+I100859,C200859,Male,Toys,2,313.38,Cash,Kanyon
+I100860,C200860,Male,Technology,4,3575.13,Credit Card,Cevahir AVM
+I100861,C200861,Male,Cosmetics,2,243.86,Credit Card,Cevahir AVM
+I100862,C200862,Male,Books,4,76.22,Credit Card,Cevahir AVM
+I100863,C200863,Female,Food & Beverage,3,83.69,Cash,Kanyon
+I100864,C200864,Female,Shoes,1,1198.52,Credit Card,Cevahir AVM
+I100865,C200865,Female,Food & Beverage,2,76.08,Credit Card,Kanyon
+I100866,C200866,Male,Books,4,138.58,Cash,Istinye Park
+I100867,C200867,Female,Food & Beverage,2,28.93,Cash,Metrocity
+I100868,C200868,Female,Cosmetics,1,335.69,Cash,Cevahir AVM
+I100869,C200869,Male,Shoes,1,1123.52,Credit Card,Kanyon
+I100870,C200870,Female,Books,3,151.13,Cash,Istinye Park
+I100871,C200871,Male,Shoes,4,1211.7,Credit Card,Mall of Istanbul
+I100872,C200872,Male,Toys,4,432.44,Cash,Istinye Park
+I100873,C200873,Male,Cosmetics,3,311.37,Credit Card,Metrocity
+I100874,C200874,Male,Books,3,95.58,Cash,Istinye Park
+I100875,C200875,Male,Toys,4,379.44,Cash,Cevahir AVM
+I100876,C200876,Male,Toys,4,364.8,Credit Card,Cevahir AVM
+I100877,C200877,Male,Toys,2,321.35,Cash,Mall of Istanbul
+I100878,C200878,Female,Books,4,171.78,Credit Card,Kanyon
+I100879,C200879,Female,Shoes,2,1162.17,Cash,Istinye Park
+I100880,C200880,Male,Food & Beverage,2,107.44,Credit Card,Mall of Istanbul
+I100881,C200881,Female,Food & Beverage,2,94.44,Credit Card,Cevahir AVM
+I100882,C200882,Female,Toys,2,343.21,Cash,Kanyon
+I100883,C200883,Female,Clothing,1,739.87,Cash,Kanyon
+I100884,C200884,Male,Clothing,3,783.25,Cash,Metrocity
+I100885,C200885,Female,Books,3,84.32,Credit Card,Cevahir AVM
+I100886,C200886,Male,Shoes,4,1249.44,Credit Card,Kanyon
+I100887,C200887,Male,Books,3,217.25,Credit Card,Metrocity
+I100888,C200888,Male,Shoes,3,1239.15,Credit Card,Metrocity
+I100889,C200889,Male,Cosmetics,1,317.45,Credit Card,Cevahir AVM
+I100890,C200890,Male,Clothing,2,803.06,Credit Card,Kanyon
+I100891,C200891,Male,Books,2,97.61,Credit Card,Kanyon
+I100892,C200892,Male,Technology,2,3541.38,Cash,Istinye Park
+I100893,C200893,Female,Cosmetics,3,368.54,Credit Card,Kanyon
+I100894,C200894,Female,Food & Beverage,3,83.03,Cash,Metrocity
+I100895,C200895,Male,Clothing,4,798.18,Credit Card,Mall of Istanbul
+I100896,C200896,Female,Shoes,1,1159.61,Credit Card,Cevahir AVM
+I100897,C200897,Female,Toys,1,383.44,Credit Card,Mall of Istanbul
+I100898,C200898,Male,Food & Beverage,4,37.12,Cash,Kanyon
+I100899,C200899,Female,Food & Beverage,4,85.54,Credit Card,Metrocity
+I100900,C200900,Male,Cosmetics,4,321.63,Credit Card,Mall of Istanbul
+I100901,C200901,Female,Technology,2,3516.26,Credit Card,Cevahir AVM
+I100902,C200902,Male,Books,2,162.53,Cash,Istinye Park
+I100903,C200903,Male,Toys,2,277.94,Cash,Mall of Istanbul
+I100904,C200904,Female,Books,2,152.4,Credit Card,Istinye Park
+I100905,C200905,Male,Cosmetics,4,330.66,Credit Card,Kanyon
+I100906,C200906,Female,Food & Beverage,4,99.56,Credit Card,Kanyon
+I100907,C200907,Male,Clothing,4,856.77,Cash,Cevahir AVM
+I100908,C200908,Male,Food & Beverage,2,95.02,Credit Card,Istinye Park
+I100909,C200909,Female,Cosmetics,2,319.86,Credit Card,Istinye Park
+I100910,C200910,Female,Food & Beverage,3,49.86,Credit Card,Cevahir AVM
+I100911,C200911,Female,Toys,4,429.31,Cash,Mall of Istanbul
+I100912,C200912,Male,Food & Beverage,1,139.34,Credit Card,Cevahir AVM
+I100913,C200913,Female,Food & Beverage,1,64.32,Credit Card,Kanyon
+I100914,C200914,Male,Food & Beverage,3,28.53,Cash,Istinye Park
+I100915,C200915,Female,Clothing,2,777.46,Credit Card,Metrocity
+I100916,C200916,Female,Shoes,4,1150.09,Credit Card,Metrocity
+I100917,C200917,Female,Shoes,2,1229.94,Credit Card,Kanyon
+I100918,C200918,Female,Books,2,125.56,Cash,Istinye Park
+I100919,C200919,Female,Shoes,1,1235.92,Cash,Istinye Park
+I100920,C200920,Male,Shoes,1,1121.81,Credit Card,Cevahir AVM
+I100921,C200921,Male,Shoes,4,1158.59,Cash,Mall of Istanbul
+I100922,C200922,Female,Technology,4,3461.81,Credit Card,Cevahir AVM
+I100923,C200923,Female,Food & Beverage,2,113.78,Credit Card,Metrocity
+I100924,C200924,Female,Technology,2,3396.18,Cash,Istinye Park
+I100925,C200925,Male,Food & Beverage,3,86.27,Cash,Mall of Istanbul
+I100926,C200926,Male,Toys,2,381.78,Cash,Cevahir AVM
+I100927,C200927,Female,Clothing,3,818.08,Credit Card,Mall of Istanbul
+I100928,C200928,Male,Technology,2,3502.52,Credit Card,Metrocity
+I100929,C200929,Male,Food & Beverage,2,52.27,Credit Card,Mall of Istanbul
+I100930,C200930,Female,Food & Beverage,2,-12.94,Credit Card,Istinye Park
+I100931,C200931,Male,Shoes,4,1161.47,Cash,Mall of Istanbul
+I100932,C200932,Male,Clothing,4,736.66,Credit Card,Mall of Istanbul
+I100933,C200933,Male,Clothing,4,739.58,Cash,Cevahir AVM
+I100934,C200934,Male,Shoes,3,1163.26,Credit Card,Mall of Istanbul
+I100935,C200935,Female,Technology,3,3540.88,Credit Card,Mall of Istanbul
+I100936,C200936,Male,Shoes,4,1136.54,Cash,Metrocity
+I100937,C200937,Male,Clothing,3,707.25,Cash,Mall of Istanbul
+I100938,C200938,Male,Cosmetics,4,271.03,Credit Card,Cevahir AVM
+I100939,C200939,Female,Shoes,1,1186.08,Cash,Cevahir AVM
+I100940,C200940,Female,Shoes,4,1182.74,Credit Card,Istinye Park
+I100941,C200941,Female,Clothing,1,767.02,Credit Card,Metrocity
+I100942,C200942,Female,Technology,2,3487.77,Credit Card,Kanyon
+I100943,C200943,Female,Cosmetics,3,310.78,Credit Card,Istinye Park
+I100944,C200944,Female,Toys,3,356.4,Cash,Mall of Istanbul
+I100945,C200945,Female,Cosmetics,4,350.11,Cash,Metrocity
+I100946,C200946,Male,Books,2,140.85,Cash,Istinye Park
+I100947,C200947,Male,Cosmetics,2,348.97,Cash,Cevahir AVM
+I100948,C200948,Male,Shoes,2,1213.18,Credit Card,Metrocity
+I100949,C200949,Male,Food & Beverage,2,36.99,Credit Card,Metrocity
+I100950,C200950,Female,Clothing,3,702.25,Cash,Mall of Istanbul
+I100951,C200951,Male,Toys,4,453.25,Cash,Metrocity
+I100952,C200952,Male,Shoes,4,1154.38,Cash,Metrocity
+I100953,C200953,Female,Toys,1,395.14,Credit Card,Kanyon
+I100954,C200954,Male,Clothing,3,769.86,Cash,Mall of Istanbul
+I100955,C200955,Female,Toys,1,467.12,Credit Card,Metrocity
+I100956,C200956,Female,Cosmetics,2,296.27,Cash,Metrocity
+I100957,C200957,Male,Clothing,4,730.99,Cash,Kanyon
+I100958,C200958,Male,Shoes,1,1186.81,Credit Card,Kanyon
+I100959,C200959,Female,Food & Beverage,3,156.23,Credit Card,Cevahir AVM
+I100960,C200960,Male,Shoes,4,1156.5,Cash,Mall of Istanbul
+I100961,C200961,Female,Technology,3,3421.92,Cash,Kanyon
+I100962,C200962,Male,Books,4,186.51,Credit Card,Metrocity
+I100963,C200963,Male,Clothing,3,751.05,Credit Card,Kanyon
+I100964,C200964,Male,Shoes,3,1115.0,Credit Card,Istinye Park
+I100965,C200965,Female,Cosmetics,4,252.74,Credit Card,Cevahir AVM
+I100966,C200966,Female,Cosmetics,3,311.11,Credit Card,Cevahir AVM
+I100967,C200967,Male,Technology,3,3519.34,Cash,Mall of Istanbul
+I100968,C200968,Male,Toys,2,417.2,Credit Card,Cevahir AVM
+I100969,C200969,Female,Shoes,4,1146.07,Cash,Mall of Istanbul
+I100970,C200970,Female,Toys,1,442.34,Credit Card,Istinye Park
+I100971,C200971,Female,Books,4,184.18,Credit Card,Metrocity
+I100972,C200972,Female,Clothing,4,821.63,Cash,Istinye Park
+I100973,C200973,Male,Books,2,94.77,Cash,Mall of Istanbul
+I100974,C200974,Female,Food & Beverage,1,67.45,Credit Card,Mall of Istanbul
+I100975,C200975,Female,Technology,1,3514.08,Credit Card,Mall of Istanbul
+I100976,C200976,Female,Toys,1,427.31,Credit Card,Metrocity
+I100977,C200977,Female,Shoes,3,1147.72,Cash,Mall of Istanbul
+I100978,C200978,Male,Toys,3,485.88,Cash,Istinye Park
+I100979,C200979,Male,Books,3,141.52,Credit Card,Metrocity
+I100980,C200980,Male,Technology,1,3545.86,Cash,Istinye Park
+I100981,C200981,Female,Food & Beverage,4,36.34,Credit Card,Metrocity
+I100982,C200982,Female,Books,4,158.77,Cash,Mall of Istanbul
+I100983,C200983,Male,Food & Beverage,1,35.19,Credit Card,Metrocity
+I100984,C200984,Male,Technology,1,3506.06,Credit Card,Kanyon
+I100985,C200985,Female,Cosmetics,2,321.62,Credit Card,Istinye Park
+I100986,C200986,Female,Cosmetics,3,324.4,Cash,Kanyon
+I100987,C200987,Male,Shoes,3,1161.61,Credit Card,Kanyon
+I100988,C200988,Female,Books,3,57.55,Credit Card,Mall of Istanbul
+I100989,C200989,Male,Cosmetics,2,314.62,Cash,Mall of Istanbul
+I100990,C200990,Female,Toys,2,378.57,Cash,Kanyon
+I100991,C200991,Male,Technology,2,3478.55,Credit Card,Metrocity
+I100992,C200992,Female,Clothing,1,752.39,Credit Card,Mall of Istanbul
+I100993,C200993,Female,Technology,2,3495.81,Credit Card,Istinye Park
+I100994,C200994,Female,Toys,4,398.27,Credit Card,Kanyon
+I100995,C200995,Male,Cosmetics,1,351.25,Cash,Istinye Park
+I100996,C200996,Female,Cosmetics,1,197.67,Credit Card,Istinye Park
+I100997,C200997,Female,Books,3,82.36,Cash,Istinye Park
+I100998,C200998,Female,Food & Beverage,3,121.5,Credit Card,Kanyon
+I100999,C200999,Male,Clothing,2,688.42,Credit Card,Cevahir AVM
+I101000,C201000,Female,Clothing,4,762.36,Credit Card,Mall of Istanbul
+I101001,C201001,Male,Food & Beverage,1,217.23,Cash,Istinye Park
+I101002,C201002,Female,Books,1,134.61,Cash,Kanyon
+I101003,C201003,Male,Cosmetics,1,333.47,Cash,Cevahir AVM
+I101004,C201004,Male,Food & Beverage,3,14.41,Credit Card,Kanyon
+I101005,C201005,Female,Technology,3,3533.5,Cash,Mall of Istanbul
+I101006,C201006,Male,Technology,4,3479.64,Credit Card,Kanyon
+I101007,C201007,Female,Technology,3,3512.97,Credit Card,Metrocity
+I101008,C201008,Female,Clothing,4,826.34,Credit Card,Metrocity
+I101009,C201009,Female,Clothing,3,772.78,Credit Card,Istinye Park
+I101010,C201010,Female,Technology,4,3522.84,Credit Card,Kanyon
+I101011,C201011,Male,Technology,3,3442.47,Credit Card,Kanyon
+I101012,C201012,Male,Technology,3,3501.19,Credit Card,Istinye Park
+I101013,C201013,Male,Cosmetics,2,324.5,Credit Card,Istinye Park
+I101014,C201014,Male,Cosmetics,2,271.53,Cash,Cevahir AVM
+I101015,C201015,Male,Shoes,2,1150.36,Credit Card,Kanyon
+I101016,C201016,Female,Toys,4,375.69,Cash,Mall of Istanbul
+I101017,C201017,Female,Food & Beverage,4,153.01,Credit Card,Mall of Istanbul
+I101018,C201018,Male,Cosmetics,4,345.34,Credit Card,Mall of Istanbul
+I101019,C201019,Male,Shoes,4,1236.54,Credit Card,Istinye Park
+I101020,C201020,Female,Books,2,225.39,Credit Card,Istinye Park
+I101021,C201021,Male,Technology,1,3500.31,Cash,Istinye Park
+I101022,C201022,Male,Clothing,3,808.79,Cash,Mall of Istanbul
+I101023,C201023,Male,Food & Beverage,3,0.35,Cash,Cevahir AVM
+I101024,C201024,Male,Toys,4,354.5,Cash,Metrocity
+I101025,C201025,Female,Books,2,175.57,Cash,Kanyon
+I101026,C201026,Female,Food & Beverage,1,143.41,Cash,Metrocity
+I101027,C201027,Male,Food & Beverage,2,35.36,Credit Card,Kanyon
+I101028,C201028,Female,Cosmetics,3,295.35,Credit Card,Istinye Park
+I101029,C201029,Male,Shoes,4,1307.97,Cash,Mall of Istanbul
+I101030,C201030,Female,Food & Beverage,4,95.61,Cash,Metrocity
+I101031,C201031,Male,Toys,2,472.24,Cash,Istinye Park
+I101032,C201032,Female,Books,4,167.36,Credit Card,Kanyon
+I101033,C201033,Female,Toys,1,428.07,Credit Card,Metrocity
+I101034,C201034,Female,Food & Beverage,3,54.53,Credit Card,Metrocity
+I101035,C201035,Male,Toys,1,319.55,Credit Card,Metrocity
+I101036,C201036,Female,Toys,2,436.12,Credit Card,Metrocity
+I101037,C201037,Female,Technology,3,3515.36,Cash,Metrocity
+I101038,C201038,Male,Shoes,1,1203.03,Credit Card,Istinye Park
+I101039,C201039,Male,Clothing,1,733.64,Cash,Kanyon
+I101040,C201040,Male,Food & Beverage,1,82.16,Credit Card,Kanyon
+I101041,C201041,Male,Books,3,119.17,Cash,Cevahir AVM
+I101042,C201042,Male,Technology,3,3474.06,Credit Card,Mall of Istanbul
+I101043,C201043,Female,Technology,4,3511.42,Credit Card,Metrocity
+I101044,C201044,Male,Clothing,2,835.31,Credit Card,Kanyon
+I101045,C201045,Male,Toys,4,414.3,Credit Card,Mall of Istanbul
+I101046,C201046,Female,Clothing,2,809.72,Credit Card,Mall of Istanbul
+I101047,C201047,Male,Cosmetics,3,305.68,Cash,Istinye Park
+I101048,C201048,Male,Cosmetics,1,291.26,Credit Card,Metrocity
+I101049,C201049,Female,Food & Beverage,4,58.47,Credit Card,Cevahir AVM
+I101050,C201050,Female,Technology,3,3502.34,Credit Card,Mall of Istanbul
+I101051,C201051,Male,Books,3,187.36,Credit Card,Istinye Park
+I101052,C201052,Male,Cosmetics,3,294.24,Credit Card,Metrocity
+I101053,C201053,Female,Toys,4,353.98,Credit Card,Kanyon
+I101054,C201054,Male,Shoes,3,1140.22,Credit Card,Cevahir AVM
+I101055,C201055,Female,Shoes,2,1152.31,Credit Card,Metrocity
+I101056,C201056,Female,Toys,2,342.81,Credit Card,Istinye Park
+I101057,C201057,Female,Clothing,1,944.56,Cash,Istinye Park
+I101058,C201058,Male,Toys,4,356.11,Cash,Istinye Park
+I101059,C201059,Male,Clothing,4,798.08,Credit Card,Istinye Park
+I101060,C201060,Male,Clothing,4,795.66,Credit Card,Istinye Park
+I101061,C201061,Female,Shoes,4,1270.67,Credit Card,Cevahir AVM
+I101062,C201062,Male,Cosmetics,4,321.47,Credit Card,Mall of Istanbul
+I101063,C201063,Male,Toys,3,421.22,Credit Card,Mall of Istanbul
+I101064,C201064,Female,Cosmetics,3,308.72,Cash,Kanyon
+I101065,C201065,Male,Food & Beverage,2,113.75,Credit Card,Mall of Istanbul
+I101066,C201066,Male,Books,4,166.11,Cash,Istinye Park
+I101067,C201067,Female,Shoes,4,1168.63,Credit Card,Mall of Istanbul
+I101068,C201068,Female,Technology,4,3454.13,Credit Card,Mall of Istanbul
+I101069,C201069,Female,Clothing,2,802.93,Credit Card,Istinye Park
+I101070,C201070,Male,Books,4,123.15,Credit Card,Cevahir AVM
+I101071,C201071,Male,Clothing,4,809.22,Cash,Istinye Park
+I101072,C201072,Male,Books,3,96.04,Cash,Mall of Istanbul
+I101073,C201073,Female,Books,2,76.31,Cash,Mall of Istanbul
+I101074,C201074,Male,Cosmetics,3,236.03,Cash,Kanyon
+I101075,C201075,Male,Technology,1,3496.31,Cash,Istinye Park
+I101076,C201076,Male,Food & Beverage,4,19.22,Credit Card,Kanyon
+I101077,C201077,Female,Food & Beverage,1,197.48,Credit Card,Kanyon
+I101078,C201078,Male,Clothing,4,897.61,Cash,Metrocity
+I101079,C201079,Female,Shoes,1,1244.27,Credit Card,Kanyon
+I101080,C201080,Male,Food & Beverage,3,81.53,Credit Card,Mall of Istanbul
+I101081,C201081,Female,Shoes,2,1175.82,Credit Card,Mall of Istanbul
+I101082,C201082,Female,Clothing,1,814.83,Cash,Metrocity
+I101083,C201083,Male,Shoes,3,1229.83,Cash,Metrocity
+I101084,C201084,Male,Books,1,164.81,Cash,Istinye Park
+I101085,C201085,Female,Books,1,84.48,Cash,Metrocity
+I101086,C201086,Female,Clothing,2,790.5,Credit Card,Cevahir AVM
+I101087,C201087,Male,Shoes,3,1226.66,Credit Card,Mall of Istanbul
+I101088,C201088,Female,Technology,2,3381.92,Credit Card,Mall of Istanbul
+I101089,C201089,Female,Technology,4,3444.73,Credit Card,Metrocity
+I101090,C201090,Female,Shoes,2,1226.29,Credit Card,Metrocity
+I101091,C201091,Male,Clothing,2,784.39,Credit Card,Mall of Istanbul
+I101092,C201092,Female,Technology,1,3484.44,Cash,Metrocity
+I101093,C201093,Male,Food & Beverage,1,155.42,Credit Card,Istinye Park
+I101094,C201094,Male,Cosmetics,1,297.31,Credit Card,Metrocity
+I101095,C201095,Male,Food & Beverage,3,76.33,Credit Card,Metrocity
+I101096,C201096,Female,Toys,2,384.57,Credit Card,Istinye Park
+I101097,C201097,Female,Cosmetics,4,286.22,Credit Card,Istinye Park
+I101098,C201098,Female,Shoes,1,1158.27,Cash,Istinye Park
+I101099,C201099,Male,Cosmetics,4,288.87,Credit Card,Mall of Istanbul
+I101100,C201100,Male,Technology,2,3443.0,Credit Card,Metrocity
+I101101,C201101,Male,Cosmetics,2,283.33,Cash,Istinye Park
+I101102,C201102,Male,Shoes,2,1174.2,Cash,Istinye Park
+I101103,C201103,Male,Books,4,161.57,Credit Card,Mall of Istanbul
+I101104,C201104,Male,Cosmetics,4,375.73,Credit Card,Cevahir AVM
+I101105,C201105,Male,Technology,4,3512.98,Cash,Metrocity
+I101106,C201106,Male,Technology,2,3505.16,Credit Card,Cevahir AVM
+I101107,C201107,Female,Clothing,2,811.69,Cash,Cevahir AVM
+I101108,C201108,Female,Food & Beverage,1,56.86,Cash,Istinye Park
+I101109,C201109,Female,Shoes,3,1235.1,Cash,Mall of Istanbul
+I101110,C201110,Female,Shoes,4,1220.32,Credit Card,Metrocity
+I101111,C201111,Male,Cosmetics,3,297.75,Cash,Metrocity
+I101112,C201112,Female,Books,4,167.75,Cash,Metrocity
+I101113,C201113,Male,Books,4,166.38,Credit Card,Cevahir AVM
+I101114,C201114,Female,Food & Beverage,3,116.47,Cash,Kanyon
+I101115,C201115,Male,Food & Beverage,3,149.71,Cash,Mall of Istanbul
+I101116,C201116,Female,Technology,4,3462.09,Credit Card,Kanyon
+I101117,C201117,Female,Books,2,215.56,Credit Card,Cevahir AVM
+I101118,C201118,Female,Toys,1,319.87,Credit Card,Istinye Park
+I101119,C201119,Male,Books,4,183.09,Credit Card,Kanyon
+I101120,C201120,Female,Books,1,158.39,Credit Card,Kanyon
+I101121,C201121,Female,Cosmetics,2,251.85,Credit Card,Mall of Istanbul
+I101122,C201122,Female,Technology,2,3551.46,Credit Card,Cevahir AVM
+I101123,C201123,Female,Clothing,1,709.32,Credit Card,Mall of Istanbul
+I101124,C201124,Female,Food & Beverage,4,181.26,Credit Card,Istinye Park
+I101125,C201125,Male,Toys,1,512.84,Credit Card,Metrocity
+I101126,C201126,Male,Toys,4,391.84,Credit Card,Cevahir AVM
+I101127,C201127,Female,Shoes,3,1148.61,Credit Card,Istinye Park
+I101128,C201128,Male,Books,4,121.11,Credit Card,Istinye Park
+I101129,C201129,Female,Books,3,198.76,Credit Card,Kanyon
+I101130,C201130,Female,Clothing,3,783.88,Cash,Mall of Istanbul
+I101131,C201131,Female,Technology,1,3353.23,Credit Card,Kanyon
+I101132,C201132,Female,Books,3,169.17,Credit Card,Kanyon
+I101133,C201133,Male,Food & Beverage,1,144.69,Cash,Metrocity
+I101134,C201134,Female,Toys,1,425.72,Cash,Mall of Istanbul
+I101135,C201135,Female,Books,2,183.67,Cash,Metrocity
+I101136,C201136,Male,Clothing,1,880.23,Credit Card,Istinye Park
+I101137,C201137,Female,Cosmetics,2,289.43,Cash,Metrocity
+I101138,C201138,Female,Food & Beverage,2,185.92,Credit Card,Istinye Park
+I101139,C201139,Male,Cosmetics,1,292.28,Credit Card,Kanyon
+I101140,C201140,Male,Shoes,4,1256.33,Cash,Metrocity
+I101141,C201141,Female,Clothing,4,792.88,Cash,Mall of Istanbul
+I101142,C201142,Female,Shoes,1,1301.92,Cash,Metrocity
+I101143,C201143,Female,Shoes,3,1232.4,Credit Card,Istinye Park
+I101144,C201144,Male,Toys,1,395.19,Cash,Cevahir AVM
+I101145,C201145,Female,Shoes,3,1140.02,Cash,Mall of Istanbul
+I101146,C201146,Female,Shoes,4,1210.31,Cash,Istinye Park
+I101147,C201147,Female,Clothing,3,759.04,Cash,Cevahir AVM
+I101148,C201148,Female,Cosmetics,1,322.05,Cash,Mall of Istanbul
+I101149,C201149,Male,Books,3,182.95,Cash,Cevahir AVM
+I101150,C201150,Male,Shoes,2,1252.02,Cash,Kanyon
+I101151,C201151,Female,Toys,2,426.89,Cash,Kanyon
+I101152,C201152,Male,Technology,1,3504.0,Credit Card,Metrocity
+I101153,C201153,Female,Books,1,216.23,Cash,Metrocity
+I101154,C201154,Male,Toys,1,472.02,Credit Card,Metrocity
+I101155,C201155,Male,Books,4,97.36,Cash,Metrocity
+I101156,C201156,Male,Shoes,4,1288.1,Credit Card,Cevahir AVM
+I101157,C201157,Female,Food & Beverage,4,161.45,Credit Card,Mall of Istanbul
+I101158,C201158,Female,Technology,2,3457.34,Credit Card,Mall of Istanbul
+I101159,C201159,Male,Books,3,56.04,Cash,Metrocity
+I101160,C201160,Female,Food & Beverage,2,160.22,Credit Card,Kanyon
+I101161,C201161,Male,Cosmetics,3,310.31,Credit Card,Istinye Park
+I101162,C201162,Female,Books,3,127.23,Cash,Metrocity
+I101163,C201163,Male,Clothing,1,815.7,Cash,Metrocity
+I101164,C201164,Male,Toys,1,459.31,Credit Card,Kanyon
+I101165,C201165,Female,Technology,4,3398.42,Cash,Istinye Park
+I101166,C201166,Female,Cosmetics,1,306.31,Cash,Cevahir AVM
+I101167,C201167,Male,Cosmetics,2,302.87,Cash,Cevahir AVM
+I101168,C201168,Female,Technology,2,3574.82,Credit Card,Istinye Park
+I101169,C201169,Male,Food & Beverage,2,141.43,Credit Card,Istinye Park
+I101170,C201170,Male,Shoes,1,1240.96,Cash,Cevahir AVM
+I101171,C201171,Female,Toys,1,377.81,Credit Card,Metrocity
+I101172,C201172,Female,Clothing,3,833.48,Cash,Metrocity
+I101173,C201173,Female,Technology,3,3475.74,Cash,Kanyon
+I101174,C201174,Female,Technology,1,3494.56,Cash,Istinye Park
+I101175,C201175,Male,Clothing,2,828.69,Cash,Metrocity
+I101176,C201176,Male,Food & Beverage,1,104.27,Cash,Metrocity
+I101177,C201177,Male,Food & Beverage,4,115.81,Credit Card,Kanyon
+I101178,C201178,Female,Cosmetics,4,365.65,Cash,Istinye Park
+I101179,C201179,Female,Technology,2,3481.75,Credit Card,Kanyon
+I101180,C201180,Male,Food & Beverage,4,48.12,Cash,Kanyon
+I101181,C201181,Female,Shoes,1,1154.66,Cash,Cevahir AVM
+I101182,C201182,Female,Cosmetics,1,243.78,Credit Card,Kanyon
+I101183,C201183,Female,Cosmetics,3,380.37,Credit Card,Istinye Park
+I101184,C201184,Male,Cosmetics,4,332.71,Credit Card,Metrocity
+I101185,C201185,Male,Clothing,4,853.53,Credit Card,Metrocity
+I101186,C201186,Female,Toys,4,444.56,Cash,Cevahir AVM
+I101187,C201187,Male,Toys,4,390.08,Cash,Istinye Park
+I101188,C201188,Male,Clothing,2,881.49,Credit Card,Metrocity
+I101189,C201189,Male,Cosmetics,2,265.45,Credit Card,Kanyon
+I101190,C201190,Male,Shoes,1,1300.62,Credit Card,Mall of Istanbul
+I101191,C201191,Male,Books,4,156.19,Credit Card,Mall of Istanbul
+I101192,C201192,Female,Cosmetics,3,389.43,Credit Card,Mall of Istanbul
+I101193,C201193,Male,Food & Beverage,1,47.54,Credit Card,Mall of Istanbul
+I101194,C201194,Female,Technology,1,3478.43,Credit Card,Kanyon
+I101195,C201195,Female,Technology,2,3419.86,Credit Card,Metrocity
+I101196,C201196,Male,Toys,1,452.11,Cash,Cevahir AVM
+I101197,C201197,Male,Technology,3,3512.66,Cash,Kanyon
+I101198,C201198,Male,Books,4,250.83,Credit Card,Metrocity
+I101199,C201199,Male,Clothing,1,775.8,Cash,Istinye Park
+I101200,C201200,Female,Clothing,3,866.85,Credit Card,Metrocity
+I101201,C201201,Female,Books,2,154.0,Cash,Metrocity
+I101202,C201202,Female,Toys,2,395.31,Credit Card,Metrocity
+I101203,C201203,Male,Toys,4,385.53,Cash,Kanyon
+I101204,C201204,Female,Food & Beverage,1,57.74,Credit Card,Metrocity
+I101205,C201205,Female,Clothing,3,818.71,Cash,Metrocity
+I101206,C201206,Male,Clothing,2,810.57,Cash,Istinye Park
+I101207,C201207,Male,Cosmetics,3,221.37,Credit Card,Istinye Park
+I101208,C201208,Male,Shoes,2,1074.44,Cash,Mall of Istanbul
+I101209,C201209,Female,Food & Beverage,2,84.35,Cash,Kanyon
+I101210,C201210,Male,Cosmetics,4,358.1,Cash,Metrocity
+I101211,C201211,Female,Technology,3,3511.1,Cash,Mall of Istanbul
+I101212,C201212,Male,Shoes,3,1134.86,Credit Card,Mall of Istanbul
+I101213,C201213,Female,Technology,3,3411.31,Credit Card,Kanyon
+I101214,C201214,Female,Clothing,2,857.74,Credit Card,Mall of Istanbul
+I101215,C201215,Male,Shoes,4,1117.35,Cash,Mall of Istanbul
+I101216,C201216,Female,Clothing,3,837.97,Credit Card,Kanyon
+I101217,C201217,Male,Toys,1,428.45,Cash,Cevahir AVM
+I101218,C201218,Male,Cosmetics,3,381.73,Cash,Mall of Istanbul
+I101219,C201219,Male,Clothing,2,768.54,Cash,Istinye Park
+I101220,C201220,Female,Shoes,4,1246.97,Credit Card,Mall of Istanbul
+I101221,C201221,Female,Cosmetics,3,369.99,Credit Card,Kanyon
+I101222,C201222,Female,Shoes,3,1133.14,Cash,Kanyon
+I101223,C201223,Male,Shoes,3,1206.65,Cash,Cevahir AVM
+I101224,C201224,Female,Books,1,147.98,Credit Card,Cevahir AVM
+I101225,C201225,Female,Clothing,2,746.81,Cash,Istinye Park
+I101226,C201226,Male,Clothing,1,813.22,Cash,Istinye Park
+I101227,C201227,Male,Shoes,1,1141.55,Credit Card,Mall of Istanbul
+I101228,C201228,Male,Technology,2,3519.11,Credit Card,Cevahir AVM
+I101229,C201229,Male,Toys,2,508.69,Cash,Istinye Park
+I101230,C201230,Male,Clothing,3,789.79,Credit Card,Mall of Istanbul
+I101231,C201231,Male,Food & Beverage,2,95.26,Cash,Metrocity
+I101232,C201232,Male,Toys,3,470.83,Cash,Mall of Istanbul
+I101233,C201233,Female,Toys,1,462.97,Credit Card,Istinye Park
+I101234,C201234,Male,Toys,3,369.12,Cash,Mall of Istanbul
+I101235,C201235,Male,Clothing,2,834.41,Credit Card,Metrocity
+I101236,C201236,Male,Toys,3,252.37,Credit Card,Istinye Park
+I101237,C201237,Male,Toys,1,349.79,Credit Card,Mall of Istanbul
+I101238,C201238,Male,Cosmetics,2,353.49,Cash,Istinye Park
+I101239,C201239,Female,Clothing,2,774.49,Credit Card,Mall of Istanbul
+I101240,C201240,Male,Toys,4,389.98,Cash,Kanyon
+I101241,C201241,Female,Technology,3,3453.78,Cash,Istinye Park
+I101242,C201242,Female,Food & Beverage,3,45.76,Credit Card,Istinye Park
+I101243,C201243,Male,Toys,3,275.19,Cash,Istinye Park
+I101244,C201244,Male,Shoes,1,1181.84,Credit Card,Istinye Park
+I101245,C201245,Male,Clothing,1,823.28,Credit Card,Mall of Istanbul
+I101246,C201246,Female,Cosmetics,2,312.34,Credit Card,Cevahir AVM
+I101247,C201247,Male,Food & Beverage,2,58.4,Cash,Mall of Istanbul
+I101248,C201248,Female,Books,1,78.55,Credit Card,Metrocity
+I101249,C201249,Female,Shoes,3,1181.31,Credit Card,Kanyon
+I101250,C201250,Male,Shoes,3,1133.55,Credit Card,Mall of Istanbul
+I101251,C201251,Male,Shoes,1,1161.62,Cash,Mall of Istanbul
+I101252,C201252,Female,Food & Beverage,3,106.46,Cash,Istinye Park
+I101253,C201253,Female,Clothing,1,756.42,Credit Card,Metrocity
+I101254,C201254,Male,Clothing,3,864.32,Credit Card,Istinye Park
+I101255,C201255,Male,Toys,3,347.71,Credit Card,Istinye Park
+I101256,C201256,Female,Toys,4,369.76,Cash,Cevahir AVM
+I101257,C201257,Female,Clothing,2,842.49,Cash,Kanyon
+I101258,C201258,Male,Technology,3,3534.52,Cash,Cevahir AVM
+I101259,C201259,Female,Toys,3,425.83,Credit Card,Istinye Park
+I101260,C201260,Male,Technology,1,3468.1,Cash,Kanyon
+I101261,C201261,Male,Clothing,4,829.21,Credit Card,Mall of Istanbul
+I101262,C201262,Male,Shoes,4,1239.6,Cash,Metrocity
+I101263,C201263,Female,Books,1,172.08,Credit Card,Cevahir AVM
+I101264,C201264,Female,Shoes,1,1198.38,Cash,Metrocity
+I101265,C201265,Female,Technology,1,3528.85,Cash,Istinye Park
+I101266,C201266,Male,Toys,3,396.21,Cash,Kanyon
+I101267,C201267,Male,Books,1,170.2,Cash,Mall of Istanbul
+I101268,C201268,Male,Books,2,153.73,Credit Card,Kanyon
+I101269,C201269,Female,Clothing,1,724.47,Credit Card,Metrocity
+I101270,C201270,Male,Cosmetics,3,270.81,Credit Card,Metrocity
+I101271,C201271,Male,Food & Beverage,2,204.02,Cash,Mall of Istanbul
+I101272,C201272,Male,Cosmetics,3,203.13,Credit Card,Mall of Istanbul
+I101273,C201273,Female,Books,2,227.61,Cash,Kanyon
+I101274,C201274,Female,Cosmetics,2,331.28,Cash,Cevahir AVM
+I101275,C201275,Female,Toys,2,401.71,Cash,Kanyon
+I101276,C201276,Female,Books,3,65.98,Credit Card,Metrocity
+I101277,C201277,Female,Shoes,2,1199.94,Cash,Kanyon
+I101278,C201278,Female,Toys,4,362.68,Cash,Istinye Park
+I101279,C201279,Female,Shoes,4,1259.45,Cash,Kanyon
+I101280,C201280,Male,Toys,3,366.67,Cash,Kanyon
+I101281,C201281,Male,Clothing,4,786.21,Credit Card,Istinye Park
+I101282,C201282,Male,Technology,2,3512.31,Credit Card,Metrocity
+I101283,C201283,Male,Toys,1,367.77,Credit Card,Mall of Istanbul
+I101284,C201284,Female,Food & Beverage,1,147.93,Credit Card,Kanyon
+I101285,C201285,Female,Shoes,2,1185.21,Credit Card,Cevahir AVM
+I101286,C201286,Male,Toys,4,305.96,Cash,Mall of Istanbul
+I101287,C201287,Male,Food & Beverage,2,107.54,Credit Card,Cevahir AVM
+I101288,C201288,Female,Clothing,1,840.37,Credit Card,Kanyon
+I101289,C201289,Female,Toys,1,471.9,Credit Card,Cevahir AVM
+I101290,C201290,Female,Technology,3,3527.63,Credit Card,Mall of Istanbul
+I101291,C201291,Male,Food & Beverage,1,157.66,Credit Card,Cevahir AVM
+I101292,C201292,Female,Technology,3,3524.54,Cash,Cevahir AVM
+I101293,C201293,Male,Toys,4,352.03,Credit Card,Mall of Istanbul
+I101294,C201294,Female,Shoes,2,1160.94,Cash,Mall of Istanbul
+I101295,C201295,Female,Shoes,3,1085.06,Credit Card,Mall of Istanbul
+I101296,C201296,Male,Cosmetics,2,289.16,Cash,Mall of Istanbul
+I101297,C201297,Female,Cosmetics,3,332.64,Cash,Istinye Park
+I101298,C201298,Male,Toys,4,321.11,Credit Card,Kanyon
+I101299,C201299,Female,Cosmetics,4,364.7,Credit Card,Mall of Istanbul
+I101300,C201300,Female,Toys,3,394.86,Credit Card,Metrocity
+I101301,C201301,Male,Toys,3,355.18,Cash,Cevahir AVM
+I101302,C201302,Female,Technology,4,3420.85,Cash,Mall of Istanbul
+I101303,C201303,Female,Food & Beverage,2,183.05,Credit Card,Mall of Istanbul
+I101304,C201304,Female,Shoes,4,1259.1,Cash,Kanyon
+I101305,C201305,Female,Clothing,2,779.83,Credit Card,Mall of Istanbul
+I101306,C201306,Female,Books,3,196.45,Cash,Istinye Park
+I101307,C201307,Female,Shoes,2,1189.52,Credit Card,Metrocity
+I101308,C201308,Female,Cosmetics,3,269.78,Cash,Metrocity
+I101309,C201309,Female,Toys,2,367.34,Credit Card,Mall of Istanbul
+I101310,C201310,Female,Cosmetics,3,288.39,Cash,Kanyon
+I101311,C201311,Male,Food & Beverage,1,80.07,Cash,Mall of Istanbul
+I101312,C201312,Female,Cosmetics,1,303.07,Credit Card,Cevahir AVM
+I101313,C201313,Female,Food & Beverage,4,180.42,Cash,Metrocity
+I101314,C201314,Female,Clothing,4,913.92,Cash,Cevahir AVM
+I101315,C201315,Male,Toys,3,339.87,Credit Card,Istinye Park
+I101316,C201316,Male,Cosmetics,2,322.97,Credit Card,Metrocity
+I101317,C201317,Male,Food & Beverage,3,110.48,Credit Card,Metrocity
+I101318,C201318,Male,Cosmetics,1,326.52,Cash,Istinye Park
+I101319,C201319,Male,Food & Beverage,1,77.49,Cash,Cevahir AVM
+I101320,C201320,Male,Technology,3,3527.21,Credit Card,Mall of Istanbul
+I101321,C201321,Female,Toys,1,331.02,Cash,Kanyon
+I101322,C201322,Male,Toys,4,569.11,Cash,Cevahir AVM
+I101323,C201323,Female,Shoes,3,1214.53,Cash,Istinye Park
+I101324,C201324,Female,Food & Beverage,4,136.5,Credit Card,Istinye Park
+I101325,C201325,Female,Books,4,94.09,Credit Card,Istinye Park
+I101326,C201326,Male,Clothing,4,765.24,Credit Card,Metrocity
+I101327,C201327,Female,Shoes,1,1126.57,Credit Card,Mall of Istanbul
+I101328,C201328,Female,Clothing,2,872.81,Cash,Metrocity
+I101329,C201329,Male,Shoes,2,1144.52,Credit Card,Metrocity
+I101330,C201330,Male,Cosmetics,2,290.56,Credit Card,Metrocity
+I101331,C201331,Female,Food & Beverage,4,92.78,Cash,Istinye Park
+I101332,C201332,Male,Cosmetics,3,323.66,Credit Card,Cevahir AVM
+I101333,C201333,Male,Clothing,4,735.38,Cash,Kanyon
+I101334,C201334,Female,Toys,4,442.98,Cash,Kanyon
+I101335,C201335,Female,Clothing,3,862.25,Cash,Mall of Istanbul
+I101336,C201336,Female,Shoes,2,1167.0,Cash,Mall of Istanbul
+I101337,C201337,Female,Clothing,2,798.17,Cash,Istinye Park
+I101338,C201338,Female,Food & Beverage,2,131.33,Credit Card,Kanyon
+I101339,C201339,Female,Clothing,4,812.78,Cash,Cevahir AVM
+I101340,C201340,Female,Cosmetics,4,250.01,Credit Card,Istinye Park
+I101341,C201341,Female,Toys,1,435.06,Credit Card,Mall of Istanbul
+I101342,C201342,Male,Food & Beverage,2,175.63,Cash,Istinye Park
+I101343,C201343,Male,Clothing,4,875.48,Cash,Mall of Istanbul
+I101344,C201344,Male,Books,1,178.76,Credit Card,Kanyon
+I101345,C201345,Male,Books,4,188.3,Cash,Istinye Park
+I101346,C201346,Male,Toys,4,380.54,Credit Card,Metrocity
+I101347,C201347,Female,Cosmetics,2,254.14,Cash,Mall of Istanbul
+I101348,C201348,Male,Shoes,3,1196.56,Cash,Metrocity
+I101349,C201349,Male,Shoes,4,1313.22,Cash,Mall of Istanbul
+I101350,C201350,Female,Toys,4,373.45,Credit Card,Metrocity
+I101351,C201351,Male,Clothing,4,821.72,Cash,Kanyon
+I101352,C201352,Female,Food & Beverage,2,118.89,Cash,Kanyon
+I101353,C201353,Male,Toys,4,381.28,Credit Card,Cevahir AVM
+I101354,C201354,Male,Shoes,1,1274.18,Credit Card,Cevahir AVM
+I101355,C201355,Female,Books,2,229.44,Credit Card,Cevahir AVM
+I101356,C201356,Male,Shoes,1,1333.35,Cash,Istinye Park
+I101357,C201357,Male,Books,2,110.08,Credit Card,Mall of Istanbul
+I101358,C201358,Male,Shoes,4,1220.35,Credit Card,Istinye Park
+I101359,C201359,Female,Cosmetics,4,304.43,Credit Card,Cevahir AVM
+I101360,C201360,Female,Toys,1,365.68,Cash,Mall of Istanbul
+I101361,C201361,Female,Food & Beverage,1,66.69,Cash,Istinye Park
+I101362,C201362,Female,Toys,2,408.34,Cash,Kanyon
+I101363,C201363,Female,Technology,2,3476.65,Credit Card,Mall of Istanbul
+I101364,C201364,Male,Clothing,3,751.02,Cash,Cevahir AVM
+I101365,C201365,Male,Books,3,156.18,Cash,Kanyon
+I101366,C201366,Female,Shoes,3,1144.69,Credit Card,Mall of Istanbul
+I101367,C201367,Female,Clothing,4,776.68,Cash,Istinye Park
+I101368,C201368,Male,Books,1,168.09,Cash,Cevahir AVM
+I101369,C201369,Female,Toys,1,393.25,Credit Card,Istinye Park
+I101370,C201370,Male,Books,3,137.13,Credit Card,Kanyon
+I101371,C201371,Female,Cosmetics,3,390.44,Credit Card,Kanyon
+I101372,C201372,Female,Shoes,2,1270.13,Credit Card,Kanyon
+I101373,C201373,Male,Technology,3,3504.12,Credit Card,Mall of Istanbul
+I101374,C201374,Male,Toys,1,349.28,Credit Card,Cevahir AVM
+I101375,C201375,Female,Technology,2,3540.54,Credit Card,Kanyon
+I101376,C201376,Female,Clothing,3,926.31,Credit Card,Istinye Park
+I101377,C201377,Male,Shoes,4,1268.25,Cash,Cevahir AVM
+I101378,C201378,Male,Toys,3,334.99,Cash,Istinye Park
+I101379,C201379,Female,Technology,4,3490.12,Cash,Istinye Park
+I101380,C201380,Male,Shoes,3,1163.35,Cash,Kanyon
+I101381,C201381,Female,Food & Beverage,2,53.7,Cash,Cevahir AVM
+I101382,C201382,Female,Books,4,206.75,Credit Card,Metrocity
+I101383,C201383,Female,Technology,4,3555.7,Credit Card,Mall of Istanbul
+I101384,C201384,Female,Books,2,238.77,Credit Card,Metrocity
+I101385,C201385,Female,Food & Beverage,4,133.92,Cash,Mall of Istanbul
+I101386,C201386,Female,Food & Beverage,2,97.76,Cash,Cevahir AVM
+I101387,C201387,Female,Shoes,3,1209.39,Credit Card,Kanyon
+I101388,C201388,Male,Books,2,104.72,Credit Card,Cevahir AVM
+I101389,C201389,Male,Clothing,2,868.5,Cash,Metrocity
+I101390,C201390,Female,Cosmetics,2,262.94,Cash,Istinye Park
+I101391,C201391,Male,Toys,2,379.57,Credit Card,Mall of Istanbul
+I101392,C201392,Female,Food & Beverage,1,84.82,Cash,Mall of Istanbul
+I101393,C201393,Female,Clothing,4,646.45,Cash,Metrocity
+I101394,C201394,Male,Clothing,3,843.38,Credit Card,Kanyon
+I101395,C201395,Male,Shoes,2,1152.61,Credit Card,Cevahir AVM
+I101396,C201396,Female,Food & Beverage,1,134.47,Cash,Metrocity
+I101397,C201397,Male,Clothing,1,777.57,Credit Card,Cevahir AVM
+I101398,C201398,Female,Cosmetics,3,277.13,Credit Card,Kanyon
+I101399,C201399,Male,Clothing,4,744.47,Cash,Istinye Park
+I101400,C201400,Female,Cosmetics,3,369.42,Cash,Cevahir AVM
+I101401,C201401,Female,Technology,2,3580.56,Credit Card,Kanyon
+I101402,C201402,Female,Cosmetics,4,349.99,Cash,Metrocity
+I101403,C201403,Male,Cosmetics,4,313.26,Credit Card,Istinye Park
+I101404,C201404,Female,Food & Beverage,3,106.79,Credit Card,Istinye Park
+I101405,C201405,Female,Technology,3,3554.33,Cash,Istinye Park
+I101406,C201406,Male,Cosmetics,4,293.72,Credit Card,Mall of Istanbul
+I101407,C201407,Male,Food & Beverage,3,165.88,Cash,Kanyon
+I101408,C201408,Female,Technology,4,3451.87,Cash,Cevahir AVM
+I101409,C201409,Male,Clothing,3,849.08,Cash,Metrocity
+I101410,C201410,Female,Technology,4,3564.25,Cash,Istinye Park
+I101411,C201411,Female,Cosmetics,2,245.09,Credit Card,Istinye Park
+I101412,C201412,Female,Technology,1,3458.05,Credit Card,Istinye Park
+I101413,C201413,Male,Books,3,147.78,Credit Card,Kanyon
+I101414,C201414,Male,Clothing,4,821.16,Cash,Metrocity
+I101415,C201415,Male,Toys,1,369.12,Credit Card,Kanyon
+I101416,C201416,Female,Technology,1,3504.61,Credit Card,Metrocity
+I101417,C201417,Female,Technology,1,3396.69,Cash,Cevahir AVM
+I101418,C201418,Female,Technology,3,3538.25,Cash,Mall of Istanbul
+I101419,C201419,Male,Books,3,190.6,Credit Card,Metrocity
+I101420,C201420,Male,Books,2,226.05,Credit Card,Kanyon
+I101421,C201421,Female,Shoes,3,1228.69,Cash,Kanyon
+I101422,C201422,Male,Food & Beverage,3,81.5,Cash,Kanyon
+I101423,C201423,Male,Shoes,3,1149.28,Cash,Mall of Istanbul
+I101424,C201424,Male,Food & Beverage,1,59.34,Credit Card,Metrocity
+I101425,C201425,Male,Shoes,2,1195.56,Credit Card,Metrocity
+I101426,C201426,Female,Clothing,1,757.66,Cash,Metrocity
+I101427,C201427,Female,Books,2,111.58,Cash,Metrocity
+I101428,C201428,Female,Clothing,3,798.11,Credit Card,Istinye Park
+I101429,C201429,Male,Food & Beverage,4,19.42,Cash,Istinye Park
+I101430,C201430,Male,Books,3,100.46,Cash,Kanyon
+I101431,C201431,Male,Books,1,160.92,Cash,Istinye Park
+I101432,C201432,Female,Food & Beverage,1,113.32,Credit Card,Metrocity
+I101433,C201433,Male,Clothing,1,843.24,Credit Card,Metrocity
+I101434,C201434,Female,Books,2,157.75,Cash,Istinye Park
+I101435,C201435,Female,Toys,1,401.55,Credit Card,Cevahir AVM
+I101436,C201436,Female,Technology,4,3531.85,Cash,Kanyon
+I101437,C201437,Male,Clothing,4,809.52,Credit Card,Mall of Istanbul
+I101438,C201438,Female,Clothing,3,751.39,Credit Card,Kanyon
+I101439,C201439,Female,Clothing,2,760.02,Cash,Kanyon
+I101440,C201440,Male,Books,2,233.83,Cash,Kanyon
+I101441,C201441,Female,Cosmetics,3,460.85,Credit Card,Istinye Park
+I101442,C201442,Male,Technology,1,3536.81,Credit Card,Kanyon
+I101443,C201443,Female,Shoes,1,1149.58,Cash,Metrocity
+I101444,C201444,Male,Food & Beverage,3,194.95,Cash,Kanyon
+I101445,C201445,Female,Clothing,3,778.49,Cash,Metrocity
+I101446,C201446,Female,Books,3,171.25,Cash,Istinye Park
+I101447,C201447,Female,Food & Beverage,3,98.98,Cash,Istinye Park
+I101448,C201448,Male,Cosmetics,2,309.3,Credit Card,Kanyon
+I101449,C201449,Male,Toys,2,377.99,Cash,Metrocity
+I101450,C201450,Male,Cosmetics,1,364.89,Cash,Metrocity
+I101451,C201451,Female,Books,2,140.78,Cash,Metrocity
+I101452,C201452,Male,Clothing,2,830.63,Credit Card,Metrocity
+I101453,C201453,Male,Cosmetics,2,329.55,Credit Card,Mall of Istanbul
+I101454,C201454,Male,Technology,3,3494.48,Credit Card,Istinye Park
+I101455,C201455,Male,Cosmetics,2,224.76,Cash,Metrocity
+I101456,C201456,Female,Cosmetics,1,258.63,Cash,Mall of Istanbul
+I101457,C201457,Female,Technology,2,3535.6,Credit Card,Mall of Istanbul
+I101458,C201458,Female,Toys,3,415.37,Credit Card,Istinye Park
+I101459,C201459,Female,Books,2,109.25,Cash,Cevahir AVM
+I101460,C201460,Female,Food & Beverage,4,102.19,Credit Card,Kanyon
+I101461,C201461,Female,Shoes,1,1210.48,Credit Card,Istinye Park
+I101462,C201462,Male,Books,2,179.14,Cash,Cevahir AVM
+I101463,C201463,Female,Clothing,1,891.01,Credit Card,Kanyon
+I101464,C201464,Male,Books,3,35.86,Cash,Kanyon
+I101465,C201465,Female,Books,1,210.53,Credit Card,Kanyon
+I101466,C201466,Male,Toys,4,410.86,Credit Card,Mall of Istanbul
+I101467,C201467,Female,Shoes,4,1148.49,Cash,Metrocity
+I101468,C201468,Female,Shoes,1,1208.24,Credit Card,Kanyon
+I101469,C201469,Female,Shoes,3,1272.32,Cash,Metrocity
+I101470,C201470,Female,Food & Beverage,1,187.28,Credit Card,Kanyon
+I101471,C201471,Male,Books,2,98.94,Credit Card,Mall of Istanbul
+I101472,C201472,Male,Toys,2,357.57,Cash,Kanyon
+I101473,C201473,Female,Clothing,1,735.35,Cash,Istinye Park
+I101474,C201474,Female,Shoes,2,1211.65,Credit Card,Cevahir AVM
+I101475,C201475,Male,Technology,2,3514.12,Cash,Kanyon
+I101476,C201476,Female,Shoes,3,1249.37,Cash,Cevahir AVM
+I101477,C201477,Female,Technology,1,3522.07,Cash,Cevahir AVM
+I101478,C201478,Male,Books,2,194.67,Cash,Mall of Istanbul
+I101479,C201479,Male,Clothing,1,730.65,Credit Card,Cevahir AVM
+I101480,C201480,Male,Toys,1,487.64,Credit Card,Mall of Istanbul
+I101481,C201481,Male,Shoes,2,1264.86,Cash,Kanyon
+I101482,C201482,Female,Books,3,123.54,Credit Card,Metrocity
+I101483,C201483,Female,Cosmetics,3,260.64,Credit Card,Mall of Istanbul
+I101484,C201484,Female,Toys,4,437.31,Credit Card,Cevahir AVM
+I101485,C201485,Female,Technology,1,3421.92,Credit Card,Cevahir AVM
+I101486,C201486,Male,Food & Beverage,4,63.24,Credit Card,Kanyon
+I101487,C201487,Female,Toys,3,348.61,Credit Card,Mall of Istanbul
+I101488,C201488,Female,Books,2,145.16,Cash,Kanyon
+I101489,C201489,Male,Shoes,2,1177.8,Credit Card,Mall of Istanbul
+I101490,C201490,Female,Toys,3,360.73,Credit Card,Metrocity
+I101491,C201491,Male,Clothing,3,755.82,Cash,Istinye Park
+I101492,C201492,Male,Technology,1,3468.05,Cash,Kanyon
+I101493,C201493,Male,Cosmetics,4,240.5,Credit Card,Cevahir AVM
+I101494,C201494,Male,Clothing,4,827.13,Credit Card,Kanyon
+I101495,C201495,Male,Clothing,3,856.31,Credit Card,Mall of Istanbul
+I101496,C201496,Female,Clothing,1,820.08,Credit Card,Kanyon
+I101497,C201497,Female,Books,2,219.14,Cash,Metrocity
+I101498,C201498,Female,Books,3,107.97,Cash,Mall of Istanbul
+I101499,C201499,Male,Toys,4,362.57,Cash,Cevahir AVM

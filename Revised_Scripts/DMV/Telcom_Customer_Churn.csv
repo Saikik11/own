@@ -1,0 +1,1001 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,InternetService,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+0000-ABCD,Male,0,Yes,No,52,Yes,No,Month-to-month,Yes,Bank transfer,97.01,5083.16,No
+0001-ABCD,Female,0,No,No,15,Yes,DSL,Month-to-month,Yes,Electronic check,94.72,1408.12,No
+0002-ABCD,Male,1,Yes,Yes,61,Yes,DSL,Two year,Yes,Electronic check,55.75, ,No
+0003-ABCD,Male,0,No,No,21,Yes,DSL,Two year,No,Electronic check,80.13, ,No
+0004-ABCD,Male,0,No,Yes,24,Yes,No,One year,Yes,Bank transfer,38.45,944.4,No
+0005-ABCD,Female,0,No,Yes,3,Yes,Fiber optic,One year,No,Credit card,46.38,182.54,Yes
+0006-ABCD,Female,1,Yes,No,22,Yes,No,One year,Yes,Mailed check,100.67,2199.3,No
+0007-ABCD,Male,0,Yes,Yes,53,Yes,Fiber optic,Month-to-month,No,Electronic check,21.17,1088.7,No
+0008-ABCD,Male,1,Yes,Yes,2,Yes,Fiber optic,One year,Yes,Credit card,27.7,63.74,Yes
+0009-ABCD,Female,0,Yes,Yes,30,Yes,Fiber optic,Month-to-month,No,Mailed check,38.71,1204.94,Yes
+0010-ABCD,Female,0,Yes,No,38,Yes,No,Month-to-month,No,Electronic check,22.39, ,No
+0011-ABCD,Female,0,Yes,No,2,Yes,DSL,One year,Yes,Mailed check,36.33,39.47,Yes
+0012-ABCD,Male,0,No,No,64,Yes,DSL,One year,Yes,Mailed check,72.47,4624.45,No
+0013-ABCD,Female,1,Yes,No,60,Yes,DSL,Month-to-month,No,Credit card,57.93,3451.19,No
+0014-ABCD,Female,0,No,Yes,21,Yes,DSL,Two year,Yes,Mailed check,100.34,2082.62,No
+0015-ABCD,Male,0,Yes,No,33,Yes,DSL,Two year,Yes,Electronic check,93.57,3024.99,No
+0016-ABCD,Male,0,Yes,No,58,Yes,No,Month-to-month,Yes,Credit card,50.76,2961.75,No
+0017-ABCD,Male,0,Yes,No,22,Yes,No,One year,No,Bank transfer,43.35, ,No
+0018-ABCD,Female,0,No,Yes,49,Yes,No,Month-to-month,Yes,Bank transfer,54.17,2603.36,No
+0019-ABCD,Male,0,Yes,No,59,Yes,No,Month-to-month,No,Credit card,73.13,4358.39,Yes
+0020-ABCD,Male,1,Yes,No,42,Yes,No,One year,No,Bank transfer,44.13,1903.89,Yes
+0021-ABCD,Male,0,No,Yes,60,Yes,No,Two year,Yes,Mailed check,76.17,4547.67,No
+0022-ABCD,Male,0,No,Yes,15,Yes,No,Month-to-month,No,Electronic check,56.85,887.75,Yes
+0023-ABCD,Female,0,No,Yes,62,Yes,DSL,Two year,Yes,Mailed check,69.68,4302.97,Yes
+0024-ABCD,Male,0,No,Yes,62,Yes,Fiber optic,Two year,Yes,Credit card,59.25,3678.93,No
+0025-ABCD,Female,0,Yes,No,47,Yes,No,One year,No,Electronic check,46.5,2160.43,No
+0026-ABCD,Female,1,No,Yes,62,Yes,Fiber optic,Month-to-month,No,Credit card,105.36,6598.75,No
+0027-ABCD,Female,0,Yes,No,51,Yes,No,Month-to-month,No,Credit card,88.72,4515.84,Yes
+0028-ABCD,Male,0,Yes,No,55,Yes,No,Two year,No,Credit card,32.61,1797.34,Yes
+0029-ABCD,Female,0,No,No,64,Yes,DSL,Two year,No,Mailed check,98.16,6261.6,No
+0030-ABCD,Male,1,Yes,No,3,Yes,Fiber optic,One year,Yes,Electronic check,63.87,247.45,Yes
+0031-ABCD,Male,0,No,No,51,Yes,DSL,Two year,No,Electronic check,100.51,5182.61,No
+0032-ABCD,Male,0,Yes,Yes,7,Yes,DSL,One year,Yes,Electronic check,91.99,692.86,No
+0033-ABCD,Female,0,No,No,21,Yes,Fiber optic,Month-to-month,Yes,Mailed check,58.27,1252.36,No
+0034-ABCD,Male,0,No,No,39,Yes,DSL,One year,No,Bank transfer,22.02, ,Yes
+0035-ABCD,Male,0,No,No,18,Yes,No,Two year,No,Mailed check,44.18,820.08,No
+0036-ABCD,Male,0,No,Yes,4,Yes,No,Month-to-month,No,Mailed check,68.75,274.79,Yes
+0037-ABCD,Female,0,No,No,60,No,No,One year,No,Credit card,77.01,4659.97,Yes
+0038-ABCD,Female,0,No,No,14,Yes,No,Month-to-month,No,Electronic check,43.21,638.42,Yes
+0039-ABCD,Female,0,Yes,Yes,9,Yes,No,One year,Yes,Electronic check,32.54,273.38,No
+0040-ABCD,Male,0,Yes,No,53,No,DSL,Two year,Yes,Bank transfer,95.14,5070.85,No
+0041-ABCD,Female,0,Yes,No,2,Yes,DSL,Two year,Yes,Bank transfer,108.6,237.66,Yes
+0042-ABCD,Male,0,No,Yes,60,Yes,No,Month-to-month,No,Credit card,67.31,3955.39,No
+0043-ABCD,Male,0,Yes,No,71,Yes,No,Month-to-month,No,Electronic check,35.45,2540.98,No
+0044-ABCD,Female,0,No,No,44,Yes,DSL,Month-to-month,Yes,Bank transfer,44.51,1945.49,No
+0045-ABCD,Male,0,Yes,No,8,Yes,Fiber optic,One year,No,Bank transfer,21.66,146.7,No
+0046-ABCD,Female,0,Yes,No,47,Yes,DSL,Two year,No,Electronic check,102.29,4782.33,No
+0047-ABCD,Male,0,No,No,35,Yes,DSL,Month-to-month,No,Mailed check,30.6,1066.94,No
+0048-ABCD,Female,1,Yes,Yes,36,Yes,DSL,Month-to-month,Yes,Bank transfer,71.89,2602.44,No
+0049-ABCD,Male,0,Yes,Yes,50,Yes,DSL,Month-to-month,No,Electronic check,44.66,2192.04,No
+0050-ABCD,Male,1,Yes,Yes,4,Yes,DSL,One year,Yes,Bank transfer,69.88,285.22,Yes
+0051-ABCD,Male,0,No,No,2,Yes,Fiber optic,Month-to-month,No,Credit card,78.63,174.56,Yes
+0052-ABCD,Male,0,Yes,No,6,Yes,No,Month-to-month,No,Bank transfer,94.68,623.93,No
+0053-ABCD,Male,0,No,No,54,Yes,No,One year,Yes,Electronic check,38.58,2051.02,No
+0054-ABCD,Female,0,Yes,Yes,4,Yes,Fiber optic,One year,No,Bank transfer,20.99,73.47,Yes
+0055-ABCD,Male,0,Yes,No,54,Yes,No,Month-to-month,No,Credit card,32.32,1753.13,No
+0056-ABCD,Female,0,Yes,No,63,Yes,No,Month-to-month,No,Credit card,101.0,6397.42,Yes
+0057-ABCD,Female,1,Yes,No,18,Yes,No,One year,Yes,Bank transfer,98.65,1766.57,No
+0058-ABCD,Female,1,No,Yes,44,Yes,Fiber optic,Two year,No,Bank transfer,73.77,3281.84,No
+0059-ABCD,Male,0,Yes,Yes,34,No,Fiber optic,One year,No,Credit card,74.05,2459.58,No
+0060-ABCD,Male,0,No,No,62,Yes,No,Two year,No,Credit card,79.85,4913.1,No
+0061-ABCD,Male,0,No,No,14,Yes,No,Month-to-month,No,Mailed check,35.78,511.38,No
+0062-ABCD,Female,0,Yes,No,48,Yes,No,Month-to-month,No,Mailed check,102.3,4868.08,No
+0063-ABCD,Male,0,Yes,Yes,15,No,DSL,Two year,Yes,Credit card,57.69,830.12,No
+0064-ABCD,Male,1,No,Yes,62,Yes,DSL,One year,Yes,Bank transfer,54.48,3361.93,No
+0065-ABCD,Female,0,No,Yes,40,Yes,DSL,Month-to-month,No,Electronic check,66.7,2691.14,No
+0066-ABCD,Female,0,Yes,No,53,Yes,Fiber optic,Two year,No,Bank transfer,24.23,1227.31,No
+0067-ABCD,Female,0,Yes,Yes,24,No,No,One year,Yes,Bank transfer,34.97,844.39,No
+0068-ABCD,Female,0,Yes,No,26,Yes,Fiber optic,Two year,No,Mailed check,86.42,2277.91,Yes
+0069-ABCD,Female,0,Yes,No,60,Yes,Fiber optic,One year,No,Mailed check,27.45,1641.15,No
+0070-ABCD,Female,0,Yes,Yes,41,No,Fiber optic,One year,No,Mailed check,74.28,3034.42,No
+0071-ABCD,Male,0,No,No,29,Yes,No,One year,No,Credit card,42.08,1232.37,No
+0072-ABCD,Female,0,Yes,Yes,15,Yes,DSL,One year,No,Credit card,55.04,819.84,No
+0073-ABCD,Male,0,Yes,No,45,Yes,No,Two year,No,Bank transfer,45.98,2110.81,No
+0074-ABCD,Male,1,No,No,65,Yes,No,Two year,No,Bank transfer,52.01,3347.31,No
+0075-ABCD,Male,0,Yes,Yes,71,Yes,Fiber optic,Two year,No,Electronic check,84.71,6012.86,No
+0076-ABCD,Female,0,Yes,No,9,No,Fiber optic,Two year,Yes,Bank transfer,46.74,426.83,No
+0077-ABCD,Male,0,No,No,1,Yes,Fiber optic,Two year,Yes,Bank transfer,70.98,70.98,Yes
+0078-ABCD,Female,0,Yes,No,8,Yes,DSL,One year,No,Mailed check,62.84,416.58,No
+0079-ABCD,Female,0,No,No,63,No,DSL,Month-to-month,No,Mailed check,79.73,5018.16,Yes
+0080-ABCD,Male,0,Yes,No,11,Yes,DSL,Month-to-month,No,Mailed check,104.31,1174.42,No
+0081-ABCD,Female,0,Yes,No,8,Yes,No,Two year,No,Mailed check,85.93,710.78,No
+0082-ABCD,Male,0,Yes,No,35,Yes,Fiber optic,Two year,Yes,Mailed check,39.34,1387.54,No
+0083-ABCD,Male,0,No,No,35,Yes,No,Month-to-month,Yes,Electronic check,22.81,765.41,No
+0084-ABCD,Female,0,No,Yes,33,Yes,DSL,One year,Yes,Electronic check,43.6,1450.66,No
+0085-ABCD,Male,1,No,Yes,5,Yes,Fiber optic,Two year,Yes,Electronic check,73.56,350.6,Yes
+0086-ABCD,Male,1,No,No,41,Yes,DSL,One year,No,Mailed check,24.63,1020.43,No
+0087-ABCD,Male,0,Yes,No,28,Yes,Fiber optic,Month-to-month,No,Credit card,64.67,1814.41,No
+0088-ABCD,Female,0,No,Yes,7,Yes,Fiber optic,Month-to-month,No,Mailed check,73.72,486.75,No
+0089-ABCD,Male,0,No,No,12,No,No,Two year,Yes,Mailed check,50.08,574.19,No
+0090-ABCD,Female,1,No,Yes,34,Yes,No,One year,No,Electronic check,89.38,3049.57,Yes
+0091-ABCD,Female,0,Yes,Yes,33,Yes,DSL,Two year,No,Mailed check,29.59,969.84,No
+0092-ABCD,Male,1,Yes,Yes,48,Yes,No,Month-to-month,Yes,Electronic check,26.76,1259.27,No
+0093-ABCD,Male,0,No,No,23,Yes,No,One year,Yes,Mailed check,85.54,1939.74,No
+0094-ABCD,Female,0,No,No,62,Yes,No,Two year,Yes,Bank transfer,64.59,3995.47,No
+0095-ABCD,Female,0,Yes,No,37,Yes,Fiber optic,Two year,Yes,Credit card,81.96,3079.56,Yes
+0096-ABCD,Male,1,No,Yes,44,No,No,Two year,Yes,Credit card,59.13,2585.94,No
+0097-ABCD,Male,1,No,Yes,35,No,DSL,Month-to-month,No,Electronic check,42.18,1475.88,No
+0098-ABCD,Female,0,No,Yes,65,Yes,Fiber optic,Two year,No,Bank transfer,93.72,6094.85,No
+0099-ABCD,Female,0,No,No,47,Yes,Fiber optic,One year,Yes,Credit card,91.95,4287.72,No
+0100-ABCD,Female,0,Yes,Yes,3,Yes,No,Two year,No,Electronic check,82.52,194.68,Yes
+0101-ABCD,Female,0,Yes,Yes,1,Yes,Fiber optic,Month-to-month,No,Mailed check,44.49,44.49,Yes
+0102-ABCD,Female,0,Yes,No,5,Yes,DSL,Two year,No,Mailed check,73.12,373.01,Yes
+0103-ABCD,Male,0,No,Yes,14,Yes,DSL,Month-to-month,No,Bank transfer,52.49,737.48,Yes
+0104-ABCD,Female,0,No,Yes,27,Yes,Fiber optic,Month-to-month,Yes,Credit card,28.24,783.55,No
+0105-ABCD,Female,0,Yes,No,9,Yes,No,One year,No,Mailed check,102.56,925.94,Yes
+0106-ABCD,Male,0,Yes,No,15,Yes,No,One year,No,Electronic check,32.31,481.36,Yes
+0107-ABCD,Male,0,Yes,Yes,42,Yes,Fiber optic,Two year,No,Mailed check,105.52,4413.72,Yes
+0108-ABCD,Female,0,No,No,51,Yes,DSL,Month-to-month,Yes,Mailed check,60.14,3093.68,No
+0109-ABCD,Female,0,Yes,Yes,63,No,Fiber optic,Month-to-month,No,Credit card,36.66,2282.0,No
+0110-ABCD,Male,0,No,No,52,Yes,No,One year,Yes,Credit card,68.77,3542.73,Yes
+0111-ABCD,Female,0,No,Yes,4,Yes,No,One year,Yes,Electronic check,98.57,411.29,Yes
+0112-ABCD,Female,0,Yes,No,23,Yes,Fiber optic,Two year,Yes,Bank transfer,85.9,1935.71,No
+0113-ABCD,Male,0,Yes,Yes,15,Yes,DSL,Month-to-month,Yes,Bank transfer,92.59,1461.29,Yes
+0114-ABCD,Female,0,No,No,43,Yes,Fiber optic,One year,No,Mailed check,79.29,3411.87,Yes
+0115-ABCD,Male,0,Yes,No,29,Yes,DSL,Two year,Yes,Electronic check,82.3,2397.14,No
+0116-ABCD,Male,0,Yes,No,36,Yes,DSL,Month-to-month,Yes,Bank transfer,96.43,3447.23,No
+0117-ABCD,Male,1,No,No,13,No,Fiber optic,Month-to-month,Yes,Bank transfer,42.47,542.65,No
+0118-ABCD,Male,1,No,No,32,Yes,Fiber optic,One year,Yes,Mailed check,64.05,2036.8,Yes
+0119-ABCD,Female,0,No,No,71,Yes,DSL,Two year,Yes,Electronic check,39.91,2817.35,Yes
+0120-ABCD,Male,0,No,No,59,Yes,DSL,One year,No,Bank transfer,108.89,6443.5,No
+0121-ABCD,Female,0,No,Yes,28,Yes,DSL,Two year,Yes,Credit card,104.97,2925.67,No
+0122-ABCD,Female,1,Yes,Yes,66,Yes,DSL,Month-to-month,No,Credit card,23.55, ,Yes
+0123-ABCD,Female,0,No,No,42,Yes,No,Two year,No,Mailed check,83.5,3586.9,No
+0124-ABCD,Female,0,No,No,45,Yes,Fiber optic,Two year,Yes,Mailed check,103.27,4638.28,No
+0125-ABCD,Female,0,No,Yes,62,Yes,DSL,Two year,No,Mailed check,36.25,2252.07,Yes
+0126-ABCD,Male,0,Yes,Yes,57,Yes,Fiber optic,Two year,No,Mailed check,71.12,4065.22,No
+0127-ABCD,Male,0,No,No,6,No,DSL,Two year,No,Bank transfer,102.39,668.69,No
+0128-ABCD,Male,0,No,Yes,28,Yes,Fiber optic,One year,Yes,Electronic check,23.06,643.2,No
+0129-ABCD,Male,0,No,Yes,28,Yes,Fiber optic,Two year,Yes,Mailed check,82.77,2292.69,No
+0130-ABCD,Female,0,Yes,No,44,Yes,DSL,Two year,Yes,Mailed check,46.76,2019.45,Yes
+0131-ABCD,Male,0,No,No,30,Yes,DSL,Month-to-month,Yes,Bank transfer,103.2,3094.26,No
+0132-ABCD,Female,0,No,No,62,Yes,Fiber optic,Two year,Yes,Mailed check,107.4,6645.35,Yes
+0133-ABCD,Female,1,No,Yes,62,Yes,Fiber optic,Month-to-month,Yes,Mailed check,104.98,6569.06,No
+0134-ABCD,Male,0,Yes,No,1,Yes,Fiber optic,One year,Yes,Electronic check,62.68,115.78,Yes
+0135-ABCD,Male,0,Yes,No,27,Yes,No,One year,No,Credit card,97.58,2603.63,No
+0136-ABCD,Male,0,Yes,Yes,62,Yes,DSL,Two year,No,Mailed check,96.01,5931.3,No
+0137-ABCD,Male,0,Yes,No,3,Yes,No,One year,Yes,Bank transfer,48.72,148.37,Yes
+0138-ABCD,Female,1,No,Yes,70,Yes,No,Two year,No,Electronic check,94.6,6663.92,No
+0139-ABCD,Female,0,No,Yes,27,Yes,DSL,One year,Yes,Bank transfer,23.33,631.62,No
+0140-ABCD,Male,1,Yes,Yes,9,Yes,DSL,Two year,Yes,Electronic check,73.66,643.52,No
+0141-ABCD,Female,0,Yes,Yes,62,Yes,No,Two year,Yes,Electronic check,40.7,2521.63,Yes
+0142-ABCD,Female,1,No,Yes,37,Yes,DSL,Month-to-month,No,Mailed check,30.85,1122.6,No
+0143-ABCD,Female,0,No,Yes,51,Yes,Fiber optic,Month-to-month,Yes,Mailed check,26.93,1391.5,No
+0144-ABCD,Male,0,Yes,No,44,Yes,Fiber optic,Month-to-month,Yes,Mailed check,82.67,3616.21,No
+0145-ABCD,Female,0,Yes,No,24,Yes,No,Month-to-month,Yes,Credit card,50.59,1198.85,No
+0146-ABCD,Male,1,Yes,No,59,Yes,No,Two year,Yes,Credit card,85.23,5063.43,No
+0147-ABCD,Male,1,Yes,Yes,32,Yes,DSL,One year,No,Bank transfer,25.88,805.11,No
+0148-ABCD,Female,0,No,No,52,No,DSL,Two year,Yes,Mailed check,48.38,2472.38,No
+0149-ABCD,Female,1,Yes,Yes,62,Yes,No,Month-to-month,No,Credit card,68.55,4252.95,Yes
+0150-ABCD,Male,0,Yes,No,58,Yes,No,Month-to-month,No,Mailed check,91.17,5277.05,Yes
+0151-ABCD,Female,0,No,Yes,52,Yes,Fiber optic,One year,Yes,Credit card,48.69,2547.22,No
+0152-ABCD,Female,0,No,No,12,Yes,Fiber optic,Month-to-month,Yes,Credit card,76.33,925.48,No
+0153-ABCD,Male,0,No,Yes,39,No,DSL,Two year,No,Electronic check,99.74,3888.9,Yes
+0154-ABCD,Male,0,No,No,2,No,Fiber optic,Two year,No,Mailed check,75.43,149.03,Yes
+0155-ABCD,Male,0,No,Yes,3,Yes,DSL,Two year,No,Mailed check,40.97,100.83,Yes
+0156-ABCD,Male,0,Yes,No,56,Yes,DSL,Two year,No,Credit card,22.2,1245.7,Yes
+0157-ABCD,Female,0,Yes,Yes,59,Yes,DSL,Two year,Yes,Mailed check,98.31,5826.73,Yes
+0158-ABCD,Female,0,Yes,No,2,Yes,Fiber optic,One year,No,Credit card,21.91,21.91,Yes
+0159-ABCD,Male,0,No,No,2,Yes,No,Two year,No,Mailed check,98.72,197.28,Yes
+0160-ABCD,Male,0,Yes,No,54,Yes,No,Month-to-month,No,Electronic check,67.6,3681.55,No
+0161-ABCD,Male,0,No,Yes,1,No,Fiber optic,Month-to-month,No,Mailed check,104.52,119.68,Yes
+0162-ABCD,Female,0,Yes,Yes,19,Yes,No,Month-to-month,Yes,Electronic check,91.89,1785.19,Yes
+0163-ABCD,Male,0,Yes,Yes,2,Yes,DSL,Month-to-month,Yes,Bank transfer,109.81,202.58,Yes
+0164-ABCD,Female,0,No,Yes,53,No,No,One year,Yes,Mailed check,51.56,2677.76,No
+0165-ABCD,Male,0,No,Yes,44,No,Fiber optic,Month-to-month,No,Mailed check,89.05,3924.22,Yes
+0166-ABCD,Male,0,Yes,No,32,Yes,No,One year,No,Mailed check,56.17,1808.32,Yes
+0167-ABCD,Male,0,Yes,Yes,70,Yes,DSL,Month-to-month,Yes,Electronic check,63.19,4464.35,Yes
+0168-ABCD,Female,0,Yes,No,32,Yes,DSL,One year,Yes,Mailed check,76.48,2483.0,Yes
+0169-ABCD,Female,0,Yes,No,68,Yes,Fiber optic,One year,No,Mailed check,98.63,6722.94,No
+0170-ABCD,Female,0,Yes,Yes,55,No,Fiber optic,One year,Yes,Credit card,108.57,5994.31,No
+0171-ABCD,Male,1,No,No,56,No,Fiber optic,Month-to-month,No,Bank transfer,89.14,4986.09,Yes
+0172-ABCD,Female,1,No,Yes,17,Yes,DSL,One year,No,Electronic check,57.6,942.63,No
+0173-ABCD,Female,0,No,Yes,38,Yes,No,Two year,No,Credit card,57.92,2204.49,No
+0174-ABCD,Male,0,No,Yes,24,Yes,No,Two year,No,Electronic check,86.38,2102.6,No
+0175-ABCD,Male,0,Yes,No,69,No,Fiber optic,Month-to-month,No,Credit card,41.49,2882.5,No
+0176-ABCD,Female,0,Yes,Yes,70,Yes,No,Two year,No,Bank transfer,29.94,2120.81,No
+0177-ABCD,Female,1,No,Yes,11,Yes,No,Two year,Yes,Credit card,51.92,558.29,No
+0178-ABCD,Female,0,Yes,Yes,16,Yes,Fiber optic,Two year,Yes,Electronic check,45.85,725.63,No
+0179-ABCD,Female,0,No,No,59,Yes,Fiber optic,Month-to-month,Yes,Mailed check,46.67, ,No
+0180-ABCD,Male,0,Yes,Yes,70,Yes,DSL,Month-to-month,No,Mailed check,41.02,2855.0,No
+0181-ABCD,Male,1,Yes,No,3,Yes,DSL,Two year,Yes,Bank transfer,23.79,55.9,Yes
+0182-ABCD,Male,0,Yes,No,20,No,DSL,Month-to-month,No,Electronic check,21.61,441.14,No
+0183-ABCD,Female,0,No,Yes,59,No,DSL,One year,No,Electronic check,108.9,6447.93,Yes
+0184-ABCD,Female,0,No,No,36,Yes,No,Two year,No,Electronic check,58.5,2100.01,No
+0185-ABCD,Male,0,No,No,19,Yes,No,Month-to-month,No,Bank transfer,54.59,1002.31,No
+0186-ABCD,Male,0,No,Yes,67,Yes,DSL,Month-to-month,Yes,Mailed check,81.17,5416.32,No
+0187-ABCD,Female,0,Yes,Yes,19,Yes,DSL,Two year,Yes,Credit card,39.64,759.27,No
+0188-ABCD,Female,1,Yes,Yes,20,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,105.5,2115.75,No
+0189-ABCD,Male,1,Yes,No,71,No,No,Two year,No,Credit card,90.77,6451.91,Yes
+0190-ABCD,Male,1,Yes,Yes,52,Yes,No,Month-to-month,Yes,Mailed check,28.05,1474.24,No
+0191-ABCD,Male,0,No,No,33,Yes,DSL,One year,Yes,Bank transfer,57.58,1900.31,Yes
+0192-ABCD,Female,0,Yes,No,40,No,No,Two year,Yes,Mailed check,99.12,3972.75,No
+0193-ABCD,Female,0,Yes,No,39,No,Fiber optic,One year,No,Credit card,105.03,4094.82,No
+0194-ABCD,Female,0,Yes,No,1,Yes,Fiber optic,Two year,Yes,Electronic check,62.07,96.53,Yes
+0195-ABCD,Female,0,No,No,11,Yes,No,Month-to-month,No,Electronic check,75.21,870.28,Yes
+0196-ABCD,Female,0,No,Yes,57,Yes,DSL,One year,Yes,Credit card,35.03,1961.04,No
+0197-ABCD,Female,0,No,Yes,50,Yes,No,Month-to-month,No,Electronic check,109.21,5452.84,No
+0198-ABCD,Male,0,Yes,No,23,Yes,Fiber optic,Two year,Yes,Credit card,40.85,940.53,No
+0199-ABCD,Male,0,No,No,31,Yes,DSL,Two year,Yes,Bank transfer,104.85,3242.34,No
+0200-ABCD,Female,0,Yes,Yes,42,No,No,Two year,Yes,Bank transfer,78.47,3349.53,No
+0201-ABCD,Male,0,Yes,Yes,7,Yes,DSL,Two year,No,Bank transfer,74.7,529.62,No
+0202-ABCD,Female,0,Yes,No,16,Yes,DSL,Two year,Yes,Electronic check,66.14,1034.08,No
+0203-ABCD,Male,0,No,No,60,Yes,Fiber optic,One year,Yes,Mailed check,40.76,2463.49,No
+0204-ABCD,Female,0,No,Yes,2,Yes,DSL,Two year,No,Electronic check,35.89,79.91,Yes
+0205-ABCD,Male,0,Yes,Yes,1,Yes,No,Month-to-month,No,Electronic check,39.84,48.97,Yes
+0206-ABCD,Male,0,Yes,No,48,Yes,DSL,One year,No,Mailed check,36.78,1819.68,Yes
+0207-ABCD,Female,0,No,Yes,12,Yes,DSL,Month-to-month,No,Mailed check,90.16,1092.44,Yes
+0208-ABCD,Female,0,No,Yes,69,Yes,No,Two year,Yes,Mailed check,51.51,3545.08,No
+0209-ABCD,Male,0,No,No,37,Yes,Fiber optic,Month-to-month,Yes,Mailed check,25.21,874.11,No
+0210-ABCD,Male,0,Yes,No,32,Yes,Fiber optic,One year,No,Electronic check,107.22,3426.08,No
+0211-ABCD,Female,0,Yes,No,9,Yes,No,One year,Yes,Credit card,99.54, ,No
+0212-ABCD,Male,0,Yes,Yes,19,Yes,No,One year,No,Bank transfer,103.5,1963.76,No
+0213-ABCD,Female,0,No,No,48,Yes,Fiber optic,Month-to-month,Yes,Credit card,109.54,5190.72,No
+0214-ABCD,Female,0,No,Yes,3,Yes,DSL,One year,No,Electronic check,35.65,92.0,Yes
+0215-ABCD,Male,0,No,No,20,No,No,Month-to-month,Yes,Mailed check,55.66,1142.98,No
+0216-ABCD,Female,1,Yes,No,24,No,DSL,Two year,No,Bank transfer,88.24,2134.13,Yes
+0217-ABCD,Male,0,Yes,Yes,54,Yes,No,Two year,No,Bank transfer,82.64,4437.36,No
+0218-ABCD,Male,0,No,Yes,33,Yes,Fiber optic,Month-to-month,Yes,Credit card,33.85,1100.09,No
+0219-ABCD,Female,0,Yes,No,24,Yes,DSL,One year,Yes,Electronic check,93.42,2229.76,No
+0220-ABCD,Male,0,No,No,36,Yes,DSL,Month-to-month,Yes,Electronic check,40.2,1427.32,No
+0221-ABCD,Female,0,Yes,Yes,38,Yes,No,Month-to-month,No,Electronic check,40.14,1464.43,No
+0222-ABCD,Female,0,No,No,25,No,DSL,Month-to-month,Yes,Bank transfer,68.33,1731.16,Yes
+0223-ABCD,Female,0,Yes,Yes,18,No,No,Two year,No,Credit card,73.36,1358.19,Yes
+0224-ABCD,Male,0,Yes,Yes,66,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,72.21,4720.31,No
+0225-ABCD,Female,0,No,No,54,Yes,DSL,Two year,Yes,Bank transfer,28.23,1561.74,Yes
+0226-ABCD,Male,0,No,Yes,35,Yes,No,Month-to-month,No,Mailed check,98.97,3460.86,Yes
+0227-ABCD,Female,0,No,Yes,61,Yes,DSL,Two year,No,Credit card,43.9,2714.65,Yes
+0228-ABCD,Female,0,No,Yes,41,Yes,No,Month-to-month,Yes,Mailed check,31.66,1299.2,Yes
+0229-ABCD,Female,0,No,No,33,Yes,No,Month-to-month,No,Electronic check,99.99,3303.74,No
+0230-ABCD,Male,1,Yes,Yes,68,Yes,No,One year,No,Bank transfer,106.01,7219.85,No
+0231-ABCD,Male,0,No,No,33,Yes,Fiber optic,One year,Yes,Credit card,97.59,3196.77,No
+0232-ABCD,Female,0,No,No,14,Yes,DSL,Month-to-month,No,Electronic check,92.86,1335.88,No
+0233-ABCD,Female,0,No,No,21,Yes,Fiber optic,Month-to-month,Yes,Credit card,78.97,1624.73,Yes
+0234-ABCD,Male,0,Yes,Yes,48,Yes,No,Month-to-month,Yes,Bank transfer,69.58,3327.78,No
+0235-ABCD,Male,1,No,Yes,20,Yes,No,Month-to-month,No,Credit card,27.83,572.33,Yes
+0236-ABCD,Male,0,No,No,8,Yes,Fiber optic,One year,Yes,Electronic check,56.76, ,Yes
+0237-ABCD,Female,1,No,No,7,Yes,Fiber optic,Two year,No,Mailed check,53.54,398.11,Yes
+0238-ABCD,Male,0,Yes,Yes,67,Yes,DSL,Month-to-month,Yes,Bank transfer,43.38,2947.74,Yes
+0239-ABCD,Female,0,Yes,No,17,Yes,No,One year,No,Mailed check,85.11,1477.25,No
+0240-ABCD,Male,0,No,No,33,Yes,Fiber optic,Month-to-month,No,Bank transfer,64.63,2074.71,No
+0241-ABCD,Female,1,Yes,Yes,48,Yes,No,Month-to-month,No,Electronic check,27.29,1313.7,No
+0242-ABCD,Female,0,No,No,59,No,No,Two year,No,Bank transfer,39.82, ,No
+0243-ABCD,Female,0,Yes,Yes,22,Yes,DSL,Month-to-month,No,Mailed check,81.49,1753.28,No
+0244-ABCD,Male,0,No,Yes,30,Yes,DSL,Month-to-month,Yes,Bank transfer,26.85,827.21,No
+0245-ABCD,Male,0,Yes,No,38,Yes,DSL,Two year,Yes,Electronic check,96.61,3691.2,Yes
+0246-ABCD,Male,1,No,Yes,51,Yes,Fiber optic,Two year,No,Bank transfer,64.56,3256.2,No
+0247-ABCD,Female,0,No,Yes,54,Yes,No,Two year,Yes,Mailed check,63.25,3440.53,No
+0248-ABCD,Female,0,Yes,Yes,8,No,Fiber optic,Two year,No,Electronic check,73.32,594.74,No
+0249-ABCD,Male,0,No,No,27,Yes,Fiber optic,One year,No,Mailed check,94.22,2563.45,No
+0250-ABCD,Female,0,No,No,27,Yes,DSL,One year,Yes,Bank transfer,51.3,1356.11,No
+0251-ABCD,Female,1,No,No,21,No,No,One year,Yes,Credit card,81.02,1705.92,Yes
+0252-ABCD,Female,0,No,Yes,30,Yes,No,Month-to-month,No,Mailed check,70.92,2076.45,No
+0253-ABCD,Male,0,Yes,Yes,28,Yes,DSL,Two year,No,Bank transfer,44.03,1164.53,Yes
+0254-ABCD,Female,1,No,No,64,Yes,No,Two year,No,Credit card,99.08,6345.34,No
+0255-ABCD,Male,0,Yes,No,69,Yes,DSL,One year,No,Credit card,91.77,6365.15,Yes
+0256-ABCD,Male,0,Yes,Yes,61,Yes,Fiber optic,Month-to-month,No,Electronic check,79.26,4842.45,No
+0257-ABCD,Male,0,Yes,No,48,Yes,Fiber optic,Month-to-month,No,Credit card,96.55,4632.5,No
+0258-ABCD,Male,0,Yes,No,19,Yes,DSL,Month-to-month,Yes,Mailed check,98.06,1857.51,No
+0259-ABCD,Male,0,No,No,4,Yes,Fiber optic,One year,No,Mailed check,83.75,306.72,Yes
+0260-ABCD,Female,1,No,No,35,Yes,Fiber optic,Month-to-month,No,Credit card,95.33,3329.89,No
+0261-ABCD,Male,0,Yes,No,64,Yes,DSL,Month-to-month,Yes,Bank transfer,82.77,5309.93,No
+0262-ABCD,Male,0,No,Yes,49,Yes,Fiber optic,Month-to-month,No,Mailed check,81.21,3966.23,Yes
+0263-ABCD,Male,1,Yes,No,17,Yes,No,Two year,No,Mailed check,75.68,1309.08,Yes
+0264-ABCD,Female,0,No,No,44,Yes,Fiber optic,One year,Yes,Electronic check,87.74,3866.44,No
+0265-ABCD,Female,0,No,Yes,30,No,DSL,Two year,No,Bank transfer,34.27,1037.61,No
+0266-ABCD,Female,0,No,Yes,46,Yes,No,Two year,Yes,Credit card,99.28,4593.54,No
+0267-ABCD,Female,1,Yes,Yes,6,Yes,No,One year,No,Bank transfer,98.47,575.02,No
+0268-ABCD,Male,0,Yes,Yes,37,Yes,Fiber optic,Two year,Yes,Electronic check,22.63,857.09,No
+0269-ABCD,Male,0,No,No,24,Yes,No,Month-to-month,Yes,Electronic check,94.32,2252.09,Yes
+0270-ABCD,Female,0,Yes,No,46,Yes,DSL,Month-to-month,Yes,Bank transfer,31.6,1463.79,Yes
+0271-ABCD,Female,0,Yes,No,53,Yes,No,Month-to-month,No,Electronic check,50.16,2639.11,No
+0272-ABCD,Female,0,No,No,60,Yes,Fiber optic,Month-to-month,No,Electronic check,86.92,5187.88,No
+0273-ABCD,Female,1,Yes,Yes,63,Yes,Fiber optic,One year,Yes,Electronic check,34.47,2174.37,No
+0274-ABCD,Male,0,No,Yes,32,Yes,No,Two year,Yes,Bank transfer,93.62,2939.28,Yes
+0275-ABCD,Female,0,No,No,33,Yes,DSL,Two year,No,Electronic check,94.89,3122.48,Yes
+0276-ABCD,Female,1,No,No,67,Yes,DSL,Month-to-month,No,Credit card,65.67,4351.7,No
+0277-ABCD,Female,0,Yes,No,18,Yes,Fiber optic,Month-to-month,No,Credit card,20.57,393.64,Yes
+0278-ABCD,Female,0,No,No,25,Yes,Fiber optic,Two year,No,Mailed check,45.83, ,No
+0279-ABCD,Female,0,No,Yes,54,Yes,DSL,One year,No,Credit card,75.52,4052.16,No
+0280-ABCD,Female,1,Yes,No,58,Yes,No,Two year,Yes,Mailed check,108.31,6294.83,No
+0281-ABCD,Female,0,Yes,Yes,67,Yes,No,Month-to-month,No,Bank transfer,76.86,5176.59,No
+0282-ABCD,Male,0,Yes,Yes,46,Yes,No,Month-to-month,Yes,Electronic check,43.38,2022.55,No
+0283-ABCD,Male,0,Yes,Yes,24,Yes,No,One year,No,Credit card,77.06,1855.87,No
+0284-ABCD,Male,0,No,Yes,32,Yes,DSL,Two year,Yes,Mailed check,68.6,2217.23,No
+0285-ABCD,Male,0,Yes,No,47,Yes,Fiber optic,One year,Yes,Bank transfer,90.19,4219.45,Yes
+0286-ABCD,Male,0,Yes,No,23,Yes,Fiber optic,One year,No,Mailed check,29.63,683.98,No
+0287-ABCD,Male,0,Yes,No,66,Yes,No,Month-to-month,Yes,Electronic check,88.49,5826.33,No
+0288-ABCD,Female,0,Yes,No,27,Yes,DSL,Two year,Yes,Credit card,68.71,1833.16,No
+0289-ABCD,Female,0,No,Yes,2,Yes,DSL,Month-to-month,Yes,Bank transfer,106.67,214.42,Yes
+0290-ABCD,Male,0,Yes,Yes,17,No,No,Two year,Yes,Mailed check,50.77,873.52,No
+0291-ABCD,Female,0,No,Yes,33,Yes,No,Month-to-month,No,Bank transfer,76.94,2573.93,No
+0292-ABCD,Male,0,Yes,No,9,Yes,No,Month-to-month,Yes,Mailed check,103.88,942.87,No
+0293-ABCD,Female,0,No,Yes,43,No,Fiber optic,Two year,No,Mailed check,29.23,1276.15,No
+0294-ABCD,Female,0,No,Yes,48,Yes,No,Two year,Yes,Electronic check,104.35,5028.4,No
+0295-ABCD,Female,0,Yes,Yes,39,Yes,Fiber optic,Month-to-month,No,Electronic check,81.91,3275.12,No
+0296-ABCD,Female,0,No,Yes,42,Yes,DSL,Two year,No,Mailed check,26.11,1042.32,No
+0297-ABCD,Female,1,Yes,No,26,Yes,DSL,Month-to-month,No,Credit card,47.09,1203.7,No
+0298-ABCD,Female,0,No,Yes,50,Yes,Fiber optic,Two year,Yes,Bank transfer,83.74,4231.22,No
+0299-ABCD,Male,1,No,Yes,25,Yes,Fiber optic,Month-to-month,No,Bank transfer,26.06,640.94,Yes
+0300-ABCD,Male,0,No,No,24,Yes,Fiber optic,Month-to-month,No,Electronic check,72.4,1764.17,No
+0301-ABCD,Female,0,Yes,No,13,Yes,Fiber optic,Month-to-month,Yes,Credit card,51.13,671.59,No
+0302-ABCD,Male,1,No,No,60,Yes,No,One year,No,Mailed check,75.88,4615.96,Yes
+0303-ABCD,Female,0,Yes,Yes,7,Yes,DSL,Two year,Yes,Electronic check,24.12,135.45,No
+0304-ABCD,Male,0,No,Yes,57,Yes,No,Month-to-month,Yes,Mailed check,98.44,5647.73,No
+0305-ABCD,Female,0,No,Yes,36,Yes,Fiber optic,One year,No,Mailed check,107.61,3926.45,Yes
+0306-ABCD,Male,0,No,Yes,45,Yes,No,Month-to-month,Yes,Electronic check,107.2,4793.57,Yes
+0307-ABCD,Female,0,No,No,20,Yes,No,One year,Yes,Credit card,87.47,1772.89,Yes
+0308-ABCD,Male,0,No,Yes,65,Yes,DSL,Month-to-month,Yes,Bank transfer,31.71,2032.19,No
+0309-ABCD,Female,0,No,Yes,8,Yes,No,Month-to-month,No,Electronic check,88.24,706.82,No
+0310-ABCD,Male,0,Yes,No,16,Yes,DSL,One year,Yes,Credit card,22.21,347.66,No
+0311-ABCD,Female,1,Yes,No,14,Yes,Fiber optic,One year,Yes,Mailed check,21.99,235.78,No
+0312-ABCD,Female,0,Yes,No,15,Yes,No,Two year,Yes,Electronic check,49.12,749.53,No
+0313-ABCD,Female,0,No,Yes,66,No,Fiber optic,Two year,No,Bank transfer,63.98,4226.98,No
+0314-ABCD,Male,0,Yes,Yes,32,Yes,DSL,One year,Yes,Bank transfer,89.34,2903.25,Yes
+0315-ABCD,Male,0,No,Yes,63,Yes,Fiber optic,Two year,No,Mailed check,81.5,5152.83,No
+0316-ABCD,Male,0,Yes,Yes,51,Yes,Fiber optic,One year,Yes,Electronic check,60.13,3135.36,No
+0317-ABCD,Female,0,Yes,Yes,25,Yes,DSL,Two year,No,Bank transfer,44.63,1118.96,No
+0318-ABCD,Male,0,No,No,58,Yes,Fiber optic,Month-to-month,No,Electronic check,109.74,6361.75,No
+0319-ABCD,Female,0,No,No,63,Yes,Fiber optic,Two year,No,Bank transfer,58.36,3671.15,No
+0320-ABCD,Male,0,Yes,Yes,62,Yes,Fiber optic,Month-to-month,Yes,Mailed check,60.62,3745.25,No
+0321-ABCD,Male,1,Yes,Yes,22,No,No,Month-to-month,Yes,Mailed check,34.73,697.83,No
+0322-ABCD,Male,0,Yes,Yes,58,Yes,Fiber optic,Two year,Yes,Electronic check,91.53,5302.13,No
+0323-ABCD,Male,0,Yes,Yes,58,Yes,DSL,One year,No,Credit card,82.43,4718.9,Yes
+0324-ABCD,Female,0,No,Yes,49,Yes,No,Month-to-month,Yes,Credit card,39.87,1967.19,Yes
+0325-ABCD,Male,0,Yes,No,52,No,No,Month-to-month,Yes,Mailed check,27.41,1388.12,No
+0326-ABCD,Male,1,No,No,42,Yes,DSL,Two year,No,Bank transfer,81.24,3385.25,No
+0327-ABCD,Female,0,No,No,70,Yes,Fiber optic,One year,Yes,Credit card,78.91,5503.62,Yes
+0328-ABCD,Female,0,Yes,Yes,15,No,No,One year,Yes,Mailed check,44.59,662.7,Yes
+0329-ABCD,Male,0,No,Yes,54,Yes,No,Two year,No,Bank transfer,105.58,5701.53,No
+0330-ABCD,Male,0,Yes,No,60,Yes,No,One year,No,Bank transfer,33.6,2048.53,Yes
+0331-ABCD,Female,0,No,No,8,Yes,Fiber optic,Two year,Yes,Credit card,58.91,453.95,No
+0332-ABCD,Female,0,No,Yes,53,Yes,No,Two year,No,Mailed check,104.93,5575.69,Yes
+0333-ABCD,Female,1,Yes,No,60,Yes,DSL,Two year,Yes,Bank transfer,57.78,3548.73,Yes
+0334-ABCD,Male,0,No,No,5,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,77.47,398.67,Yes
+0335-ABCD,Male,1,No,Yes,68,Yes,DSL,Month-to-month,Yes,Electronic check,55.78,3787.63,Yes
+0336-ABCD,Male,0,Yes,No,6,Yes,DSL,Month-to-month,Yes,Electronic check,44.68,244.71,No
+0337-ABCD,Female,0,No,No,47,Yes,No,Two year,Yes,Credit card,108.56,5096.49,Yes
+0338-ABCD,Female,1,No,No,55,Yes,No,Month-to-month,No,Electronic check,56.84,3099.61,No
+0339-ABCD,Female,0,Yes,Yes,40,Yes,No,Month-to-month,No,Mailed check,100.47,4026.86,Yes
+0340-ABCD,Male,0,Yes,No,52,Yes,DSL,Month-to-month,Yes,Credit card,40.7,2119.51,No
+0341-ABCD,Female,0,No,No,16,Yes,Fiber optic,Two year,No,Credit card,39.18,562.01,No
+0342-ABCD,Male,0,No,No,13,Yes,No,Two year,No,Electronic check,22.8,295.84,No
+0343-ABCD,Female,0,No,Yes,30,Yes,No,Two year,Yes,Bank transfer,78.65,2391.78,Yes
+0344-ABCD,Male,0,Yes,Yes,19,Yes,DSL,Month-to-month,No,Mailed check,53.17,998.26,Yes
+0345-ABCD,Male,0,No,No,17,Yes,Fiber optic,One year,No,Mailed check,97.79,1642.84,Yes
+0346-ABCD,Female,0,No,Yes,63,Yes,DSL,Month-to-month,Yes,Mailed check,62.59,3901.84,Yes
+0347-ABCD,Male,0,No,No,19,Yes,No,Month-to-month,Yes,Credit card,107.14,1979.92,No
+0348-ABCD,Female,0,No,Yes,58,Yes,DSL,Two year,Yes,Mailed check,36.7,2153.54,No
+0349-ABCD,Male,0,No,Yes,55,Yes,No,Two year,Yes,Bank transfer,98.18,5394.46,No
+0350-ABCD,Female,1,No,No,62,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,89.89,5596.34,No
+0351-ABCD,Female,0,Yes,No,23,Yes,DSL,Month-to-month,Yes,Electronic check,89.38, ,No
+0352-ABCD,Male,0,Yes,No,9,Yes,No,One year,Yes,Mailed check,96.03,891.91,No
+0353-ABCD,Female,1,No,Yes,12,No,No,One year,No,Credit card,88.49,1045.61,No
+0354-ABCD,Male,0,No,No,1,Yes,No,Two year,Yes,Electronic check,76.36,80.71,Yes
+0355-ABCD,Female,1,Yes,Yes,58,Yes,No,One year,No,Bank transfer,31.81,1826.54,No
+0356-ABCD,Female,0,Yes,Yes,1,Yes,DSL,One year,No,Mailed check,22.93,22.93,Yes
+0357-ABCD,Female,0,Yes,No,34,Yes,No,Two year,Yes,Bank transfer,102.88,3508.2,Yes
+0358-ABCD,Female,0,No,Yes,48,No,DSL,One year,No,Electronic check,75.5,3599.03,Yes
+0359-ABCD,Male,0,No,No,1,Yes,No,Month-to-month,No,Bank transfer,91.69,91.69,Yes
+0360-ABCD,Female,0,No,Yes,16,Yes,DSL,One year,No,Mailed check,63.34,986.8,No
+0361-ABCD,Female,0,No,No,61,Yes,DSL,Two year,Yes,Mailed check,30.56,1854.95,No
+0362-ABCD,Male,0,Yes,Yes,64,Yes,No,Month-to-month,No,Electronic check,31.27,2046.92,Yes
+0363-ABCD,Male,0,Yes,Yes,63,Yes,No,One year,No,Mailed check,81.7,5132.37,No
+0364-ABCD,Male,0,Yes,No,69,Yes,No,Month-to-month,Yes,Bank transfer,58.73,4067.73,No
+0365-ABCD,Male,0,Yes,Yes,22,Yes,No,Month-to-month,No,Bank transfer,38.05,832.05,No
+0366-ABCD,Male,0,No,No,67,Yes,Fiber optic,One year,No,Credit card,64.24,4340.87,No
+0367-ABCD,Male,0,No,Yes,26,Yes,No,One year,No,Credit card,25.78,704.99,No
+0368-ABCD,Female,1,Yes,Yes,16,Yes,No,Two year,No,Credit card,72.38,1193.37,No
+0369-ABCD,Male,0,Yes,Yes,51,Yes,No,Two year,No,Bank transfer,44.21,2202.69,No
+0370-ABCD,Female,1,Yes,No,57,Yes,DSL,Month-to-month,Yes,Bank transfer,91.78,5237.66,No
+0371-ABCD,Male,0,Yes,No,29,Yes,No,Two year,No,Electronic check,47.93,1412.74,No
+0372-ABCD,Female,0,Yes,No,69,Yes,DSL,Month-to-month,Yes,Credit card,60.97,4218.38,Yes
+0373-ABCD,Female,0,No,No,47,Yes,DSL,Month-to-month,No,Bank transfer,21.05,1008.45,No
+0374-ABCD,Female,0,No,No,62,Yes,DSL,Two year,Yes,Electronic check,26.52,1645.99,No
+0375-ABCD,Male,0,Yes,Yes,69,No,DSL,Two year,Yes,Bank transfer,55.32,3794.74,Yes
+0376-ABCD,Male,0,Yes,Yes,16,Yes,Fiber optic,Two year,Yes,Electronic check,63.19,960.13,No
+0377-ABCD,Male,0,Yes,No,48,Yes,No,One year,No,Credit card,74.0,3532.63,No
+0378-ABCD,Male,0,No,Yes,39,Yes,DSL,Month-to-month,No,Credit card,46.25,1884.09,No
+0379-ABCD,Female,0,No,Yes,33,Yes,No,Month-to-month,No,Credit card,82.55,2709.58,No
+0380-ABCD,Male,0,No,Yes,23,Yes,DSL,Month-to-month,No,Bank transfer,97.41,2181.65,No
+0381-ABCD,Female,0,Yes,Yes,10,Yes,Fiber optic,Two year,No,Bank transfer,90.19,923.88,Yes
+0382-ABCD,Female,0,No,No,69,Yes,DSL,Two year,Yes,Electronic check,23.57,1651.99,No
+0383-ABCD,Male,0,Yes,Yes,34,No,No,Two year,Yes,Mailed check,63.25,2189.12,No
+0384-ABCD,Male,0,No,No,52,Yes,No,Two year,Yes,Mailed check,29.44,1545.01,No
+0385-ABCD,Male,0,No,No,10,Yes,Fiber optic,Two year,No,Credit card,41.78,443.17,No
+0386-ABCD,Female,0,No,Yes,19,Yes,No,One year,No,Mailed check,108.8,2122.41,No
+0387-ABCD,Male,0,Yes,No,58,Yes,No,Two year,Yes,Credit card,32.82,1881.2,No
+0388-ABCD,Female,0,Yes,Yes,1,Yes,DSL,Month-to-month,No,Electronic check,64.9,64.9,Yes
+0389-ABCD,Male,0,No,Yes,69,Yes,No,Two year,No,Mailed check,75.63,5185.63,No
+0390-ABCD,Female,0,Yes,Yes,4,No,DSL,Month-to-month,Yes,Mailed check,83.22,324.91,Yes
+0391-ABCD,Male,1,Yes,No,16,No,Fiber optic,Two year,Yes,Credit card,70.37,1168.92,No
+0392-ABCD,Male,1,Yes,No,24,Yes,No,Two year,No,Electronic check,20.88,516.96,Yes
+0393-ABCD,Female,0,Yes,No,2,Yes,DSL,Month-to-month,No,Mailed check,49.38,113.42,Yes
+0394-ABCD,Male,0,Yes,Yes,32,Yes,No,Month-to-month,Yes,Mailed check,66.59,2076.3,No
+0395-ABCD,Male,0,Yes,Yes,24,Yes,DSL,Month-to-month,No,Mailed check,27.91,649.04,No
+0396-ABCD,Male,0,Yes,Yes,12,Yes,Fiber optic,Month-to-month,Yes,Electronic check,51.56,563.65,Yes
+0397-ABCD,Male,0,No,No,50,Yes,DSL,One year,Yes,Electronic check,22.99,1184.64,No
+0398-ABCD,Male,0,Yes,Yes,35,Yes,No,Month-to-month,Yes,Mailed check,27.07,995.02,No
+0399-ABCD,Male,1,Yes,Yes,33,Yes,DSL,Two year,No,Credit card,55.72,1862.15,Yes
+0400-ABCD,Male,0,No,No,33,Yes,No,Two year,Yes,Credit card,31.94,1024.42,Yes
+0401-ABCD,Female,0,No,No,61,Yes,Fiber optic,One year,Yes,Mailed check,71.08,4380.34,No
+0402-ABCD,Female,0,No,No,51,Yes,DSL,Month-to-month,No,Electronic check,82.05,4176.95,No
+0403-ABCD,Male,0,No,Yes,43,Yes,No,Two year,Yes,Mailed check,92.05,3921.72,Yes
+0404-ABCD,Male,0,Yes,Yes,12,Yes,No,One year,No,Electronic check,38.01,427.19,Yes
+0405-ABCD,Male,1,No,Yes,67,Yes,No,Two year,No,Mailed check,35.07,2336.79,Yes
+0406-ABCD,Female,0,No,No,65,Yes,DSL,One year,No,Electronic check,29.41,1913.14,No
+0407-ABCD,Female,0,Yes,No,33,Yes,DSL,One year,Yes,Bank transfer,77.28,2545.4,No
+0408-ABCD,Male,0,Yes,No,40,Yes,DSL,Month-to-month,Yes,Credit card,83.58,3300.82,No
+0409-ABCD,Female,0,Yes,No,43,Yes,Fiber optic,One year,No,Bank transfer,22.84,1018.52,Yes
+0410-ABCD,Male,0,No,Yes,44,Yes,No,Two year,No,Credit card,104.26,4582.92,No
+0411-ABCD,Male,0,Yes,Yes,29,Yes,No,Two year,No,Electronic check,24.68,694.31,No
+0412-ABCD,Male,0,No,Yes,13,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,68.72,926.67,Yes
+0413-ABCD,Male,0,Yes,Yes,12,Yes,Fiber optic,Month-to-month,No,Credit card,83.82,970.34,No
+0414-ABCD,Female,0,Yes,Yes,46,Yes,DSL,One year,No,Mailed check,98.39,4477.07,Yes
+0415-ABCD,Female,0,No,Yes,2,Yes,DSL,Month-to-month,No,Electronic check,84.27,206.71,Yes
+0416-ABCD,Male,0,Yes,Yes,35,Yes,DSL,Two year,Yes,Electronic check,92.16,3282.34,No
+0417-ABCD,Female,0,Yes,Yes,8,Yes,DSL,Two year,No,Mailed check,50.55,390.54,No
+0418-ABCD,Female,0,Yes,No,26,Yes,DSL,Month-to-month,Yes,Mailed check,93.33,2425.2,Yes
+0419-ABCD,Male,0,Yes,No,34,Yes,DSL,Month-to-month,Yes,Credit card,27.21,890.74,No
+0420-ABCD,Female,0,Yes,Yes,7,Yes,Fiber optic,Month-to-month,No,Electronic check,100.53,703.87,No
+0421-ABCD,Male,0,No,No,68,Yes,Fiber optic,One year,No,Credit card,69.28,4696.77,Yes
+0422-ABCD,Male,0,No,Yes,58,No,Fiber optic,One year,No,Mailed check,93.56,5423.42,No
+0423-ABCD,Male,0,Yes,Yes,29,Yes,No,Two year,Yes,Electronic check,60.71,1772.87,No
+0424-ABCD,Male,0,No,No,36,Yes,No,One year,Yes,Mailed check,77.92,2772.18,No
+0425-ABCD,Female,0,No,Yes,21,Yes,DSL,One year,Yes,Credit card,67.38,1404.13,No
+0426-ABCD,Male,0,No,Yes,36,Yes,Fiber optic,One year,No,Credit card,85.84,3036.13,No
+0427-ABCD,Female,1,Yes,Yes,10,Yes,No,One year,Yes,Credit card,27.35,262.85,No
+0428-ABCD,Male,0,Yes,Yes,24,Yes,No,Two year,No,Electronic check,25.43,607.52,No
+0429-ABCD,Male,0,Yes,Yes,64,Yes,Fiber optic,Month-to-month,No,Mailed check,42.24,2710.23,No
+0430-ABCD,Female,0,No,Yes,49,Yes,No,Two year,No,Mailed check,34.36,1690.83,No
+0431-ABCD,Male,0,No,Yes,36,Yes,No,One year,Yes,Credit card,98.46,3571.68,No
+0432-ABCD,Female,0,Yes,No,24,Yes,Fiber optic,Month-to-month,Yes,Credit card,39.73,907.33,No
+0433-ABCD,Female,0,Yes,No,23,No,No,Month-to-month,Yes,Credit card,107.83,2435.5,No
+0434-ABCD,Male,0,No,Yes,62,Yes,Fiber optic,Month-to-month,No,Credit card,50.32,3135.71,No
+0435-ABCD,Male,0,No,No,37,Yes,No,Two year,Yes,Bank transfer,36.39,1285.26,No
+0436-ABCD,Male,0,Yes,Yes,12,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,91.07,1098.34,No
+0437-ABCD,Male,0,No,Yes,55,Yes,No,Two year,No,Bank transfer,79.28,4324.99,Yes
+0438-ABCD,Male,0,No,Yes,13,Yes,No,Two year,No,Credit card,64.84,890.1,No
+0439-ABCD,Male,0,No,Yes,23,Yes,Fiber optic,One year,Yes,Credit card,69.98,1617.05,Yes
+0440-ABCD,Female,1,No,No,30,Yes,No,One year,No,Mailed check,84.73,2535.33,Yes
+0441-ABCD,Female,1,No,No,17,Yes,Fiber optic,Month-to-month,Yes,Electronic check,40.56,726.35,No
+0442-ABCD,Male,1,No,No,62,No,Fiber optic,Month-to-month,No,Mailed check,109.67,6767.64,No
+0443-ABCD,Female,0,No,No,13,Yes,No,One year,No,Bank transfer,107.73,1374.29,No
+0444-ABCD,Female,0,Yes,Yes,59,Yes,DSL,Two year,Yes,Mailed check,78.53,4595.43,Yes
+0445-ABCD,Male,0,Yes,No,19,Yes,No,Two year,No,Credit card,37.96,695.29,No
+0446-ABCD,Male,0,No,Yes,49,No,DSL,One year,No,Bank transfer,81.22,3981.61,No
+0447-ABCD,Female,0,No,Yes,12,Yes,DSL,Two year,No,Bank transfer,26.5,332.82,No
+0448-ABCD,Male,0,No,No,61,Yes,No,One year,Yes,Electronic check,22.76,1417.2,Yes
+0449-ABCD,Female,0,Yes,Yes,19,Yes,DSL,One year,No,Electronic check,43.19,765.87,Yes
+0450-ABCD,Male,0,Yes,No,9,Yes,Fiber optic,Month-to-month,No,Bank transfer,61.64,549.6,No
+0451-ABCD,Female,0,No,No,71,No,Fiber optic,Month-to-month,Yes,Bank transfer,98.14,6934.7,No
+0452-ABCD,Female,1,Yes,No,28,Yes,DSL,One year,Yes,Mailed check,85.45,2386.44,No
+0453-ABCD,Female,0,No,No,52,Yes,Fiber optic,Month-to-month,No,Bank transfer,86.84,4585.7,No
+0454-ABCD,Female,0,No,No,16,Yes,No,One year,No,Credit card,58.29,941.4,Yes
+0455-ABCD,Male,1,No,Yes,69,Yes,Fiber optic,Two year,No,Mailed check,51.13,3554.95,No
+0456-ABCD,Male,0,No,No,12,Yes,DSL,Two year,Yes,Credit card,53.39,699.5,No
+0457-ABCD,Female,0,No,No,25,Yes,No,Two year,No,Credit card,108.89,2756.07,No
+0458-ABCD,Female,0,No,Yes,52,Yes,Fiber optic,Two year,Yes,Credit card,23.61,1214.28,Yes
+0459-ABCD,Male,0,No,No,53,Yes,No,One year,Yes,Bank transfer,98.03,5157.32,Yes
+0460-ABCD,Male,1,Yes,No,23,No,DSL,Two year,No,Electronic check,72.08,1656.94,No
+0461-ABCD,Female,0,No,Yes,16,Yes,Fiber optic,Two year,No,Electronic check,59.48,934.65,Yes
+0462-ABCD,Female,0,Yes,Yes,57,Yes,No,Two year,Yes,Credit card,85.27,4814.65,No
+0463-ABCD,Female,0,No,No,39,Yes,No,Two year,No,Bank transfer,63.8,2495.43,No
+0464-ABCD,Female,0,No,Yes,53,Yes,Fiber optic,One year,No,Mailed check,98.61,5234.31,No
+0465-ABCD,Female,1,Yes,No,42,Yes,No,Two year,Yes,Credit card,101.06,4297.59,No
+0466-ABCD,Male,0,Yes,Yes,58,Yes,No,Month-to-month,No,Mailed check,57.95,3350.25,No
+0467-ABCD,Female,0,No,No,39,Yes,DSL,Month-to-month,Yes,Mailed check,44.91,1759.89,Yes
+0468-ABCD,Male,0,Yes,No,14,Yes,DSL,Month-to-month,No,Bank transfer,73.31,1006.38,No
+0469-ABCD,Male,0,No,No,5,Yes,DSL,Month-to-month,Yes,Bank transfer,102.11,536.75,Yes
+0470-ABCD,Male,1,No,Yes,35,Yes,DSL,Month-to-month,Yes,Electronic check,38.96,1359.86,No
+0471-ABCD,Female,0,Yes,No,18,No,DSL,Month-to-month,No,Electronic check,76.07,1334.08,No
+0472-ABCD,Male,0,Yes,Yes,9,Yes,DSL,One year,Yes,Bank transfer,76.84,691.16,Yes
+0473-ABCD,Male,0,Yes,No,58,Yes,Fiber optic,Month-to-month,Yes,Credit card,85.98, ,No
+0474-ABCD,Male,0,Yes,No,17,Yes,DSL,Two year,No,Electronic check,31.84,548.94,No
+0475-ABCD,Male,0,No,No,7,No,No,Month-to-month,No,Mailed check,84.42,622.32,Yes
+0476-ABCD,Female,1,Yes,No,46,Yes,Fiber optic,One year,No,Credit card,101.81,4639.82,No
+0477-ABCD,Female,0,Yes,No,13,Yes,No,Month-to-month,Yes,Mailed check,36.17,444.93,No
+0478-ABCD,Male,1,Yes,Yes,40,Yes,DSL,Two year,Yes,Bank transfer,41.38, ,No
+0479-ABCD,Male,0,Yes,Yes,42,Yes,DSL,Two year,Yes,Mailed check,107.43,4490.3,No
+0480-ABCD,Female,0,Yes,Yes,9,Yes,No,One year,No,Credit card,36.29,333.82,Yes
+0481-ABCD,Female,0,No,No,50,Yes,No,One year,Yes,Bank transfer,96.89,4771.91,Yes
+0482-ABCD,Female,0,No,No,27,Yes,No,One year,Yes,Credit card,64.31,1817.85,No
+0483-ABCD,Male,1,Yes,Yes,66,No,Fiber optic,One year,No,Mailed check,42.25,2780.41,Yes
+0484-ABCD,Female,0,Yes,No,5,Yes,DSL,Month-to-month,Yes,Credit card,98.37,527.67,Yes
+0485-ABCD,Male,0,No,No,29,Yes,No,Month-to-month,No,Bank transfer,60.08,1732.21,No
+0486-ABCD,Male,0,Yes,No,37,Yes,DSL,Two year,No,Mailed check,66.33,2466.65,No
+0487-ABCD,Female,0,No,Yes,38,Yes,No,One year,No,Mailed check,52.33,2033.3,No
+0488-ABCD,Male,0,No,Yes,8,Yes,DSL,One year,Yes,Electronic check,73.37,621.93,No
+0489-ABCD,Female,0,Yes,Yes,65,Yes,Fiber optic,Month-to-month,Yes,Electronic check,34.72,2250.67,No
+0490-ABCD,Male,0,No,Yes,17,Yes,DSL,One year,Yes,Credit card,55.2,934.34,Yes
+0491-ABCD,Female,0,Yes,Yes,71,Yes,No,Two year,No,Electronic check,107.25,7644.86,No
+0492-ABCD,Male,0,Yes,No,45,Yes,DSL,Two year,No,Electronic check,43.23,2015.35,No
+0493-ABCD,Male,0,No,No,4,Yes,Fiber optic,One year,No,Electronic check,79.11,322.21,Yes
+0494-ABCD,Female,0,No,No,36,Yes,Fiber optic,Two year,Yes,Electronic check,49.27,1832.43,No
+0495-ABCD,Female,0,Yes,No,70,Yes,DSL,Two year,Yes,Bank transfer,89.61,6265.46,No
+0496-ABCD,Female,1,No,Yes,31,Yes,No,Month-to-month,Yes,Bank transfer,31.78,1013.74,No
+0497-ABCD,Female,0,Yes,Yes,19,Yes,Fiber optic,Two year,Yes,Electronic check,107.28,2071.35,Yes
+0498-ABCD,Male,0,No,No,61,Yes,Fiber optic,One year,Yes,Credit card,60.84,3698.94,No
+0499-ABCD,Female,0,No,Yes,54,Yes,DSL,One year,No,Bank transfer,41.24,2204.55,No
+0500-ABCD,Female,0,Yes,No,39,Yes,Fiber optic,Two year,Yes,Electronic check,26.61,1072.15,No
+0501-ABCD,Male,0,Yes,No,19,Yes,Fiber optic,One year,No,Bank transfer,35.28,654.37,No
+0502-ABCD,Female,0,Yes,No,39,Yes,No,Month-to-month,No,Mailed check,66.78,2577.59,No
+0503-ABCD,Female,0,No,No,67,Yes,No,Two year,Yes,Bank transfer,50.33,3351.59,Yes
+0504-ABCD,Male,0,Yes,Yes,45,Yes,No,Two year,No,Bank transfer,94.6,4240.93,No
+0505-ABCD,Female,0,Yes,No,13,Yes,DSL,Two year,Yes,Credit card,58.78,789.84,No
+0506-ABCD,Female,0,No,Yes,58,Yes,Fiber optic,One year,Yes,Bank transfer,42.38,2473.49,No
+0507-ABCD,Female,1,No,No,20,No,DSL,One year,No,Credit card,75.54,1532.27,No
+0508-ABCD,Female,0,Yes,No,61,Yes,Fiber optic,Two year,Yes,Mailed check,83.61,5112.85,No
+0509-ABCD,Female,0,Yes,No,39,Yes,Fiber optic,One year,Yes,Electronic check,35.03,1348.35,Yes
+0510-ABCD,Female,1,Yes,No,1,Yes,Fiber optic,One year,No,Credit card,35.09,56.0,Yes
+0511-ABCD,Male,0,Yes,Yes,3,Yes,No,Two year,No,Bank transfer,23.3,105.37,Yes
+0512-ABCD,Female,0,No,No,62,Yes,DSL,Two year,No,Bank transfer,86.28,5366.9,No
+0513-ABCD,Male,0,No,Yes,63,Yes,DSL,One year,No,Credit card,79.74,5037.11,Yes
+0514-ABCD,Male,1,Yes,No,25,Yes,Fiber optic,Two year,No,Mailed check,62.72,1544.99,No
+0515-ABCD,Male,0,Yes,No,56,Yes,DSL,Two year,No,Electronic check,95.98,5381.23,No
+0516-ABCD,Male,1,Yes,No,33,No,No,Two year,Yes,Bank transfer,92.51,3028.22,No
+0517-ABCD,Female,0,No,Yes,38,Yes,DSL,Two year,Yes,Mailed check,72.68,2761.12,Yes
+0518-ABCD,Female,0,Yes,No,6,Yes,Fiber optic,One year,Yes,Electronic check,98.14,539.63,No
+0519-ABCD,Female,1,Yes,No,58,Yes,No,Two year,No,Electronic check,38.53,2185.76,No
+0520-ABCD,Male,0,No,No,44,Yes,No,Month-to-month,Yes,Bank transfer,30.07,1317.35,No
+0521-ABCD,Female,0,No,No,45,Yes,Fiber optic,Two year,No,Credit card,44.28,1976.15,Yes
+0522-ABCD,Female,0,Yes,No,32,Yes,DSL,Month-to-month,Yes,Bank transfer,25.14,807.68,No
+0523-ABCD,Female,0,Yes,Yes,45,Yes,Fiber optic,Two year,No,Bank transfer,67.81,3047.41,Yes
+0524-ABCD,Male,1,No,Yes,61,Yes,DSL,Month-to-month,Yes,Bank transfer,104.29,6362.6,No
+0525-ABCD,Male,0,Yes,No,47,Yes,DSL,Month-to-month,No,Mailed check,23.54,1124.64,No
+0526-ABCD,Female,0,Yes,No,21,Yes,No,Two year,No,Credit card,30.99,636.89,No
+0527-ABCD,Male,0,No,Yes,36,Yes,Fiber optic,Two year,No,Mailed check,60.7,2178.62,Yes
+0528-ABCD,Male,0,No,No,19,Yes,No,Two year,No,Bank transfer,104.05,2020.6,No
+0529-ABCD,Female,0,No,Yes,20,No,Fiber optic,Month-to-month,Yes,Credit card,48.45,969.09,Yes
+0530-ABCD,Male,0,Yes,No,57,No,Fiber optic,One year,Yes,Electronic check,65.65,3736.67,No
+0531-ABCD,Male,0,No,No,18,Yes,No,One year,No,Credit card,23.74,429.8,No
+0532-ABCD,Female,1,No,Yes,47,Yes,Fiber optic,Two year,No,Bank transfer,33.35,1562.61,No
+0533-ABCD,Male,0,Yes,No,49,Yes,Fiber optic,One year,No,Credit card,108.8,5309.91,No
+0534-ABCD,Male,0,Yes,Yes,14,Yes,DSL,One year,Yes,Electronic check,106.86,1466.1,Yes
+0535-ABCD,Male,1,No,Yes,15,No,Fiber optic,Two year,No,Electronic check,20.44,283.7,Yes
+0536-ABCD,Male,0,No,Yes,31,Yes,Fiber optic,Month-to-month,No,Credit card,105.66,3301.65,Yes
+0537-ABCD,Male,0,Yes,No,1,Yes,No,Two year,Yes,Electronic check,77.52,77.52,Yes
+0538-ABCD,Male,0,Yes,Yes,54,Yes,No,One year,No,Mailed check,98.11,5293.29,No
+0539-ABCD,Male,1,No,Yes,3,Yes,Fiber optic,Month-to-month,No,Credit card,60.93,203.81,Yes
+0540-ABCD,Male,0,No,No,16,Yes,DSL,One year,Yes,Electronic check,66.4,1054.05,Yes
+0541-ABCD,Female,1,Yes,No,57,Yes,DSL,Month-to-month,No,Electronic check,64.0,3667.0,No
+0542-ABCD,Female,0,No,No,12,Yes,No,One year,No,Credit card,80.02,914.02,No
+0543-ABCD,Female,0,Yes,No,16,Yes,Fiber optic,Two year,Yes,Mailed check,32.57,517.14,No
+0544-ABCD,Female,0,No,No,24,Yes,Fiber optic,One year,No,Credit card,22.7,547.17,No
+0545-ABCD,Male,0,Yes,No,28,Yes,DSL,One year,Yes,Electronic check,47.71,1336.57,Yes
+0546-ABCD,Female,0,Yes,Yes,8,Yes,DSL,Month-to-month,No,Credit card,83.42,617.77,No
+0547-ABCD,Female,0,No,No,36,Yes,DSL,One year,No,Electronic check,38.17,1410.21,No
+0548-ABCD,Male,0,No,Yes,8,Yes,No,Two year,No,Bank transfer,80.61,619.24,No
+0549-ABCD,Male,0,Yes,No,58,No,Fiber optic,Two year,No,Credit card,107.29,6232.87,No
+0550-ABCD,Male,0,No,Yes,60,No,No,Two year,No,Credit card,28.45,1707.24,No
+0551-ABCD,Male,0,No,Yes,50,No,Fiber optic,Month-to-month,Yes,Electronic check,80.53,4056.61,No
+0552-ABCD,Male,0,No,No,28,Yes,No,Month-to-month,No,Electronic check,59.94,1743.94,Yes
+0553-ABCD,Female,0,Yes,No,41,Yes,Fiber optic,One year,No,Electronic check,98.13,3984.62,Yes
+0554-ABCD,Male,0,No,Yes,64,Yes,DSL,One year,Yes,Electronic check,35.94,2280.69,No
+0555-ABCD,Female,0,No,No,27,Yes,DSL,One year,Yes,Credit card,82.34,2228.85,No
+0556-ABCD,Female,0,Yes,No,63,No,DSL,Month-to-month,No,Electronic check,95.43,5978.93,Yes
+0557-ABCD,Male,0,No,Yes,17,Yes,No,Month-to-month,Yes,Credit card,105.02,1808.81,No
+0558-ABCD,Female,1,No,Yes,33,Yes,DSL,One year,No,Mailed check,81.49,2714.47,No
+0559-ABCD,Female,0,Yes,Yes,29,No,Fiber optic,Month-to-month,Yes,Credit card,64.75,1894.53,No
+0560-ABCD,Male,0,Yes,No,13,Yes,No,Month-to-month,Yes,Electronic check,75.61,990.03,No
+0561-ABCD,Female,0,No,No,46,Yes,Fiber optic,Two year,No,Electronic check,98.2,4558.29,No
+0562-ABCD,Female,0,No,No,35,Yes,No,Two year,Yes,Mailed check,71.35,2462.58,Yes
+0563-ABCD,Female,0,Yes,No,6,Yes,Fiber optic,One year,No,Credit card,22.73,138.34,No
+0564-ABCD,Male,0,Yes,Yes,69,Yes,Fiber optic,One year,Yes,Mailed check,103.79,7139.35,No
+0565-ABCD,Male,0,No,No,47,Yes,No,Two year,Yes,Credit card,82.06,3883.52,No
+0566-ABCD,Male,0,No,Yes,25,Yes,No,Month-to-month,Yes,Electronic check,80.89,1967.25,No
+0567-ABCD,Female,0,No,No,66,Yes,DSL,One year,No,Credit card,39.41,2600.22,No
+0568-ABCD,Male,0,Yes,No,10,Yes,DSL,One year,No,Electronic check,79.3,803.06,Yes
+0569-ABCD,Female,0,No,Yes,56,Yes,Fiber optic,One year,Yes,Electronic check,55.45,3076.78,Yes
+0570-ABCD,Male,0,Yes,No,30,Yes,Fiber optic,Month-to-month,No,Bank transfer,78.61,2339.51,No
+0571-ABCD,Female,1,Yes,No,5,Yes,Fiber optic,Two year,No,Bank transfer,29.59,148.41,Yes
+0572-ABCD,Male,0,Yes,Yes,33,No,No,One year,No,Credit card,79.21,2642.58,Yes
+0573-ABCD,Male,0,No,No,65,Yes,No,Two year,Yes,Electronic check,109.95,7115.76,Yes
+0574-ABCD,Female,1,No,Yes,18,Yes,DSL,Two year,No,Mailed check,24.34,412.37,No
+0575-ABCD,Male,0,No,Yes,49,Yes,Fiber optic,Month-to-month,Yes,Electronic check,107.95,5323.32,No
+0576-ABCD,Female,0,Yes,Yes,11,Yes,DSL,Month-to-month,Yes,Mailed check,56.62,614.63,No
+0577-ABCD,Male,0,No,Yes,26,Yes,No,Month-to-month,Yes,Credit card,98.37,2534.29,No
+0578-ABCD,Male,1,Yes,No,63,Yes,No,Month-to-month,Yes,Credit card,90.41,5717.69,No
+0579-ABCD,Female,0,Yes,No,59,Yes,No,Month-to-month,Yes,Mailed check,71.03,4176.12,No
+0580-ABCD,Female,0,Yes,No,27,Yes,DSL,Month-to-month,No,Mailed check,86.46,2365.24,Yes
+0581-ABCD,Female,0,Yes,Yes,49,Yes,No,One year,No,Electronic check,99.07,4834.52,Yes
+0582-ABCD,Male,1,Yes,No,33,No,Fiber optic,Two year,Yes,Credit card,56.37,1855.42,Yes
+0583-ABCD,Female,0,Yes,No,1,Yes,DSL,Month-to-month,No,Electronic check,49.43,77.78,Yes
+0584-ABCD,Male,0,No,No,21,No,No,One year,No,Mailed check,80.08,1674.89,No
+0585-ABCD,Female,1,Yes,No,55,Yes,DSL,Two year,No,Bank transfer,92.71,5121.73,No
+0586-ABCD,Female,0,No,Yes,6,Yes,DSL,Month-to-month,No,Bank transfer,88.61,529.69,No
+0587-ABCD,Female,0,Yes,Yes,69,Yes,No,Month-to-month,No,Bank transfer,91.8,6393.65,No
+0588-ABCD,Female,0,No,No,5,Yes,No,One year,No,Mailed check,59.2,343.06,Yes
+0589-ABCD,Female,0,No,Yes,3,Yes,DSL,Two year,No,Electronic check,93.61,240.99,Yes
+0590-ABCD,Female,1,No,No,53,Yes,DSL,Month-to-month,Yes,Credit card,30.82,1649.13,Yes
+0591-ABCD,Male,0,No,No,23,Yes,No,Two year,Yes,Mailed check,69.0,1562.51,No
+0592-ABCD,Female,0,Yes,No,53,Yes,Fiber optic,One year,Yes,Bank transfer,20.52,1093.31,Yes
+0593-ABCD,Male,0,Yes,Yes,37,Yes,DSL,Month-to-month,No,Electronic check,49.21,1822.82,No
+0594-ABCD,Female,0,Yes,No,17,Yes,DSL,Two year,No,Credit card,52.98,869.0,No
+0595-ABCD,Female,1,Yes,Yes,1,Yes,Fiber optic,One year,Yes,Credit card,55.66,87.41,Yes
+0596-ABCD,Female,0,No,Yes,51,Yes,No,One year,No,Mailed check,82.59,4218.19,No
+0597-ABCD,Male,0,No,No,45,Yes,No,Month-to-month,No,Mailed check,54.97,2465.11,No
+0598-ABCD,Male,0,No,Yes,4,Yes,Fiber optic,Two year,Yes,Credit card,60.38,228.38,Yes
+0599-ABCD,Female,1,Yes,Yes,62,Yes,No,Month-to-month,Yes,Credit card,41.38,2569.75,No
+0600-ABCD,Male,0,No,No,65,Yes,No,Month-to-month,Yes,Bank transfer,53.59,3495.59,No
+0601-ABCD,Female,0,Yes,Yes,32,Yes,DSL,Two year,No,Credit card,40.45,1290.65,No
+0602-ABCD,Female,0,No,Yes,34,No,DSL,Two year,No,Mailed check,26.59,819.08,Yes
+0603-ABCD,Male,0,No,No,39,Yes,DSL,Two year,No,Electronic check,74.31,2898.6,No
+0604-ABCD,Male,0,No,No,26,Yes,Fiber optic,One year,Yes,Bank transfer,80.14,2040.4,Yes
+0605-ABCD,Male,0,No,Yes,34,Yes,No,One year,Yes,Bank transfer,75.75,2569.22,No
+0606-ABCD,Male,0,No,No,54,Yes,No,Two year,No,Credit card,61.71,3290.2,Yes
+0607-ABCD,Female,0,Yes,No,3,Yes,DSL,One year,Yes,Electronic check,54.18,120.05,Yes
+0608-ABCD,Male,0,No,Yes,50,Yes,DSL,Month-to-month,Yes,Bank transfer,97.7,4922.05,No
+0609-ABCD,Male,1,Yes,Yes,12,Yes,Fiber optic,Two year,No,Mailed check,66.72,791.04,No
+0610-ABCD,Female,0,Yes,No,65,Yes,No,Month-to-month,Yes,Credit card,63.13,4091.55,Yes
+0611-ABCD,Male,1,Yes,Yes,54,Yes,Fiber optic,Two year,Yes,Mailed check,22.31,1219.22,No
+0612-ABCD,Male,0,Yes,No,5,Yes,No,Month-to-month,Yes,Credit card,50.71,242.43,Yes
+0613-ABCD,Male,0,Yes,No,57,Yes,Fiber optic,Two year,No,Bank transfer,54.22,3153.65,No
+0614-ABCD,Male,1,Yes,Yes,17,Yes,DSL,Month-to-month,No,Credit card,55.89,941.94,Yes
+0615-ABCD,Female,0,Yes,Yes,47,Yes,Fiber optic,Two year,Yes,Electronic check,72.22,3405.29,Yes
+0616-ABCD,Female,0,Yes,No,23,Yes,Fiber optic,Two year,No,Mailed check,68.02,1593.59,No
+0617-ABCD,Male,1,No,No,14,Yes,DSL,One year,No,Electronic check,74.71,1094.01,No
+0618-ABCD,Male,0,No,No,66,Yes,No,Month-to-month,No,Mailed check,88.84,5841.18,No
+0619-ABCD,Female,0,Yes,No,51,No,No,One year,Yes,Mailed check,93.17,4739.13,No
+0620-ABCD,Male,0,Yes,Yes,38,Yes,DSL,Month-to-month,No,Credit card,84.63,3254.18,Yes
+0621-ABCD,Male,0,Yes,No,64,Yes,Fiber optic,One year,Yes,Bank transfer,106.0,6808.3,No
+0622-ABCD,Male,0,No,Yes,38,Yes,Fiber optic,Two year,Yes,Bank transfer,21.64,854.58,No
+0623-ABCD,Male,0,No,Yes,50,Yes,Fiber optic,One year,No,Electronic check,37.62,1839.94,No
+0624-ABCD,Male,0,Yes,No,30,Yes,No,One year,Yes,Credit card,20.68,666.84,Yes
+0625-ABCD,Male,0,Yes,Yes,51,Yes,Fiber optic,Two year,No,Bank transfer,78.27,3968.93,No
+0626-ABCD,Male,0,No,Yes,63,No,No,One year,No,Mailed check,100.82,6357.43,No
+0627-ABCD,Male,0,No,No,52,Yes,Fiber optic,Two year,Yes,Mailed check,41.91,2174.87,No
+0628-ABCD,Male,0,Yes,Yes,38,Yes,DSL,Month-to-month,Yes,Credit card,103.43,3903.99,No
+0629-ABCD,Female,0,Yes,Yes,30,Yes,DSL,One year,No,Electronic check,25.42,720.22,No
+0630-ABCD,Female,0,Yes,No,51,Yes,No,Two year,No,Credit card,104.1,5256.78,No
+0631-ABCD,Female,0,Yes,No,5,Yes,No,Two year,No,Electronic check,51.65,261.82,Yes
+0632-ABCD,Male,0,No,No,29,Yes,DSL,One year,No,Credit card,29.13,799.01,Yes
+0633-ABCD,Male,0,No,No,4,Yes,DSL,Month-to-month,Yes,Mailed check,63.73,220.91,Yes
+0634-ABCD,Female,1,Yes,No,10,Yes,Fiber optic,One year,Yes,Credit card,43.11,424.56,Yes
+0635-ABCD,Male,0,Yes,No,56,Yes,DSL,Two year,Yes,Bank transfer,45.64,2476.68,No
+0636-ABCD,Female,0,Yes,No,17,No,No,Month-to-month,No,Bank transfer,47.66,833.59,Yes
+0637-ABCD,Male,0,No,Yes,17,Yes,DSL,One year,Yes,Credit card,92.27,1496.29,No
+0638-ABCD,Female,0,Yes,Yes,69,Yes,No,Two year,Yes,Electronic check,68.52,4725.56,No
+0639-ABCD,Female,1,Yes,No,34,Yes,No,One year,Yes,Electronic check,48.02,1633.13,No
+0640-ABCD,Female,1,Yes,Yes,6,Yes,Fiber optic,Month-to-month,Yes,Mailed check,74.93,465.72,No
+0641-ABCD,Male,0,No,Yes,53,No,Fiber optic,Month-to-month,No,Mailed check,84.45,4474.6,No
+0642-ABCD,Female,0,Yes,No,66,Yes,Fiber optic,Month-to-month,Yes,Electronic check,44.54,3000.18,No
+0643-ABCD,Male,1,No,Yes,43,Yes,Fiber optic,Month-to-month,Yes,Credit card,57.22,2466.95,No
+0644-ABCD,Male,1,Yes,No,23,Yes,DSL,Month-to-month,Yes,Mailed check,30.97,743.92,No
+0645-ABCD,Male,0,Yes,Yes,55,Yes,Fiber optic,One year,Yes,Electronic check,36.3,1974.8,No
+0646-ABCD,Male,0,Yes,No,16,No,DSL,Month-to-month,No,Electronic check,81.3,1304.42,No
+0647-ABCD,Male,0,No,Yes,8,Yes,Fiber optic,Month-to-month,No,Credit card,36.33,337.07,No
+0648-ABCD,Male,1,Yes,Yes,4,Yes,Fiber optic,Two year,Yes,Bank transfer,67.26,261.91,Yes
+0649-ABCD,Male,0,Yes,Yes,4,Yes,No,Month-to-month,No,Electronic check,83.81,341.01,Yes
+0650-ABCD,Female,0,No,No,56,No,DSL,Two year,No,Mailed check,29.62,1688.15,No
+0651-ABCD,Female,0,No,Yes,25,Yes,No,Two year,No,Credit card,71.06,1754.23,No
+0652-ABCD,Female,0,No,Yes,67,Yes,Fiber optic,Two year,No,Credit card,43.09,2822.18,No
+0653-ABCD,Male,0,Yes,No,67,Yes,DSL,One year,Yes,Credit card,106.66, ,Yes
+0654-ABCD,Male,1,No,No,27,Yes,Fiber optic,One year,No,Bank transfer,63.52,1744.7,No
+0655-ABCD,Male,0,Yes,Yes,32,Yes,No,Two year,No,Bank transfer,92.54,2920.74,No
+0656-ABCD,Male,0,No,Yes,50,Yes,DSL,One year,Yes,Mailed check,69.52,3496.11,No
+0657-ABCD,Female,0,No,Yes,61,Yes,No,Month-to-month,Yes,Mailed check,23.91,1478.82,No
+0658-ABCD,Male,0,No,Yes,51,Yes,Fiber optic,One year,Yes,Credit card,76.98,3857.78,No
+0659-ABCD,Female,0,Yes,No,19,Yes,Fiber optic,Month-to-month,Yes,Mailed check,105.63,1978.88,Yes
+0660-ABCD,Male,0,Yes,Yes,21,Yes,Fiber optic,Month-to-month,No,Electronic check,74.15,1545.28,No
+0661-ABCD,Female,0,Yes,Yes,5,Yes,DSL,One year,Yes,Bank transfer,93.73, ,Yes
+0662-ABCD,Male,0,Yes,No,42,Yes,No,One year,No,Credit card,99.58,4160.07,Yes
+0663-ABCD,Female,0,Yes,Yes,61,No,No,Two year,No,Credit card,40.53,2448.42,Yes
+0664-ABCD,Male,0,Yes,Yes,22,Yes,Fiber optic,One year,Yes,Electronic check,39.08,909.9,No
+0665-ABCD,Female,1,Yes,Yes,21,Yes,No,One year,Yes,Electronic check,74.99,1571.56,No
+0666-ABCD,Male,1,Yes,No,70,Yes,DSL,One year,No,Electronic check,56.99,3968.45,No
+0667-ABCD,Female,0,Yes,No,1,Yes,Fiber optic,Month-to-month,No,Electronic check,95.59,95.59,Yes
+0668-ABCD,Female,0,No,Yes,5,Yes,Fiber optic,Month-to-month,Yes,Credit card,101.0,521.11,Yes
+0669-ABCD,Male,1,No,Yes,12,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,51.81,623.27,Yes
+0670-ABCD,Female,0,Yes,No,46,Yes,DSL,Two year,Yes,Bank transfer,41.32,1894.55,No
+0671-ABCD,Male,0,Yes,Yes,34,No,Fiber optic,Two year,No,Electronic check,90.25,3049.0,No
+0672-ABCD,Male,1,Yes,Yes,49,Yes,Fiber optic,Two year,No,Mailed check,44.73,2171.91,No
+0673-ABCD,Male,0,Yes,No,45,Yes,Fiber optic,Month-to-month,Yes,Credit card,94.04,4213.87,No
+0674-ABCD,Female,0,No,No,27,Yes,Fiber optic,One year,No,Bank transfer,58.14,1579.94,No
+0675-ABCD,Female,1,No,No,26,Yes,No,Two year,Yes,Electronic check,80.08,2052.25,No
+0676-ABCD,Male,0,Yes,Yes,47,Yes,Fiber optic,Two year,No,Mailed check,28.6,1356.0,No
+0677-ABCD,Male,0,No,Yes,56,Yes,DSL,Month-to-month,No,Mailed check,76.15,4306.79,Yes
+0678-ABCD,Female,0,No,Yes,63,Yes,Fiber optic,Two year,Yes,Electronic check,60.66,3831.35,No
+0679-ABCD,Female,0,Yes,Yes,48,Yes,Fiber optic,One year,Yes,Credit card,72.79,3482.83,No
+0680-ABCD,Female,0,Yes,No,61,No,No,Month-to-month,Yes,Bank transfer,35.12,2103.38,No
+0681-ABCD,Male,0,Yes,Yes,26,Yes,Fiber optic,Month-to-month,No,Mailed check,86.32,2291.66,No
+0682-ABCD,Male,1,Yes,Yes,36,Yes,No,One year,No,Bank transfer,97.65,3480.3,No
+0683-ABCD,Male,0,No,No,1,Yes,DSL,One year,Yes,Bank transfer,39.51,64.97,Yes
+0684-ABCD,Male,0,Yes,No,8,Yes,No,One year,No,Mailed check,28.61,248.04,Yes
+0685-ABCD,Male,0,No,Yes,52,Yes,Fiber optic,Two year,Yes,Electronic check,22.13,1143.66,No
+0686-ABCD,Female,0,Yes,No,47,Yes,DSL,One year,No,Mailed check,77.78,3647.77,No
+0687-ABCD,Male,0,No,No,56,No,Fiber optic,Month-to-month,Yes,Mailed check,74.64,4124.77,No
+0688-ABCD,Female,1,Yes,Yes,14,No,No,One year,No,Credit card,69.2,978.7,No
+0689-ABCD,Female,1,Yes,Yes,28,Yes,DSL,Month-to-month,No,Bank transfer,40.88,1163.24,No
+0690-ABCD,Male,0,No,Yes,2,Yes,DSL,Month-to-month,No,Electronic check,55.18,77.69,Yes
+0691-ABCD,Female,0,No,Yes,26,Yes,No,Two year,No,Bank transfer,73.5,1906.33,Yes
+0692-ABCD,Male,0,No,No,14,Yes,No,One year,Yes,Mailed check,64.71,907.08,No
+0693-ABCD,Female,0,Yes,No,59,Yes,DSL,Two year,No,Electronic check,108.9,6442.64,No
+0694-ABCD,Male,0,No,Yes,56,Yes,DSL,One year,Yes,Electronic check,32.28,1807.79,No
+0695-ABCD,Male,0,No,Yes,7,Yes,No,One year,Yes,Electronic check,82.56,529.13,No
+0696-ABCD,Female,1,No,No,3,Yes,Fiber optic,One year,Yes,Electronic check,56.39,153.27,Yes
+0697-ABCD,Male,0,No,Yes,23,Yes,DSL,One year,Yes,Credit card,58.54,1353.16,No
+0698-ABCD,Female,0,No,Yes,18,Yes,No,One year,No,Electronic check,84.58,1547.69,No
+0699-ABCD,Male,0,No,Yes,38,Yes,Fiber optic,Month-to-month,Yes,Mailed check,82.32,3109.63,No
+0700-ABCD,Male,0,No,Yes,15,No,DSL,Month-to-month,No,Credit card,109.21,1703.78,No
+0701-ABCD,Male,0,No,No,64,Yes,DSL,One year,No,Mailed check,31.56,1963.01,No
+0702-ABCD,Female,0,No,Yes,28,Yes,No,Month-to-month,No,Mailed check,29.37,805.45,No
+0703-ABCD,Female,0,Yes,No,39,Yes,Fiber optic,Two year,No,Bank transfer,85.19,3319.92,No
+0704-ABCD,Male,0,Yes,Yes,57,Yes,DSL,Two year,Yes,Electronic check,72.05,4100.83,Yes
+0705-ABCD,Female,0,No,Yes,17,Yes,Fiber optic,Two year,No,Electronic check,44.67, ,No
+0706-ABCD,Male,0,Yes,No,44,Yes,Fiber optic,One year,Yes,Mailed check,27.15,1208.04,No
+0707-ABCD,Female,0,Yes,Yes,25,Yes,DSL,One year,No,Electronic check,27.71,703.88,No
+0708-ABCD,Female,0,No,No,17,Yes,Fiber optic,Month-to-month,No,Credit card,100.48,1709.6,Yes
+0709-ABCD,Male,0,No,Yes,13,Yes,DSL,Month-to-month,Yes,Bank transfer,37.27,494.47,No
+0710-ABCD,Male,0,No,Yes,25,Yes,Fiber optic,Month-to-month,No,Electronic check,49.1,1214.79,No
+0711-ABCD,Male,0,No,Yes,68,Yes,DSL,Two year,No,Electronic check,40.4,2698.68,No
+0712-ABCD,Male,0,No,Yes,10,Yes,No,Two year,No,Credit card,51.95,498.0,Yes
+0713-ABCD,Male,0,No,Yes,67,No,DSL,Two year,No,Bank transfer,26.25,1763.46,Yes
+0714-ABCD,Female,0,Yes,No,18,Yes,DSL,Two year,No,Credit card,66.72,1205.84,No
+0715-ABCD,Female,0,No,No,34,Yes,DSL,Month-to-month,Yes,Mailed check,26.09,888.3,Yes
+0716-ABCD,Male,0,Yes,Yes,8,Yes,Fiber optic,One year,No,Mailed check,92.03,752.7,Yes
+0717-ABCD,Male,0,No,Yes,40,Yes,No,One year,No,Electronic check,41.03,1623.77,Yes
+0718-ABCD,Male,1,No,No,42,No,Fiber optic,Two year,Yes,Bank transfer,68.6,2882.0,No
+0719-ABCD,Female,0,Yes,No,41,Yes,Fiber optic,One year,No,Mailed check,99.21,4084.77,No
+0720-ABCD,Male,1,No,Yes,6,Yes,DSL,One year,Yes,Credit card,78.58,468.93,No
+0721-ABCD,Male,0,No,Yes,52,Yes,Fiber optic,One year,No,Mailed check,67.97,3497.14,Yes
+0722-ABCD,Female,0,Yes,No,26,Yes,DSL,Two year,No,Mailed check,49.19,1250.1,No
+0723-ABCD,Female,1,No,Yes,64,Yes,No,Month-to-month,Yes,Credit card,49.97,3223.01,No
+0724-ABCD,Female,0,Yes,No,59,Yes,Fiber optic,Month-to-month,No,Electronic check,80.25,4776.52,No
+0725-ABCD,Female,0,No,Yes,56,Yes,Fiber optic,One year,No,Bank transfer,109.47,6165.58,Yes
+0726-ABCD,Male,0,No,No,59,Yes,Fiber optic,Month-to-month,Yes,Electronic check,79.57,4701.59,Yes
+0727-ABCD,Female,0,Yes,No,70,Yes,DSL,Month-to-month,Yes,Credit card,70.2,4877.91,No
+0728-ABCD,Female,0,No,Yes,33,Yes,DSL,Two year,No,Mailed check,85.76,2829.89,Yes
+0729-ABCD,Male,0,Yes,No,53,Yes,Fiber optic,Two year,Yes,Bank transfer,61.87,3325.98,No
+0730-ABCD,Male,1,Yes,Yes,22,Yes,Fiber optic,One year,No,Electronic check,25.41,577.57,Yes
+0731-ABCD,Male,0,Yes,Yes,21,Yes,No,One year,Yes,Credit card,70.61,1476.59,No
+0732-ABCD,Female,1,No,Yes,70,Yes,No,One year,No,Mailed check,106.19,7452.16,No
+0733-ABCD,Male,1,No,Yes,70,Yes,No,Two year,Yes,Mailed check,35.78,2466.52,Yes
+0734-ABCD,Female,0,Yes,No,4,Yes,No,Month-to-month,Yes,Electronic check,82.1,307.53,Yes
+0735-ABCD,Female,0,No,Yes,62,Yes,No,Two year,Yes,Credit card,38.08,2328.43,Yes
+0736-ABCD,Female,1,No,Yes,62,Yes,DSL,Two year,Yes,Mailed check,68.22, ,No
+0737-ABCD,Male,1,No,Yes,24,Yes,No,Month-to-month,Yes,Mailed check,28.7,710.22,No
+0738-ABCD,Female,0,Yes,Yes,55,No,No,Month-to-month,Yes,Bank transfer,60.53,3324.54,No
+0739-ABCD,Male,0,No,No,9,Yes,Fiber optic,One year,Yes,Mailed check,88.05,766.26,No
+0740-ABCD,Male,0,Yes,Yes,3,Yes,DSL,Month-to-month,Yes,Electronic check,51.28,153.25,Yes
+0741-ABCD,Male,0,No,No,31,Yes,No,Month-to-month,Yes,Credit card,79.84,2460.44,No
+0742-ABCD,Female,0,No,No,40,Yes,No,Month-to-month,No,Credit card,91.59,3639.71,No
+0743-ABCD,Female,0,Yes,No,36,Yes,No,Month-to-month,Yes,Bank transfer,103.45,3734.37,No
+0744-ABCD,Female,0,No,Yes,24,Yes,Fiber optic,One year,No,Credit card,41.12,964.14,Yes
+0745-ABCD,Male,0,Yes,Yes,6,Yes,Fiber optic,One year,Yes,Electronic check,55.94,288.65,Yes
+0746-ABCD,Female,0,No,Yes,66,Yes,Fiber optic,Month-to-month,No,Mailed check,33.72,2185.2,No
+0747-ABCD,Female,0,Yes,Yes,4,Yes,No,Month-to-month,No,Bank transfer,109.32,389.18,Yes
+0748-ABCD,Female,0,No,No,6,Yes,Fiber optic,One year,Yes,Credit card,103.43,628.01,No
+0749-ABCD,Female,0,No,No,51,Yes,No,One year,Yes,Bank transfer,68.6,3503.11,No
+0750-ABCD,Female,0,No,Yes,62,Yes,DSL,Month-to-month,No,Bank transfer,95.78,5941.38,Yes
+0751-ABCD,Male,0,Yes,Yes,57,Yes,No,Two year,No,Credit card,66.89,3830.36,Yes
+0752-ABCD,Male,0,Yes,Yes,66,Yes,Fiber optic,One year,Yes,Bank transfer,76.12,5059.68,No
+0753-ABCD,Male,1,Yes,Yes,8,Yes,DSL,One year,Yes,Credit card,28.02,206.39,Yes
+0754-ABCD,Male,0,No,Yes,26,Yes,No,One year,Yes,Electronic check,87.97,2299.41,No
+0755-ABCD,Female,0,Yes,Yes,51,Yes,DSL,Month-to-month,No,Credit card,31.49,1558.6,Yes
+0756-ABCD,Male,0,Yes,Yes,45,Yes,DSL,Month-to-month,Yes,Mailed check,94.35,4287.11,No
+0757-ABCD,Female,1,Yes,No,44,Yes,DSL,One year,Yes,Credit card,90.38,3939.38,No
+0758-ABCD,Male,0,Yes,No,5,Yes,No,Month-to-month,Yes,Mailed check,83.79,397.65,Yes
+0759-ABCD,Male,0,Yes,No,70,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,23.25,1609.57,No
+0760-ABCD,Male,0,Yes,No,26,Yes,No,One year,Yes,Credit card,47.28,1183.49,No
+0761-ABCD,Female,0,Yes,Yes,68,Yes,Fiber optic,Month-to-month,No,Mailed check,43.68,2971.22,Yes
+0762-ABCD,Female,0,Yes,Yes,19,Yes,No,Two year,No,Credit card,52.41, ,No
+0763-ABCD,Male,0,Yes,Yes,20,Yes,No,Month-to-month,Yes,Credit card,27.89,552.12,No
+0764-ABCD,Female,0,Yes,Yes,12,Yes,No,Month-to-month,Yes,Credit card,104.33,1205.75,No
+0765-ABCD,Male,0,No,Yes,47,Yes,Fiber optic,One year,No,Electronic check,69.84,3341.98,No
+0766-ABCD,Male,0,No,No,1,Yes,No,One year,Yes,Mailed check,47.5,63.98,Yes
+0767-ABCD,Male,0,Yes,Yes,14,Yes,DSL,Two year,No,Electronic check,55.73,859.25,No
+0768-ABCD,Female,1,No,No,64,Yes,No,Month-to-month,Yes,Electronic check,60.25,3831.85,No
+0769-ABCD,Male,0,No,Yes,38,Yes,DSL,Two year,No,Mailed check,74.05,2842.64,No
+0770-ABCD,Male,1,Yes,No,37,Yes,Fiber optic,Two year,No,Credit card,66.41,2480.55,No
+0771-ABCD,Male,0,Yes,Yes,11,Yes,Fiber optic,One year,Yes,Electronic check,102.75,1121.53,Yes
+0772-ABCD,Female,0,Yes,No,3,Yes,No,Month-to-month,No,Electronic check,64.73,236.52,Yes
+0773-ABCD,Male,0,No,Yes,33,Yes,No,One year,Yes,Electronic check,109.29,3594.41,No
+0774-ABCD,Female,1,Yes,Yes,6,Yes,No,Two year,No,Credit card,96.63, ,No
+0775-ABCD,Male,0,No,Yes,50,Yes,DSL,Two year,Yes,Electronic check,38.77,1834.36,No
+0776-ABCD,Female,0,Yes,Yes,10,Yes,Fiber optic,One year,Yes,Bank transfer,103.75,1049.77,No
+0777-ABCD,Male,0,No,No,5,Yes,DSL,One year,Yes,Mailed check,30.47,112.58,Yes
+0778-ABCD,Male,0,No,Yes,23,Yes,DSL,One year,No,Bank transfer,93.57,2135.59,No
+0779-ABCD,Female,0,Yes,No,10,Yes,No,One year,Yes,Credit card,54.26,511.81,No
+0780-ABCD,Female,0,Yes,Yes,44,Yes,No,One year,Yes,Electronic check,99.02,4345.89,No
+0781-ABCD,Male,0,No,No,2,Yes,DSL,Two year,Yes,Mailed check,98.13,209.58,Yes
+0782-ABCD,Female,0,No,Yes,13,Yes,DSL,One year,No,Electronic check,92.53,1203.22,Yes
+0783-ABCD,Male,0,Yes,Yes,40,Yes,No,Month-to-month,Yes,Credit card,91.1,3665.29,Yes
+0784-ABCD,Male,0,Yes,No,2,Yes,No,Two year,No,Mailed check,47.42,132.81,Yes
+0785-ABCD,Male,0,No,Yes,65,Yes,DSL,Two year,No,Bank transfer,27.28,1762.14,No
+0786-ABCD,Female,0,Yes,Yes,63,No,No,Month-to-month,No,Mailed check,56.27,3530.65,Yes
+0787-ABCD,Male,0,No,No,17,Yes,No,Month-to-month,Yes,Electronic check,35.62,634.27,Yes
+0788-ABCD,Female,0,Yes,Yes,9,Yes,DSL,Two year,Yes,Mailed check,82.55,774.06,No
+0789-ABCD,Male,1,Yes,No,15,Yes,DSL,One year,No,Credit card,51.15,789.47,No
+0790-ABCD,Female,1,Yes,Yes,24,Yes,Fiber optic,Two year,Yes,Credit card,107.8,2558.63,No
+0791-ABCD,Female,0,No,No,38,Yes,DSL,Two year,Yes,Mailed check,77.69,2964.9,No
+0792-ABCD,Male,0,Yes,No,35,Yes,No,Month-to-month,No,Credit card,94.02,3293.98,No
+0793-ABCD,Female,0,No,No,49,No,DSL,Two year,No,Credit card,31.93,1596.15,No
+0794-ABCD,Male,0,Yes,No,69,Yes,DSL,One year,Yes,Credit card,97.58,6715.83,No
+0795-ABCD,Male,0,No,Yes,62,Yes,DSL,Month-to-month,No,Bank transfer,103.05,6339.1,No
+0796-ABCD,Male,0,No,Yes,60,Yes,Fiber optic,Two year,Yes,Electronic check,63.84,3851.11,Yes
+0797-ABCD,Male,0,Yes,No,50,Yes,Fiber optic,Two year,No,Credit card,74.56,3651.25,No
+0798-ABCD,Male,1,No,Yes,9,Yes,No,One year,Yes,Mailed check,88.83,777.52,No
+0799-ABCD,Female,1,No,Yes,34,Yes,Fiber optic,Two year,Yes,Credit card,35.74,1184.46,No
+0800-ABCD,Male,0,No,Yes,35,Yes,DSL,Two year,No,Bank transfer,65.23,2252.15,No
+0801-ABCD,Female,0,No,No,1,Yes,Fiber optic,Two year,Yes,Mailed check,55.88,55.88,Yes
+0802-ABCD,Female,0,Yes,Yes,40,Yes,DSL,Two year,Yes,Electronic check,33.17,1363.32,No
+0803-ABCD,Male,0,Yes,Yes,64,Yes,Fiber optic,One year,No,Mailed check,53.08,3421.74,No
+0804-ABCD,Female,0,Yes,No,22,Yes,Fiber optic,Two year,Yes,Mailed check,26.14,567.53,No
+0805-ABCD,Male,0,No,Yes,60,Yes,Fiber optic,Two year,Yes,Mailed check,22.32,1373.21,No
+0806-ABCD,Female,0,No,No,64,Yes,DSL,Two year,Yes,Mailed check,32.16,2026.37,Yes
+0807-ABCD,Female,0,Yes,No,11,Yes,Fiber optic,Month-to-month,No,Credit card,106.68,1137.53,No
+0808-ABCD,Female,0,Yes,No,14,Yes,DSL,One year,No,Electronic check,69.46,998.35,No
+0809-ABCD,Male,0,No,Yes,60,Yes,DSL,Month-to-month,No,Credit card,106.92,6432.59,No
+0810-ABCD,Female,0,Yes,Yes,30,Yes,No,Month-to-month,No,Bank transfer,58.92,1753.79,No
+0811-ABCD,Male,0,Yes,No,35,Yes,Fiber optic,One year,No,Bank transfer,48.06,1648.04,Yes
+0812-ABCD,Female,0,No,No,37,Yes,No,Month-to-month,Yes,Mailed check,65.55,2469.14,Yes
+0813-ABCD,Female,0,Yes,No,5,Yes,No,Month-to-month,Yes,Credit card,59.56,246.2,Yes
+0814-ABCD,Female,0,No,No,26,Yes,DSL,Month-to-month,Yes,Credit card,29.51,749.31,No
+0815-ABCD,Female,0,Yes,No,62,Yes,Fiber optic,One year,No,Electronic check,77.67,4822.4,Yes
+0816-ABCD,Male,1,No,No,4,Yes,DSL,Two year,Yes,Electronic check,39.44,211.82,Yes
+0817-ABCD,Male,0,No,Yes,42,Yes,DSL,One year,No,Electronic check,75.76,3193.41,No
+0818-ABCD,Female,0,No,No,18,No,Fiber optic,One year,Yes,Credit card,78.52,1427.77,No
+0819-ABCD,Female,0,No,No,40,Yes,DSL,One year,No,Electronic check,33.68,1330.12,No
+0820-ABCD,Male,1,No,No,39,Yes,Fiber optic,Month-to-month,Yes,Electronic check,25.52,1012.33,Yes
+0821-ABCD,Male,0,Yes,Yes,14,Yes,Fiber optic,Two year,Yes,Electronic check,90.27,1266.94,No
+0822-ABCD,Male,0,Yes,Yes,32,Yes,DSL,One year,No,Mailed check,61.38,1916.51,No
+0823-ABCD,Male,0,Yes,Yes,51,Yes,DSL,One year,Yes,Bank transfer,25.23,1310.52,Yes
+0824-ABCD,Female,0,No,Yes,38,Yes,No,Two year,Yes,Bank transfer,109.54,4191.63,No
+0825-ABCD,Female,0,Yes,No,23,Yes,DSL,Two year,No,Credit card,25.2,603.7,No
+0826-ABCD,Male,0,No,Yes,63,Yes,Fiber optic,Two year,Yes,Credit card,82.55,5201.65,No
+0827-ABCD,Male,0,No,No,15,Yes,No,Month-to-month,Yes,Mailed check,108.53,1599.26,No
+0828-ABCD,Male,1,Yes,No,25,Yes,Fiber optic,Two year,No,Bank transfer,41.53,968.97,No
+0829-ABCD,Male,0,No,No,17,Yes,No,Month-to-month,No,Electronic check,32.8,562.31,No
+0830-ABCD,Male,0,Yes,No,66,Yes,DSL,One year,No,Electronic check,30.92,2073.18,No
+0831-ABCD,Male,0,No,No,53,Yes,DSL,Month-to-month,No,Credit card,47.29,2536.24,No
+0832-ABCD,Female,0,No,No,51,Yes,DSL,Two year,No,Bank transfer,29.09,1508.07,Yes
+0833-ABCD,Female,0,Yes,Yes,39,Yes,Fiber optic,Month-to-month,Yes,Credit card,82.29,3207.08,Yes
+0834-ABCD,Female,0,No,Yes,51,Yes,No,Two year,No,Credit card,25.61,1338.73,No
+0835-ABCD,Male,0,Yes,Yes,70,Yes,Fiber optic,Month-to-month,No,Electronic check,65.85,4637.22,No
+0836-ABCD,Male,0,No,Yes,6,No,No,One year,Yes,Electronic check,109.7,645.52,No
+0837-ABCD,Male,0,Yes,Yes,67,Yes,DSL,Month-to-month,Yes,Bank transfer,93.26,6268.72,No
+0838-ABCD,Female,0,No,No,7,Yes,Fiber optic,One year,Yes,Credit card,75.37,511.51,No
+0839-ABCD,Male,0,Yes,Yes,51,Yes,DSL,Two year,Yes,Mailed check,47.56,2441.76,No
+0840-ABCD,Male,0,Yes,Yes,42,No,Fiber optic,One year,Yes,Bank transfer,76.15,3159.33,No
+0841-ABCD,Female,0,No,Yes,64,Yes,DSL,Two year,No,Credit card,67.43,4278.85,No
+0842-ABCD,Male,1,Yes,No,15,No,Fiber optic,Two year,Yes,Bank transfer,58.35,907.0,No
+0843-ABCD,Female,1,No,No,29,Yes,Fiber optic,One year,No,Bank transfer,31.76,949.17,No
+0844-ABCD,Female,0,No,No,33,Yes,No,One year,Yes,Bank transfer,99.79,3312.08,No
+0845-ABCD,Male,0,Yes,Yes,27,Yes,DSL,Month-to-month,No,Mailed check,60.48,1635.6,No
+0846-ABCD,Female,0,Yes,Yes,36,Yes,No,Month-to-month,Yes,Mailed check,37.52,1278.98,No
+0847-ABCD,Male,0,Yes,Yes,29,Yes,No,One year,No,Electronic check,53.1,1537.65,Yes
+0848-ABCD,Female,0,Yes,Yes,38,Yes,DSL,One year,No,Electronic check,57.27,2189.89,Yes
+0849-ABCD,Male,0,Yes,Yes,57,Yes,Fiber optic,One year,No,Credit card,94.48,5369.32,No
+0850-ABCD,Female,0,No,No,27,Yes,No,One year,No,Bank transfer,86.03,2301.44,No
+0851-ABCD,Male,0,Yes,Yes,55,Yes,DSL,Two year,No,Credit card,89.24,4951.53,No
+0852-ABCD,Female,0,No,No,33,Yes,Fiber optic,One year,No,Electronic check,20.99,690.86,No
+0853-ABCD,Female,0,Yes,Yes,68,Yes,No,One year,No,Mailed check,57.45,3920.24,No
+0854-ABCD,Female,0,Yes,No,66,Yes,No,One year,No,Electronic check,63.32,4202.34,Yes
+0855-ABCD,Male,0,Yes,No,10,Yes,No,One year,No,Credit card,21.73,187.26,No
+0856-ABCD,Male,0,No,No,5,Yes,Fiber optic,Two year,No,Electronic check,43.38,222.7,Yes
+0857-ABCD,Female,0,Yes,No,38,Yes,No,Month-to-month,Yes,Credit card,88.43,3399.93,No
+0858-ABCD,Male,0,No,Yes,13,Yes,Fiber optic,Month-to-month,No,Credit card,32.34,475.0,No
+0859-ABCD,Female,0,No,Yes,31,Yes,No,Month-to-month,No,Credit card,68.18,2114.78,Yes
+0860-ABCD,Male,0,No,Yes,47,Yes,DSL,Month-to-month,Yes,Credit card,39.37,1843.25,No
+0861-ABCD,Female,0,Yes,No,52,Yes,No,Month-to-month,No,Electronic check,21.09,1104.75,No
+0862-ABCD,Male,0,No,Yes,56,Yes,DSL,Two year,No,Credit card,41.71,2343.07,No
+0863-ABCD,Female,0,Yes,Yes,15,Yes,DSL,Month-to-month,Yes,Credit card,107.83,1659.05,No
+0864-ABCD,Female,0,No,Yes,29,Yes,DSL,Two year,Yes,Bank transfer,92.14,2642.17,Yes
+0865-ABCD,Female,0,Yes,Yes,8,Yes,Fiber optic,Two year,No,Credit card,106.36,842.48,No
+0866-ABCD,Female,0,No,No,5,Yes,DSL,Month-to-month,Yes,Electronic check,63.91,286.04,Yes
+0867-ABCD,Male,0,Yes,No,29,Yes,No,Month-to-month,No,Credit card,29.88,836.16,Yes
+0868-ABCD,Female,1,Yes,Yes,47,Yes,Fiber optic,Month-to-month,No,Mailed check,69.32,3269.34,Yes
+0869-ABCD,Male,0,Yes,Yes,68,Yes,DSL,One year,No,Mailed check,60.89,4164.82,No
+0870-ABCD,Male,0,No,Yes,45,Yes,Fiber optic,Two year,Yes,Credit card,95.99,4300.07,No
+0871-ABCD,Female,0,No,No,2,Yes,Fiber optic,Month-to-month,No,Mailed check,28.83,80.82,Yes
+0872-ABCD,Male,0,Yes,No,27,Yes,Fiber optic,One year,No,Mailed check,63.94,1759.73,No
+0873-ABCD,Male,1,No,No,36,Yes,No,Two year,Yes,Electronic check,33.5,1264.04,No
+0874-ABCD,Male,0,No,Yes,36,No,DSL,One year,No,Bank transfer,49.22,1774.01,No
+0875-ABCD,Female,0,No,No,26,Yes,Fiber optic,One year,No,Mailed check,86.36,2226.17,No
+0876-ABCD,Male,0,No,No,43,Yes,Fiber optic,Month-to-month,No,Mailed check,62.84,2672.05,No
+0877-ABCD,Male,0,No,No,27,Yes,Fiber optic,Two year,No,Bank transfer,53.83,1420.36,No
+0878-ABCD,Female,0,No,No,69,Yes,DSL,One year,No,Bank transfer,55.5,3866.99,No
+0879-ABCD,Female,0,No,No,20,Yes,Fiber optic,Two year,No,Mailed check,61.35,1181.55,Yes
+0880-ABCD,Male,0,Yes,Yes,11,Yes,Fiber optic,Month-to-month,Yes,Credit card,90.65,1033.68,No
+0881-ABCD,Female,0,Yes,Yes,38,No,No,Two year,No,Mailed check,100.29,3784.97,Yes
+0882-ABCD,Male,0,No,Yes,6,Yes,DSL,One year,No,Credit card,105.98,615.32,No
+0883-ABCD,Male,1,Yes,Yes,23,Yes,No,One year,Yes,Credit card,90.82,2084.31,Yes
+0884-ABCD,Male,0,Yes,No,47,Yes,DSL,Two year,No,Credit card,48.39,2253.22,No
+0885-ABCD,Female,0,Yes,Yes,46,Yes,DSL,One year,No,Bank transfer,81.93,3796.74,Yes
+0886-ABCD,Male,0,No,Yes,12,Yes,DSL,One year,Yes,Mailed check,59.38,766.96,No
+0887-ABCD,Female,0,No,Yes,13,Yes,No,One year,Yes,Mailed check,42.92,538.24,Yes
+0888-ABCD,Female,0,No,No,62,Yes,No,Month-to-month,Yes,Electronic check,95.68,5919.19,No
+0889-ABCD,Male,0,No,Yes,60,Yes,No,Month-to-month,Yes,Bank transfer,23.46,1402.7,Yes
+0890-ABCD,Female,0,No,No,43,Yes,No,One year,Yes,Electronic check,101.16,4366.11,Yes
+0891-ABCD,Female,0,Yes,No,68,Yes,Fiber optic,Two year,Yes,Electronic check,61.53,4179.44,No
+0892-ABCD,Female,1,No,No,5,Yes,Fiber optic,Month-to-month,Yes,Credit card,77.35,428.37,Yes
+0893-ABCD,Female,0,Yes,Yes,37,Yes,Fiber optic,Two year,No,Bank transfer,79.34,2969.98,Yes
+0894-ABCD,Female,0,No,No,31,Yes,DSL,One year,No,Electronic check,100.56,3081.8,No
+0895-ABCD,Male,1,Yes,Yes,9,Yes,Fiber optic,One year,No,Mailed check,77.3,711.33,Yes
+0896-ABCD,Female,0,No,Yes,51,Yes,DSL,Two year,Yes,Electronic check,75.25,3883.36,No
+0897-ABCD,Male,0,No,Yes,29,No,No,Month-to-month,No,Bank transfer,26.0, ,No
+0898-ABCD,Male,0,No,No,40,Yes,DSL,Two year,Yes,Mailed check,66.66,2657.57,Yes
+0899-ABCD,Male,0,No,No,41,Yes,DSL,Two year,No,Mailed check,33.52,1358.48,No
+0900-ABCD,Male,1,No,Yes,11,Yes,Fiber optic,One year,No,Mailed check,86.37,934.86,Yes
+0901-ABCD,Male,1,No,No,23,Yes,No,Month-to-month,No,Credit card,66.1,1470.25,No
+0902-ABCD,Male,0,Yes,No,1,Yes,No,Two year,No,Mailed check,81.22,81.22,Yes
+0903-ABCD,Female,0,No,No,46,Yes,Fiber optic,Month-to-month,Yes,Credit card,23.75,1094.82,No
+0904-ABCD,Female,0,Yes,Yes,21,Yes,No,One year,Yes,Credit card,27.63,625.64,No
+0905-ABCD,Female,0,No,No,36,Yes,No,Month-to-month,No,Electronic check,84.47,3022.52,No
+0906-ABCD,Male,0,Yes,No,54,Yes,No,One year,Yes,Electronic check,26.49,1411.18,No
+0907-ABCD,Female,0,Yes,Yes,57,Yes,Fiber optic,Month-to-month,Yes,Mailed check,26.41,1556.42,No
+0908-ABCD,Female,1,Yes,No,1,Yes,No,Two year,No,Bank transfer,21.09,21.09,Yes
+0909-ABCD,Female,1,Yes,Yes,63,No,DSL,One year,Yes,Mailed check,106.09,6633.83,Yes
+0910-ABCD,Male,0,Yes,No,54,Yes,DSL,Two year,Yes,Electronic check,86.38,4639.66,No
+0911-ABCD,Female,0,Yes,No,55,Yes,No,One year,Yes,Mailed check,51.79,2828.57,No
+0912-ABCD,Male,0,No,No,40,Yes,Fiber optic,Month-to-month,Yes,Electronic check,46.69,1815.18,No
+0913-ABCD,Female,0,Yes,No,15,Yes,Fiber optic,Month-to-month,No,Mailed check,51.47,768.21,No
+0914-ABCD,Male,0,No,No,21,Yes,Fiber optic,One year,No,Bank transfer,89.72,1912.57,Yes
+0915-ABCD,Male,0,No,No,47,Yes,No,One year,Yes,Mailed check,79.52,3698.86,No
+0916-ABCD,Male,0,Yes,Yes,53,Yes,No,One year,No,Bank transfer,36.67,1946.14,No
+0917-ABCD,Female,0,Yes,No,9,Yes,DSL,Month-to-month,No,Bank transfer,35.67,332.91,No
+0918-ABCD,Female,0,No,No,52,Yes,Fiber optic,One year,No,Mailed check,28.86,1498.22,No
+0919-ABCD,Male,1,Yes,No,57,Yes,DSL,One year,Yes,Bank transfer,79.43,4533.08,Yes
+0920-ABCD,Female,0,Yes,Yes,26,Yes,DSL,Two year,Yes,Bank transfer,88.79,2314.46,No
+0921-ABCD,Male,0,Yes,Yes,41,Yes,Fiber optic,One year,No,Electronic check,43.85,1773.47,Yes
+0922-ABCD,Male,0,Yes,Yes,35,Yes,No,Two year,No,Electronic check,21.89,811.11,No
+0923-ABCD,Female,0,Yes,No,63,Yes,No,Two year,Yes,Bank transfer,27.4,1763.63,No
+0924-ABCD,Female,1,Yes,No,25,Yes,DSL,Two year,No,Credit card,107.11,2713.45,Yes
+0925-ABCD,Female,0,Yes,Yes,38,Yes,DSL,Month-to-month,Yes,Mailed check,46.59,1800.83,No
+0926-ABCD,Male,0,No,Yes,2,No,DSL,Two year,No,Bank transfer,89.23,131.21,Yes
+0927-ABCD,Male,0,Yes,Yes,7,Yes,DSL,One year,Yes,Mailed check,76.22,561.32,No
+0928-ABCD,Female,0,No,No,34,Yes,Fiber optic,Month-to-month,Yes,Electronic check,54.37,1868.25,No
+0929-ABCD,Male,0,No,Yes,17,No,DSL,Month-to-month,Yes,Mailed check,38.51,608.57,No
+0930-ABCD,Female,0,No,No,43,Yes,DSL,Month-to-month,Yes,Bank transfer,30.92,1323.11,No
+0931-ABCD,Male,0,No,No,59,Yes,No,Month-to-month,No,Bank transfer,75.35,4453.95,No
+0932-ABCD,Female,0,Yes,No,51,Yes,No,Month-to-month,Yes,Bank transfer,89.72,4625.65,No
+0933-ABCD,Female,0,No,Yes,54,Yes,No,Month-to-month,No,Bank transfer,77.95,4231.04,No
+0934-ABCD,Male,0,No,No,24,No,Fiber optic,Month-to-month,Yes,Credit card,67.73,1599.58,No
+0935-ABCD,Female,0,No,Yes,25,Yes,Fiber optic,Two year,Yes,Credit card,23.78,645.36,No
+0936-ABCD,Female,0,No,Yes,71,Yes,No,One year,No,Credit card,107.16,7609.67,No
+0937-ABCD,Male,1,No,Yes,52,Yes,No,One year,No,Bank transfer,91.88,4770.08,Yes
+0938-ABCD,Female,1,Yes,Yes,70,Yes,DSL,Two year,No,Credit card,46.35,3234.69,No
+0939-ABCD,Male,0,Yes,No,33,Yes,DSL,Two year,Yes,Mailed check,108.2,3521.89,Yes
+0940-ABCD,Female,0,No,No,49,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,74.17,3631.04,No
+0941-ABCD,Male,0,Yes,No,29,Yes,Fiber optic,Month-to-month,No,Electronic check,72.42,2115.1,No
+0942-ABCD,Female,0,Yes,No,63,Yes,DSL,Two year,Yes,Bank transfer,87.33,5490.23,No
+0943-ABCD,Female,0,No,Yes,22,No,No,Month-to-month,No,Mailed check,93.06,2059.93,No
+0944-ABCD,Female,0,No,Yes,26,Yes,DSL,One year,Yes,Credit card,79.08,2030.15,No
+0945-ABCD,Female,0,No,Yes,28,Yes,Fiber optic,One year,Yes,Bank transfer,31.53,878.61,No
+0946-ABCD,Male,0,Yes,Yes,49,Yes,Fiber optic,Month-to-month,Yes,Credit card,50.44,2481.06,No
+0947-ABCD,Male,1,No,No,71,Yes,DSL,Month-to-month,No,Bank transfer,103.53,7356.32,Yes
+0948-ABCD,Male,0,Yes,Yes,49,Yes,DSL,Month-to-month,Yes,Mailed check,40.22,1922.62,No
+0949-ABCD,Male,0,Yes,No,20,No,DSL,One year,No,Bank transfer,53.5,1056.83,No
+0950-ABCD,Male,0,Yes,Yes,63,Yes,Fiber optic,Month-to-month,No,Credit card,58.89,3760.39,No
+0951-ABCD,Male,0,No,Yes,61,Yes,No,Two year,Yes,Credit card,59.55,3617.78,No
+0952-ABCD,Male,1,Yes,Yes,49,Yes,DSL,Month-to-month,No,Mailed check,75.16,3683.31,No
+0953-ABCD,Female,0,No,Yes,71,Yes,Fiber optic,Two year,No,Bank transfer,104.88,7443.88,No
+0954-ABCD,Female,0,No,No,1,Yes,Fiber optic,Month-to-month,Yes,Electronic check,41.66,88.71,Yes
+0955-ABCD,Female,0,No,No,13,Yes,Fiber optic,Month-to-month,No,Bank transfer,30.94,440.93,Yes
+0956-ABCD,Female,1,No,No,51,Yes,DSL,One year,No,Mailed check,37.77,1950.5,No
+0957-ABCD,Male,0,No,No,56,Yes,DSL,Two year,Yes,Electronic check,99.82,5560.72,No
+0958-ABCD,Male,0,Yes,Yes,62,Yes,No,Two year,Yes,Mailed check,78.12,4854.22,Yes
+0959-ABCD,Male,0,Yes,Yes,32,No,Fiber optic,Two year,Yes,Bank transfer,45.73,1480.4,No
+0960-ABCD,Female,0,Yes,No,30,Yes,DSL,One year,No,Electronic check,93.44,2782.24,No
+0961-ABCD,Male,0,Yes,No,29,Yes,Fiber optic,Two year,No,Mailed check,97.52,2801.96,No
+0962-ABCD,Female,0,Yes,Yes,49,Yes,Fiber optic,One year,Yes,Credit card,96.19,4764.46,No
+0963-ABCD,Male,0,No,Yes,45,Yes,No,Month-to-month,No,Electronic check,102.7,4612.48,No
+0964-ABCD,Male,0,No,No,30,No,DSL,Month-to-month,Yes,Electronic check,42.7,1329.45,No
+0965-ABCD,Male,0,Yes,No,16,Yes,DSL,Two year,Yes,Mailed check,87.95,1437.11,No
+0966-ABCD,Male,0,Yes,No,40,Yes,Fiber optic,Month-to-month,Yes,Credit card,61.45,2470.24,No
+0967-ABCD,Female,0,Yes,Yes,19,Yes,Fiber optic,Month-to-month,No,Electronic check,95.78,1833.4,Yes
+0968-ABCD,Female,1,No,No,18,Yes,No,Two year,No,Mailed check,85.56,1498.07,No
+0969-ABCD,Male,0,No,No,1,Yes,No,Month-to-month,Yes,Electronic check,89.88,96.08,Yes
+0970-ABCD,Female,0,No,No,47,Yes,No,Two year,Yes,Electronic check,79.05,3757.86,No
+0971-ABCD,Male,0,Yes,No,66,Yes,No,Two year,No,Electronic check,35.97,2394.46,No
+0972-ABCD,Male,0,Yes,No,38,Yes,No,Month-to-month,Yes,Credit card,69.05,2628.53,No
+0973-ABCD,Male,0,Yes,Yes,51,Yes,No,Month-to-month,No,Bank transfer,108.62,5590.98,No
+0974-ABCD,Male,0,Yes,No,63,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,104.36,6569.13,Yes
+0975-ABCD,Female,0,No,Yes,4,Yes,No,Month-to-month,Yes,Credit card,23.89,76.97,Yes
+0976-ABCD,Male,0,Yes,No,1,Yes,Fiber optic,Month-to-month,No,Credit card,34.83,39.44,Yes
+0977-ABCD,Male,0,Yes,No,8,Yes,Fiber optic,One year,No,Mailed check,31.86,277.87,No
+0978-ABCD,Female,0,Yes,No,29,Yes,DSL,Month-to-month,No,Electronic check,85.34,2423.33,No
+0979-ABCD,Male,0,No,Yes,55,Yes,Fiber optic,One year,No,Credit card,93.6,5156.55,Yes
+0980-ABCD,Female,0,No,Yes,3,Yes,Fiber optic,Two year,No,Mailed check,39.22,141.97,Yes
+0981-ABCD,Male,0,Yes,Yes,32,Yes,No,Month-to-month,Yes,Bank transfer,65.53,2088.87,No
+0982-ABCD,Male,0,No,No,10,Yes,Fiber optic,Month-to-month,Yes,Bank transfer,95.66,989.81,No
+0983-ABCD,Male,0,No,No,34,Yes,No,Month-to-month,No,Bank transfer,85.95,2941.54,No
+0984-ABCD,Male,0,No,Yes,55,Yes,No,Two year,No,Bank transfer,68.8,3848.24,No
+0985-ABCD,Male,0,No,Yes,32,Yes,No,One year,Yes,Mailed check,73.13,2317.64,No
+0986-ABCD,Male,0,No,No,50,Yes,DSL,One year,Yes,Electronic check,65.75,3312.42,No
+0987-ABCD,Female,0,Yes,Yes,7,Yes,No,Month-to-month,No,Mailed check,46.78,296.94,No
+0988-ABCD,Male,1,Yes,No,8,Yes,Fiber optic,Month-to-month,No,Electronic check,70.85,518.34,Yes
+0989-ABCD,Female,1,Yes,Yes,65,Yes,No,Month-to-month,Yes,Bank transfer,82.0,5268.93,Yes
+0990-ABCD,Female,0,No,Yes,57,Yes,No,Month-to-month,No,Credit card,98.6,5636.35,No
+0991-ABCD,Male,0,No,Yes,67,Yes,No,Two year,Yes,Credit card,77.27,5182.62,No
+0992-ABCD,Female,0,No,No,59,Yes,DSL,Month-to-month,Yes,Credit card,88.5,5207.13,No
+0993-ABCD,Male,0,No,No,54,Yes,Fiber optic,Two year,No,Electronic check,34.41,1804.93,No
+0994-ABCD,Female,0,Yes,Yes,67,Yes,DSL,Month-to-month,Yes,Bank transfer,61.54,4102.47,No
+0995-ABCD,Male,0,Yes,No,51,Yes,Fiber optic,One year,Yes,Mailed check,20.84,1062.96,No
+0996-ABCD,Female,0,Yes,No,8,Yes,DSL,One year,Yes,Credit card,42.2,361.4,No
+0997-ABCD,Female,0,Yes,No,34,Yes,Fiber optic,Month-to-month,No,Electronic check,85.38,2902.42,No
+0998-ABCD,Male,0,Yes,No,35,Yes,DSL,Month-to-month,Yes,Credit card,109.26,3831.66,No
+0999-ABCD,Female,0,Yes,Yes,32,Yes,No,Two year,No,Mailed check,28.93,914.48,No
