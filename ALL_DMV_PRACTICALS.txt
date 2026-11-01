@@ -1,0 +1,463 @@
+================================================================================
+SPPU BE AI&DS - COMPUTER LABORATORY I (417525)
+SUBJECT: DATA MODELING AND VISUALIZATION (DMV) - COMPLETE PRACTICAL CODE FILE
+College: Guru Gobind Singh College of Engineering & Research Centre, Nashik
+Department: Department of Artificial Intelligence & Data Science
+================================================================================
+
+INDEX / TABLE OF CONTENTS:
+  1. PRACTICAL 1 (Lab Manual Sr. No. 7): Data Loading, Storage and File Formats
+  2. PRACTICAL 2 (Lab Manual Sr. No. 8): Interacting with Web APIs
+  3. PRACTICAL 3 (Lab Manual Sr. No. 9): Data Cleaning and Preparation
+  4. PRACTICAL 4 (Lab Manual Sr. No. 10): Data Wrangling
+  5. PRACTICAL 5 (Lab Manual Sr. No. 11): Data Visualization using matplotlib
+  6. PRACTICAL 6 (Lab Manual Sr. No. 12): Data Aggregation
+  7. PRACTICAL 7 (Lab Manual Sr. No. 13): Time Series Data Analysis
+
+================================================================================
+
+================================================================================
+PRACTICAL 1 (Lab Manual Sr. No. 7): DATA LOADING, STORAGE AND FILE FORMATS
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Analyzing Sales Data from Multiple File Formats.
+Goal: Load and analyze sales data from different file formats including CSV, Excel (.xlsx), and JSON, and perform data cleaning, transformation, and business visualizations (Bar, Line, and Pie charts).
+
+Dataset Required:
+  sales_data_sample.csv, Sample-Sales-Data.xlsx, customers.json, sales_data.json
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_1_file_formats.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 1: Sales Data from Multiple File Formats
+import os
+import pandas as pd
+import json
+import matplotlib.pyplot as plt
+
+# Ensure script runs from its own directory so data files are always found
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+# 1. Load File 1: CSV
+csv = pd.read_csv("sales_data_sample.csv", encoding="cp1252")
+print("CSV Loaded. Shape:", csv.shape)
+
+# 2. Load File 2: Excel (.xlsx)
+ed = pd.read_excel("Sample-Sales-Data.xlsx")
+print("Excel Loaded. Shape:", ed.shape)
+
+# 3. Load File 3: JSON
+with open("customers.json", "r") as f:
+    cust_df = pd.DataFrame(json.load(f))
+print("JSON Loaded. Shape:", cust_df.shape)
+
+# 4. Clean Data
+csv['ORDERDATE'] = pd.to_datetime(csv['ORDERDATE'])
+csv['TERRITORY'] = csv['TERRITORY'].fillna('Unknown')
+csv['YEAR_MONTH'] = csv['ORDERDATE'].dt.to_period('M')
+
+# 5. Key Metrics
+total_revenue = csv['SALES'].sum()
+print(f"Total Revenue: ${total_revenue:,.2f}")
+
+product_sales = csv.groupby('PRODUCTLINE')['SALES'].sum().sort_values(ascending=False)
+monthly_sales = csv.groupby('YEAR_MONTH')['SALES'].sum()
+monthly_sales.index = monthly_sales.index.astype(str)
+
+# 6. Visualizations
+plt.figure(figsize=(10, 5))
+product_sales.plot(kind='bar', color='teal')
+plt.title("Product-wise Sales")
+plt.ylabel("Sales ($)")
+plt.show()
+
+plt.figure(figsize=(10, 5))
+monthly_sales.plot(kind='line', marker='o')
+plt.title("Monthly Sales Trends")
+plt.ylabel("Sales ($)")
+plt.show()
+
+csv.groupby('TERRITORY')['SALES'].sum().plot(kind='pie', autopct='%1.1f%%')
+plt.title("Sales by Territory")
+plt.ylabel("")
+plt.show()
+--- CODE END ---
+
+
+================================================================================
+PRACTICAL 2 (Lab Manual Sr. No. 8): INTERACTING WITH WEB APIS
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Analyzing Weather Data from OpenWeatherMap API.
+Goal: Interact with OpenWeatherMap REST API to retrieve 5-day weather forecast data for Pune and perform data modeling and visualization of temperature trends and correlation heatmaps.
+
+Dataset Required:
+  Live OpenWeatherMap REST API (JSON payload)
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_2_weather_api.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 2: Weather Data via OpenWeatherMap API
+import requests
+import datetime
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Fetch Data from API
+api_key = "fb365aa6104829b44455572365ff3b4e"
+lat, lon = 18.5204, 73.8567  # Pune
+url = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}&units=metric"
+
+response = requests.get(url)
+data = response.json()
+
+# 2. Parse JSON into DataFrame
+records = []
+for entry in data.get('list', []):
+    dt = datetime.datetime.fromtimestamp(entry['dt'])
+    temp = entry['main']['temp']
+    hum = entry['main']['humidity']
+    press = entry['main']['pressure']
+    speed = entry['wind']['speed']
+    desc = entry['weather'][0]['description']
+    records.append([dt, temp, hum, press, speed, desc])
+
+df = pd.DataFrame(records, columns=["DateTime", "Temperature", "Humidity", "Pressure", "Wind_Speed", "Description"])
+print("Weather data loaded successfully. Shape:", df.shape)
+print(df.head(3))
+
+# 3. Visualizations
+plt.figure(figsize=(10, 4))
+sns.lineplot(x="DateTime", y="Temperature", data=df, marker='o', color='orange')
+plt.title("Temperature Trend Over Time (Celsius)")
+plt.xticks(rotation=30)
+plt.tight_layout()
+plt.show()
+
+plt.figure(figsize=(6, 4))
+sns.heatmap(df[["Temperature", "Humidity", "Pressure", "Wind_Speed"]].corr(), annot=True, cmap="coolwarm")
+plt.title("Correlation Heatmap")
+plt.tight_layout()
+plt.show()
+--- CODE END ---
+
+
+================================================================================
+PRACTICAL 3 (Lab Manual Sr. No. 9): DATA CLEANING AND PREPARATION
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Analyzing Customer Churn in a Telecommunications Company.
+Goal: Perform data cleaning, handle whitespace values in TotalCharges, encode categorical attributes using LabelEncoder, scale features, and evaluate Logistic Regression & Random Forest classifiers.
+
+Dataset Required:
+  Telcom_Customer_Churn.csv
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_3_telecom_churn.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 3: Telecom Customer Churn Data Cleaning & Modeling
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+
+# 1. Load Dataset
+data = pd.read_csv("Telcom_Customer_Churn.csv")
+
+# 2. Clean TotalCharges (fix whitespace issue) and drop duplicates
+data['TotalCharges'] = pd.to_numeric(data['TotalCharges'].replace(' ', np.nan), errors='coerce')
+data['TotalCharges'].fillna(data['TotalCharges'].median(), inplace=True)
+data.drop_duplicates(inplace=True)
+
+# 3. Encode Categorical Columns
+le = LabelEncoder()
+for col in data.select_dtypes(include=['object']).columns:
+    data[col] = le.fit_transform(data[col])
+
+# 4. Scale Numeric Columns
+scaler = StandardScaler()
+data[['tenure', 'MonthlyCharges', 'TotalCharges']] = scaler.fit_transform(data[['tenure', 'MonthlyCharges', 'TotalCharges']])
+
+# 5. Train & Evaluate Models
+X = data.drop('Churn', axis=1)
+y = data['Churn']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+models = {
+    "Logistic Regression": LogisticRegression(max_iter=1000),
+    "Random Forest": RandomForestClassifier(random_state=42)
+}
+
+for name, model in models.items():
+    model.fit(X_train, y_train)
+    pred = model.predict(X_test)
+    print(f"{name} Accuracy: {accuracy_score(y_test, pred):.4f}")
+    print(classification_report(y_test, pred))
+
+# 6. Visualizations
+sns.countplot(x='Churn', data=data)
+plt.title("Churn Distribution")
+plt.show()
+
+sns.boxplot(x='Churn', y='tenure', data=data)
+plt.title("Tenure vs Churn")
+plt.show()
+--- CODE END ---
+
+
+================================================================================
+PRACTICAL 4 (Lab Manual Sr. No. 10): DATA WRANGLING
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Data Wrangling on Real Estate Market.
+Goal: Perform data wrangling on housing prices, extract BHK numbers, parse total square feet range strings, engineer price-per-sqft, remove outliers using IQR, and plot total square feet vs price.
+
+Dataset Required:
+  Bengaluru_House_Data.csv (RealEstate_Prices.csv)
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_4_real_estate_wrangling.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 4: Real Estate Market Data Wrangling
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Load Dataset
+df = pd.read_csv("Bengaluru_House_Data.csv")
+df.drop(['area_type', 'society', 'balcony', 'availability'], axis=1, inplace=True, errors='ignore')
+df.dropna(inplace=True)
+
+# 2. Extract BHK
+df['bhk'] = df['size'].apply(lambda x: int(str(x).split()[0]))
+
+# 3. Clean total_sqft range strings
+def convert_sqft(x):
+    tokens = str(x).split('-')
+    if len(tokens) == 2:
+        try: return (float(tokens[0]) + float(tokens[1])) / 2.0
+        except ValueError: return None
+    try: return float(x)
+    except ValueError: return None
+
+df['total_sqft'] = df['total_sqft'].apply(convert_sqft)
+df.dropna(subset=['total_sqft'], inplace=True)
+
+# 4. Feature Engineering: Price per SqFt
+df['price_per_sqft'] = df['price'] * 100000 / df['total_sqft']
+
+# 5. Reduce Location Cardinality
+location_stats = df['location'].value_counts()
+locations_less_than_10 = location_stats[location_stats <= 10].index
+df['location'] = df['location'].apply(lambda x: 'other' if x in locations_less_than_10 else x)
+
+# 6. Remove Outliers (< 300 sqft/BHK and IQR on price_per_sqft)
+df = df[~(df['total_sqft'] / df['bhk'] < 300)]
+
+Q1 = df['price_per_sqft'].quantile(0.25)
+Q3 = df['price_per_sqft'].quantile(0.75)
+IQR = Q3 - Q1
+df = df[(df['price_per_sqft'] >= Q1 - 1.5*IQR) & (df['price_per_sqft'] <= Q3 + 1.5*IQR)]
+print("Cleaned Shape:", df.shape)
+
+# 7. Scatter Plot: SqFt vs Price
+plt.figure(figsize=(8, 5))
+sns.scatterplot(x='total_sqft', y='price', hue='bhk', data=df, palette='viridis')
+plt.title("Total SqFt vs Price")
+plt.show()
+--- CODE END ---
+
+
+================================================================================
+PRACTICAL 5 (Lab Manual Sr. No. 11): DATA VISUALIZATION USING MATPLOTLIB
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Analyzing Air Quality Index (AQI) Trends in a City.
+Goal: Use matplotlib and seaborn to visualize pollutant levels (SO2, NO2, RSPM, SPM), compare top 5 and bottom 5 states by pollutant concentration, and generate a pollutant correlation heatmap.
+
+Dataset Required:
+  data.csv (City_Air_Quality.csv)
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_5_air_quality_visualization.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 5: Air Quality Index (AQI) Trends
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.impute import SimpleImputer
+
+# 1. Load Dataset
+data = pd.read_csv("data.csv", encoding="cp1252", low_memory=False)
+
+# 2. Harmonize State names
+data['state'] = data['state'].replace({'Uttaranchal': 'Uttarakhand'})
+
+# 3. Impute Missing Values with Mean
+val_cols = ['so2', 'no2', 'rspm', 'spm']
+val_cols = [c for c in val_cols if c in data.columns]
+imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
+data[val_cols] = imputer.fit_transform(data[val_cols])
+
+# 4. Visualizations: Top 5 and Bottom 5 States by NO2
+state_rank = data.groupby('state')['no2'].median().sort_values(ascending=False)
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+state_rank.head(5).plot(kind='bar', ax=axes[0], color='crimson')
+axes[0].set_title("Top 5 States - Highest NO2")
+axes[0].set_ylabel("NO2 (ug/m3)")
+
+state_rank.tail(5).plot(kind='bar', ax=axes[1], color='forestgreen')
+axes[1].set_title("Bottom 5 States - Lowest NO2")
+axes[1].set_ylabel("NO2 (ug/m3)")
+plt.tight_layout()
+plt.show()
+
+# 5. Correlation Heatmap
+sns.heatmap(data[val_cols].corr(), annot=True, cmap="YlOrRd")
+plt.title("Pollutant Correlation Heatmap")
+plt.show()
+--- CODE END ---
+
+
+================================================================================
+PRACTICAL 6 (Lab Manual Sr. No. 12): DATA AGGREGATION
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Analyzing Sales Performance by Region in a Retail Company.
+Goal: Perform data aggregation to analyze retail transactions, calculate total sales by shopping mall (region) and product category, and create pie charts, horizontal bar charts, and a pivot table heatmap.
+
+Dataset Required:
+  customer_shopping_data.csv (Retail_Sales_Data.csv)
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_6_sales_aggregation.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 6: Retail Sales Performance by Region & Category
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Load Dataset
+df = pd.read_csv("customer_shopping_data.csv")
+
+# 2. Clean Data & Total Amount
+df.drop_duplicates(inplace=True)
+df['total_amount'] = df['price'] * df['quantity'] if 'quantity' in df.columns else df['price']
+
+# 3. Groupby Aggregations
+region_sales = df.groupby("shopping_mall")["total_amount"].sum().sort_values(ascending=False)
+category_sales_sorted = df.groupby("category")["total_amount"].sum().sort_values(ascending=True) # Fix: correctly defined
+combined_sales = df.groupby(["shopping_mall", "category"])["total_amount"].sum().unstack().fillna(0)
+
+# 4. Visualizations
+plt.figure(figsize=(6, 6))
+region_sales.plot(kind='pie', autopct='%1.1f%%')
+plt.title("Sales by Region (Shopping Mall)")
+plt.ylabel("")
+plt.show()
+
+plt.figure(figsize=(9, 5))
+category_sales_sorted.plot(kind='barh', color='teal')
+plt.title("Sales by Product Category")
+plt.xlabel("Total Sales")
+plt.show()
+
+plt.figure(figsize=(9, 5))
+sns.heatmap(combined_sales, annot=True, fmt=".0f", cmap="YlGnBu")
+plt.title("Sales Heatmap by Region and Category")
+plt.show()
+--- CODE END ---
+
+
+================================================================================
+PRACTICAL 7 (Lab Manual Sr. No. 13): TIME SERIES DATA ANALYSIS
+================================================================================
+Lab Manual Problem Statement:
+  Problem Statement: Analysis and Visualization of Stock Market Data.
+Goal: Perform time series data analysis on historical stock price data, calculate 20-day & 50-day Simple Moving Averages and 20-day Exponential Moving Averages, evaluate forecasting error (RMSE & MAE), and plot stock price trends.
+
+Dataset Required:
+  Google_Stock_Train (2010-2022).csv (Stock_Prices.csv)
+
+Source Script:
+  Revised_Scripts/DMV/dmv_practical_7_stock_time_series.py
+--------------------------------------------------------------------------------
+--- CODE START ---
+# DMV Practical 7: Stock Market Time Series Analysis & Forecasting
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+
+# 1. Load Dataset
+df = pd.read_csv("Google_Stock_Train (2010-2022).csv")
+df['Date'] = pd.to_datetime(df['Date'])
+df.sort_values('Date', inplace=True)
+df.set_index('Date', inplace=True)
+
+# 2. Moving Averages
+df['MA_20'] = df['Close'].rolling(window=20).mean()
+df['MA_50'] = df['Close'].rolling(window=50).mean()
+df['EMA_20'] = df['Close'].ewm(span=20, adjust=False).mean()
+
+# 3. Plot Historical Trend & Moving Averages
+plt.figure(figsize=(10, 5))
+plt.plot(df.index, df['Close'], label='Close Price', color='black', alpha=0.6)
+plt.plot(df.index, df['MA_20'], label='20-Day SMA', color='blue')
+plt.plot(df.index, df['MA_50'], label='50-Day SMA', color='orange')
+plt.plot(df.index, df['EMA_20'], label='20-Day EMA', color='red', linestyle='--')
+plt.title("Stock Price with Moving Averages")
+plt.legend()
+plt.show()
+
+# 4. Train-Test Split & Forecast
+split = int(len(df) * 0.8)
+train = df['Close'][:split]
+test = df['Close'][split:]
+
+try:
+    from statsmodels.tsa.arima.model import ARIMA
+    model = ARIMA(train, order=(1, 1, 1)).fit()
+    forecast = model.forecast(steps=len(test))
+except ImportError:
+    from sklearn.linear_model import Ridge
+    t_tr = np.arange(len(train)).reshape(-1, 1)
+    t_ts = np.arange(len(train), len(train)+len(test)).reshape(-1, 1)
+    forecast = pd.Series(Ridge().fit(t_tr, train.values).predict(t_ts), index=test.index)
+
+print(f"RMSE: {np.sqrt(mean_squared_error(test, forecast)):.2f}")
+print(f"MAE:  {mean_absolute_error(test, forecast):.2f}")
+
+plt.figure(figsize=(9, 4))
+plt.plot(test.index, test, label='Actual Test')
+plt.plot(test.index, forecast, label='Forecast', color='green', linestyle='--')
+plt.title("Stock Price Forecast vs Actual")
+plt.legend()
+plt.show()
+--- CODE END ---
+
