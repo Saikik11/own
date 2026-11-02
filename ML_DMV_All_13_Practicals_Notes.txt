@@ -1,0 +1,1311 @@
+MACHINE LEARNING AND DATA MINING & VISUALIZATION COMPLETE PRACTICAL
+NOTES 6 ML PRACTICALS + 7 DMV PRACTICALS
+
+============================================================ PART A:
+MACHINE LEARNING (6 PRACTICALS)
+============================================================
+
+PRACTICAL 1: PRINCIPAL COMPONENT ANALYSIS (PCA) Dataset: Wine.csv Title:
+To use PCA Algorithm for Dimensionality Reduction.
+
+1.  AIM To implement Principal Component Analysis (PCA) on the Wine
+    dataset to reduce the dimensionality of the data while retaining
+    maximum variation and identifying important patterns among the
+    features.
+
+2.  THEORY Principal Component Analysis (PCA) is an unsupervised machine
+    learning algorithm used for dimensionality reduction. It transforms
+    a dataset containing correlated features into a smaller set of new,
+    uncorrelated features called principal components.
+
+PCA uses an orthogonal transformation to convert the original variables
+into a new coordinate system. The first principal component captures the
+maximum variance in the dataset, while subsequent components capture the
+remaining maximum possible variance.
+
+PCA is based on mathematical concepts such as variance, covariance,
+eigenvalues and eigenvectors. It helps remove redundant information,
+reduce computational complexity and improve data visualization.
+
+In this practical, PCA is applied to the Wine dataset containing
+features such as alcohol, ash, magnesium and other chemical
+measurements. The original features are transformed into fewer principal
+components while preserving important information.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries.
+
+6.  Load the Wine dataset.
+
+7.  Separate the input features and target information.
+
+8.  Represent the dataset in matrix form.
+
+9.  Standardize the input features.
+
+10. Calculate the covariance matrix.
+
+11. Calculate the eigenvalues and eigenvectors.
+
+12. Sort the eigenvalues in descending order and arrange the
+    corresponding eigenvectors.
+
+13. Select the important principal components.
+
+14. Transform the original dataset into the reduced-dimensional dataset.
+
+15. Visualize the transformed data.
+
+16. End.
+
+17. FLOWCHART START | Import Libraries | Load Wine Dataset | Separate
+    Input Features | Standardize the Data | Calculate Covariance Matrix
+    | Find Eigenvalues and Eigenvectors | Sort Eigenvalues in Descending
+    Order | Select Important Principal Components | Transform Original
+    Dataset | Visualize Reduced Data | END
+
+18. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Dimensionality Reduction: The process of reducing the number of
+    features in a dataset while retaining the most important
+    information.
+-   Variance: Measures how much the values of a feature differ from
+    their mean.
+-   Covariance: Measures how two variables change together. Positive
+    covariance indicates that variables tend to increase together, while
+    negative covariance indicates opposite movement.
+-   Correlation: Represents the strength and direction of the
+    relationship between two variables. Its value ranges from -1 to +1.
+    +1 indicates perfect positive correlation, -1 indicates perfect
+    negative correlation and 0 indicates no linear correlation.
+-   Eigenvalues: Represent the amount of variance captured by their
+    corresponding principal components.
+-   Eigenvectors: Determine the directions of the new principal
+    component axes.
+-   Standardization: Transforms features to a comparable scale, commonly
+    by subtracting their mean and dividing by their standard deviation.
+-   Principal Components: Newly generated, linearly uncorrelated
+    features that represent important variation in the original dataset.
+
+------------------------------------------------------------------------
+
+PRACTICAL 2: LINEAR REGRESSION Dataset: Uber dataset Title: Implement
+Linear Regression Using Python.
+
+1.  AIM To implement Linear Regression using Python and apply regression
+    techniques to establish relationships between independent and
+    dependent variables for predicting numerical values.
+
+2.  THEORY Regression is a supervised machine learning technique used to
+    identify relationships between variables and predict continuous
+    numerical values.
+
+Linear Regression is one of the simplest and most widely used regression
+algorithms. It establishes a linear relationship between independent
+variables and a dependent variable.
+
+The dependent variable is the output that needs to be predicted, while
+independent variables are the input features used for prediction.
+
+In Simple Linear Regression, one independent variable is used to predict
+the dependent variable. In Multiple Linear Regression, two or more
+independent variables are used.
+
+The regression model calculates the best-fit line by minimizing the
+difference between actual and predicted values. This process commonly
+uses the Sum of Squared Residuals (SSR).
+
+Simple Linear Regression: y = b0 + b1x
+
+Multiple Linear Regression: y = beta0 + beta1x1 + beta2x2 + … +
+betarxr + error
+
+Where y is the dependent variable, x is an independent variable, b0 is
+the intercept, b1 is the slope and error represents random error.
+
+Linear Regression is useful for predicting numerical values and
+understanding how changes in input variables affect the output.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries and packages.
+
+6.  Load the Uber dataset.
+
+7.  Inspect and understand the dataset.
+
+8.  Select the independent and dependent variables.
+
+9.  Perform necessary data preprocessing and transformations.
+
+10. Create a Linear Regression model.
+
+11. Train the model using the available dataset.
+
+12. Examine the fitted regression model.
+
+13. Evaluate the model by comparing actual and predicted values.
+
+14. Apply the trained model to make predictions.
+
+15. Display the results.
+
+16. End.
+
+17. FLOWCHART START | Import Required Libraries | Load Uber Dataset |
+    Inspect Dataset | Select Independent and Dependent Variables |
+    Preprocess Data | Create Linear Regression Model | Train the Model |
+    Evaluate Model Fitting | Predict Output Values | Display Prediction
+    Results | END
+
+18. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Regression Analysis: A statistical method used to identify
+    relationships between variables and estimate a dependent variable.
+-   Linear Regression: A supervised learning algorithm that predicts
+    continuous numerical values using a linear relationship.
+-   Simple Linear Regression: Uses one independent variable to predict
+    one dependent variable.
+-   Multiple Linear Regression: Uses multiple independent variables to
+    predict one dependent variable.
+-   Independent Variable: An input feature used to predict an output.
+-   Dependent Variable: The output whose value depends on independent
+    variables.
+-   Intercept: The predicted output when the input variable is zero.
+-   Slope: Indicates how much the predicted output changes when the
+    independent variable increases by one unit.
+-   Residual: Difference between actual output and predicted output.
+    Residual = y - predicted y.
+-   Sum of Squared Residuals (SSR): Sum of the squares of all residuals.
+    Linear Regression attempts to minimize this value to obtain the
+    best-fitting regression line.
+
+------------------------------------------------------------------------
+
+PRACTICAL 3: SUPPORT VECTOR MACHINE (SVM) Dataset: Handwritten digits
+Title: Implementation of Support Vector Machines (SVM) for Classifying
+Images of Handwritten Digits into Their Respective Numerical Classes (0
+to 9).
+
+1.  AIM To implement the Support Vector Machine (SVM) classification
+    algorithm for classifying handwritten digit images into their
+    respective numerical classes from 0 to 9.
+
+2.  THEORY Support Vector Machine (SVM) is a supervised machine learning
+    algorithm used for classification and regression problems.
+
+In classification, SVM separates data points belonging to different
+classes by finding an optimal decision boundary called a hyperplane.
+
+The main objective of SVM is to identify a hyperplane that maximizes the
+margin between different classes. The margin is the distance between the
+hyperplane and the closest data points belonging to different classes.
+
+The data points closest to the hyperplane are called support vectors.
+These points play an important role in determining the position and
+orientation of the optimal hyperplane.
+
+For image classification, an image is represented as an array of pixel
+values. These pixel values are converted into feature vectors and
+supplied to the SVM classifier.
+
+SVM is particularly useful for high-dimensional datasets and can
+classify complex patterns using suitable kernels.
+
+In this practical, SVM is used to classify handwritten digit images into
+numerical classes from 0 to 9.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries.
+
+6.  Load the handwritten digit dataset.
+
+7.  Preprocess and normalize the input images.
+
+8.  Flatten each image into a feature vector.
+
+9.  Divide the dataset into training and testing datasets.
+
+10. Create an SVM classifier using a suitable kernel.
+
+11. Train the SVM model using the training dataset.
+
+12. Predict the digit classes for the testing dataset.
+
+13. Calculate classification accuracy.
+
+14. Generate a confusion matrix.
+
+15. Display the predicted classes and evaluation results.
+
+16. End.
+
+17. FLOWCHART START | Import Required Libraries | Load Handwritten Digit
+    Dataset | Preprocess and Normalize Images | Flatten Images into
+    Feature Vectors | Split into Training and Testing Data | Create SVM
+    Classifier | Train SVM Model | Predict Digit Classes | Calculate
+    Accuracy and Confusion Matrix | Display Classification Results | END
+
+18. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Supervised Learning: A technique in which a model is trained using
+    input data and corresponding known output labels.
+-   Classification: A supervised learning task in which data points are
+    assigned to predefined categories.
+-   Support Vector Machine: A machine learning algorithm that finds an
+    optimal hyperplane to separate different classes.
+-   Hyperplane: A decision boundary that separates data points belonging
+    to different classes.
+-   Support Vectors: Data points closest to the decision boundary that
+    help determine the optimal hyperplane.
+-   Margin: Distance between the hyperplane and the nearest data points
+    of different classes. SVM attempts to maximize this margin.
+-   Kernel Function: Helps SVM classify data that cannot be separated
+    using a simple straight-line boundary.
+-   Feature Extraction: Process of obtaining meaningful information from
+    raw data. For image classification, pixel intensities and other
+    image properties can be used.
+-   Confusion Matrix: A performance evaluation table that compares
+    actual class labels with predicted class labels.
+
+Note: The uploaded SVM practical has an inconsistency: its title and
+algorithm describe handwritten digit classification, but its conclusion
+mentions cats and dogs. These notes follow the practical title and
+algorithm, which specify digits 0 to 9.
+
+------------------------------------------------------------------------
+
+PRACTICAL 4: K-MEANS CLUSTERING AND ELBOW METHOD Dataset: Iris dataset
+Title: Clustering Analysis.
+
+1.  AIM To find the optimum number of clusters using the Elbow Method
+    and apply the K-Means Clustering algorithm to the Iris dataset.
+
+2.  THEORY Clustering is an unsupervised machine learning technique used
+    to group similar data points into different clusters without
+    predefined class labels.
+
+K-Means is a centroid-based clustering algorithm that divides an
+unlabeled dataset into K different clusters. Each cluster is represented
+by a centroid, which is the center point of that cluster.
+
+The algorithm assigns every data point to its nearest centroid based on
+distance. After assigning the points, the centroids are recalculated
+using the mean of the data points belonging to each cluster.
+
+This process is repeated until the centroids stop changing or the data
+points remain in the same clusters.
+
+The Elbow Method is used to determine the optimum number of clusters. It
+calculates the Within Cluster Sum of Squares (WCSS) for different values
+of K and plots the results.
+
+The point at which the WCSS reduction starts becoming less significant
+is called the elbow point. This point helps identify the appropriate
+number of clusters.
+
+In this practical, the Elbow Method is used to determine the optimum
+number of clusters before applying K-Means to the Iris dataset.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries.
+
+6.  Load the Iris dataset.
+
+7.  Select the required features.
+
+8.  Initialize different values of K, generally from 1 to 10.
+
+9.  Apply K-Means clustering for each value of K.
+
+10. Calculate the WCSS for every cluster configuration.
+
+11. Plot the graph between the number of clusters and WCSS.
+
+12. Identify the elbow point to determine the optimum K.
+
+13. Initialize K centroids randomly.
+
+14. Calculate the distance between each data point and the centroids.
+
+15. Assign each data point to its nearest centroid.
+
+16. Recalculate the centroids using the mean of the cluster points.
+
+17. Repeat the assignment and centroid calculation until convergence.
+
+18. Display the final clusters and visualization.
+
+19. End.
+
+20. FLOWCHART START | Import Libraries | Load Iris Dataset | Select
+    Features | Apply K-Means for Different K Values | Calculate WCSS |
+    Plot Elbow Graph | Select Optimal Number of K | Initialize K
+    Centroids | Calculate Distance of Points from Centroids | Assign
+    Points to Nearest Centroids | Recalculate Centroids | Convergence
+    Reached? | No: Repeat assignment and calculation | Yes | Display
+    Clusters | END
+
+21. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Clustering: An unsupervised learning technique used to group similar
+    data points.
+-   Unsupervised Learning: A machine learning technique in which the
+    model learns patterns without predefined output labels.
+-   K-Means Algorithm: An iterative clustering algorithm that divides a
+    dataset into K clusters based on distance from cluster centroids.
+-   Cluster: A group of data points that share similar characteristics.
+-   Centroid: The central point of a cluster, calculated as the
+    arithmetic mean of the coordinates of its data points.
+-   Euclidean Distance: Straight-line distance between two data points.
+    Formula: d = square root of ((x1-x2)^2 + (y1-y2)^2).
+-   WCSS: Measures the total squared distance between each data point
+    and its corresponding cluster centroid.
+-   Elbow Method: Determines the optimum number of clusters by plotting
+    WCSS against different values of K.
+-   Convergence: Occurs when centroids stop changing significantly or
+    cluster assignments remain the same.
+
+------------------------------------------------------------------------
+
+PRACTICAL 5: ENSEMBLE LEARNING USING RANDOM FOREST Dataset: Car
+Evaluation Dataset Title: Ensemble Learning. Implement Random Forest
+Classifier Model to Predict the Safety of the Car.
+
+1.  AIM To implement the Random Forest Classifier using Python and build
+    a machine learning model to predict the safety classification of
+    cars.
+
+2.  THEORY Ensemble Learning is a machine learning technique that
+    combines multiple models to solve a problem and improve prediction
+    performance.
+
+Random Forest is a supervised machine learning algorithm based on
+ensemble learning. It can be used for both classification and regression
+problems.
+
+Random Forest consists of multiple Decision Trees trained using
+different subsets of the given dataset and randomly selected features.
+
+Each decision tree independently produces a prediction. In
+classification problems, the final output is determined using majority
+voting among the predictions of all the trees.
+
+In regression problems, the final output is generally calculated by
+averaging the predictions of the individual trees.
+
+Random Forest improves model performance by combining multiple decision
+trees instead of depending on a single tree. It also helps reduce
+overfitting compared with using an individual decision tree.
+
+In this practical, the Random Forest Classifier is trained on the Car
+Evaluation dataset to predict the safety category of a car.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries.
+
+6.  Load the Car Evaluation dataset.
+
+7.  Preprocess the dataset.
+
+8.  Encode categorical data into numerical values.
+
+9.  Separate the input features and target variable.
+
+10. Divide the dataset into training and testing datasets.
+
+11. Create the Random Forest Classifier.
+
+12. Train the classifier using the training dataset.
+
+13. Predict car safety classes using the testing dataset.
+
+14. Calculate the model accuracy.
+
+15. Generate a confusion matrix.
+
+16. Display the prediction and evaluation results.
+
+17. End.
+
+18. FLOWCHART START | Import Libraries | Load Car Safety Dataset |
+    Preprocess Dataset | Encode Categorical Data | Separate Features and
+    Target | Divide Data into Training and Testing Sets | Create Random
+    Forest Model | Train Multiple Decision Trees | Generate Individual
+    Tree Predictions | Apply Majority Voting | Predict Car Safety Class
+    | Evaluate Accuracy and Confusion Matrix | Display Results | END
+
+19. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Ensemble Learning: Combines predictions from multiple machine
+    learning models to improve overall performance.
+-   Random Forest: An ensemble learning algorithm that combines multiple
+    Decision Trees to generate a final prediction.
+-   Decision Tree: A supervised algorithm that makes decisions using a
+    tree-like structure of nodes and branches.
+-   Bootstrap Sampling: Creates different training subsets by randomly
+    selecting data points from the original dataset.
+-   Feature Selection: Identifies important input variables used to make
+    predictions. Random Forest uses randomly selected feature subsets
+    while constructing trees.
+-   Majority Voting: Selects the class that receives the highest number
+    of votes from individual classifiers.
+-   Overfitting: Occurs when a model learns training data too closely,
+    including noise, and performs poorly on unseen data.
+-   Accuracy: Proportion of correctly predicted results out of total
+    predictions. Accuracy = Correct Predictions / Total Predictions.
+-   Confusion Matrix: Compares actual and predicted classifications.
+
+Example of majority voting: Tree 1: Safe Tree 2: Unsafe Tree 3: Safe
+Tree 4: Safe Tree 5: Unsafe Final prediction: Safe, because it received
+the majority of votes.
+
+------------------------------------------------------------------------
+
+PRACTICAL 6: REINFORCEMENT LEARNING USING Q-LEARNING Environment: Maze
+exploration Title: Reinforcement Learning: Maze Exploration.
+
+1.  AIM To implement Reinforcement Learning using the Q-Learning
+    algorithm in a maze environment, where an agent learns to reach the
+    goal while avoiding obstacles.
+
+2.  THEORY Reinforcement Learning is a type of machine learning in which
+    an agent learns to make decisions by interacting with an
+    environment.
+
+The agent performs actions in the environment and receives rewards or
+penalties based on its actions. The main objective is to learn an
+optimal policy that maximizes the total expected reward.
+
+Q-Learning is a model-free reinforcement learning algorithm used to
+learn the best action to perform in a particular state.
+
+It maintains a Q-table containing the values of different state-action
+pairs. These Q-values represent the expected future rewards for taking
+particular actions in particular states.
+
+The agent selects actions using an epsilon-greedy policy. This policy
+balances exploration, where random actions are selected, and
+exploitation, where actions with higher Q-values are selected.
+
+Q-Learning update equation: Q(s,a) = Q(s,a) + alpha [r + gamma max
+Q(s’,a’) - Q(s,a)]
+
+Where: Q(s,a) = Current Q-value alpha = Learning rate r = Reward
+received gamma = Discount factor s’ = Next state a’ = Possible next
+action
+
+In this practical, the maze is represented as a grid containing empty
+spaces, walls, a starting position and a goal position. The agent learns
+to navigate the maze by repeatedly exploring it and updating its
+Q-table.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries.
+
+6.  Create a grid-based maze environment.
+
+7.  Define the starting position and goal position.
+
+8.  Mark obstacles and empty spaces in the maze.
+
+9.  Initialize the Q-table with zero values.
+
+10. Define the learning rate, discount factor, exploration rate and
+    number of episodes.
+
+11. Start the training process.
+
+12. Select an action using the epsilon-greedy policy.
+
+13. Move the agent and observe the next state and reward.
+
+14. Update the Q-value using the Q-Learning equation.
+
+15. Update the agent’s current state.
+
+16. Repeat the process until the goal is reached or the maximum number
+    of steps is completed.
+
+17. Repeat the training for multiple episodes.
+
+18. Gradually decrease the exploration rate.
+
+19. Test the trained agent using the learned policy.
+
+20. Display the agent’s performance.
+
+21. End.
+
+22. FLOWCHART START | Import Libraries | Create Maze Grid | Define
+    Start, Goal and Walls | Initialize Q-Table | Set Learning Parameters
+    | Start Episode | Initialize Agent State | Select Action using
+    Epsilon-Greedy Policy | Perform Action | Observe Next State and
+    Reward | Update Q-Value | Update Current State | Goal Reached? | No:
+    Continue Steps | Yes: End Episode | More Episodes? | Yes: Train
+    Again | No | Test Agent | Display Results | END
+
+23. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Reinforcement Learning: A machine learning technique in which an
+    agent learns by interacting with an environment and receiving
+    rewards or penalties.
+-   Agent: The learner or decision-maker that performs actions in the
+    environment.
+-   Environment: The surrounding system in which the agent operates.
+    Here, it is the maze grid.
+-   State: The current position or situation of the agent.
+-   Action: A movement or decision made by the agent. In the maze,
+    actions are Up, Down, Left and Right.
+-   Reward: Positive or negative feedback received after performing an
+    action.
+-   Q-Table: Stores the expected value of performing each possible
+    action from each state.
+-   Q-Learning: A model-free reinforcement learning algorithm that
+    updates Q-values based on rewards and estimated future rewards.
+-   Exploration: Trying different actions to discover new possibilities.
+-   Exploitation: Selecting the action that currently has the highest
+    estimated Q-value.
+-   Epsilon-Greedy Policy: With probability epsilon, selects a random
+    action; otherwise, selects the action with the highest Q-value.
+-   Learning Rate: Controls how much newly received information changes
+    the existing Q-value.
+-   Discount Factor: Determines the importance of future rewards
+    compared with immediate rewards.
+-   Episode: One complete training attempt, usually from the initial
+    state until the goal or a stopping condition is reached.
+
+============================================================ PART B:
+DATA MINING AND VISUALIZATION (7 PRACTICALS)
+============================================================
+
+PRACTICAL 1: ANALYZING SALES DATA FROM MULTIPLE FILE FORMATS Data
+sources: CSV, Excel and JSON Title: Analyzing Sales Data from Multiple
+File Formats.
+
+1.  AIM To import and consolidate sales data from multiple file formats
+    such as CSV, Excel and JSON, perform data preprocessing and
+    cleaning, analyze sales trends and visualize the results using
+    graphs and charts.
+
+2.  THEORY Data Analysis is the process of collecting, cleaning,
+    transforming and analyzing data to extract meaningful information.
+
+In real-world applications, sales data is stored in different file
+formats such as CSV, Excel and JSON. These formats are commonly used by
+business applications, e-commerce platforms and point-of-sale systems.
+
+Python provides the Pandas library to read and process different file
+formats. The imported data is represented in the form of DataFrames,
+which can be merged and analyzed.
+
+Data preprocessing involves handling missing values, removing duplicate
+records and correcting inconsistent entries to improve data quality.
+
+Exploratory Data Analysis (EDA) is then performed to understand sales
+patterns, revenue distribution, product performance and trends.
+
+Finally, graphical visualizations such as bar charts, line graphs and
+pie charts are used to represent the analyzed information and support
+business decision-making.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Pandas, NumPy and Matplotlib.
+
+6.  Load sales data from CSV, Excel and JSON files.
+
+7.  Merge all datasets into a single DataFrame.
+
+8.  Handle missing values, duplicates and inconsistencies.
+
+9.  Perform sales calculations such as total revenue and average sales.
+
+10. Identify top-selling products.
+
+11. Generate visualizations using line charts, bar graphs and pie
+    charts.
+
+12. Display the analysis results.
+
+13. End.
+
+14. FLOWCHART START | Import Libraries | Load Sales Datasets | Read CSV,
+    Excel and JSON | Merge All Datasets | Clean the Data | Handle
+    Missing Values and Remove Duplicates | Perform Sales Analysis |
+    Calculate Total and Average Sales Revenue | Identify Top-Selling
+    Products | Generate Graphs | Display Analysis Results | END
+
+15. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Data Analysis: Process of inspecting, cleaning and interpreting data
+    to discover useful information and support decision-making.
+-   CSV (Comma-Separated Values): File format used to store tabular data
+    in which values are separated by commas.
+-   Excel: Spreadsheet documents used to store and organize data in rows
+    and columns. They can contain multiple sheets.
+-   JSON (JavaScript Object Notation): Lightweight data-interchange
+    format that stores information using key-value pairs and structured
+    objects.
+-   DataFrame: Two-dimensional tabular data structure provided by
+    Pandas, consisting of rows and columns.
+-   Data Integration: Combining information from multiple sources into
+    one unified dataset.
+-   Data Cleaning: Identifying and correcting inaccurate, incomplete,
+    duplicate or inconsistent data.
+-   Exploratory Data Analysis (EDA): Examining datasets using
+    statistical techniques and visualizations to identify patterns,
+    relationships and outliers.
+-   Data Visualization: Representing information graphically to make
+    patterns and trends easier to understand.
+-   Sales Calculation: Total sales are calculated by multiplying
+    quantity sold by price per unit and adding revenue from all
+    transactions. Total Sales = Sum of (Quantity x Price) Average Sales
+    = Total Sales / Number of Transactions
+
+------------------------------------------------------------------------
+
+PRACTICAL 2: ANALYZING WEATHER DATA FROM OPENWEATHERMAP API Data source:
+OpenWeatherMap API Title: Analyzing Weather Data from OpenWeatherMap
+API.
+
+1.  AIM To fetch real-time weather data using the OpenWeatherMap API,
+    preprocess and organize the retrieved data, analyze weather
+    parameters and visualize weather trends using charts and graphs.
+
+2.  THEORY An Application Programming Interface (API) is a mechanism
+    that allows different software applications to communicate and
+    exchange information.
+
+OpenWeatherMap provides APIs that allow users to retrieve real-time and
+historical weather information for different geographical locations.
+
+Python provides the Requests library to send HTTP requests to APIs and
+retrieve weather information. The API generally returns data in JSON
+format.
+
+The retrieved JSON data is parsed and converted into Pandas DataFrames
+for processing and analysis.
+
+Important weather parameters include temperature, atmospheric pressure,
+humidity, wind speed and cloud cover.
+
+After data collection, statistical analysis is performed to identify
+temperature variations, humidity patterns, wind conditions and other
+weather-related trends.
+
+Visualization techniques such as line graphs, bar charts and scatter
+plots help represent weather conditions and identify seasonal changes or
+unusual weather patterns.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Requests, Pandas, NumPy and
+    Matplotlib.
+
+6.  Obtain an API key from OpenWeatherMap.
+
+7.  Specify the city or geographical location.
+
+8.  Send a GET request to the OpenWeatherMap API.
+
+9.  Receive the JSON response containing weather information.
+
+10. Parse the JSON response and extract relevant weather parameters.
+
+11. Convert the retrieved data into a Pandas DataFrame.
+
+12. Calculate average temperature, maximum and minimum humidity and wind
+    trends.
+
+13. Generate visualizations using line graphs, bar charts and scatter
+    plots.
+
+14. Display the analysis results.
+
+15. End.
+
+16. FLOWCHART START | Import Libraries | Obtain OpenWeatherMap API Key |
+    Enter City / Location | Send API GET Request | Receive JSON Response
+    | Extract Weather Parameters | Convert into DataFrame | Perform
+    Analysis | Calculate Temperature, Humidity and Wind Trends |
+    Generate Graphs | Display Results | END
+
+17. SEPARATE THEORETICAL CONCEPTS USED
+
+-   API: Allows two different software applications to communicate and
+    exchange data.
+-   OpenWeatherMap: Weather data service providing access to current and
+    historical weather information through APIs.
+-   HTTP GET Request: HTTP request method used to retrieve information
+    from a server or API endpoint.
+-   API Key: Authentication credential used to identify and authorize an
+    application when accessing an API.
+-   JSON: Lightweight data-interchange format used to represent
+    structured information using key-value pairs and objects.
+-   Requests Library: Python library used to send HTTP requests and
+    receive responses from web services and APIs.
+-   Temperature: Measures how hot or cold the atmosphere is at a
+    particular location.
+-   Humidity: Represents the amount of water vapour present in the
+    atmosphere.
+-   Atmospheric Pressure: Force exerted by the weight of air on a given
+    surface area.
+-   Wind Speed: Measures how fast air moves in a particular direction.
+-   Weather Data Visualization: Represents weather parameters using
+    charts and graphs to identify changes and trends over time.
+
+------------------------------------------------------------------------
+
+PRACTICAL 3: ANALYZING CUSTOMER CHURN IN A TELECOMMUNICATIONS COMPANY
+Application: Customer churn prediction Title: Analyzing Customer Churn
+in a Telecommunications Company.
+
+1.  AIM To collect and preprocess telecommunications customer data,
+    identify important factors influencing customer churn, build
+    predictive machine learning models and visualize churn patterns for
+    effective decision-making.
+
+2.  THEORY Customer Churn Analysis is the process of identifying
+    customers who are likely to discontinue or stop using a company’s
+    services.
+
+In the telecommunications industry, customer churn is a major problem
+because customers may switch to competitors due to high prices, poor
+service quality, dissatisfaction or better offers.
+
+Customer churn analysis uses data analysis and machine learning
+techniques to identify customers who are at risk of leaving a company.
+
+Important customer attributes include contract type, customer tenure,
+monthly charges and service-related information.
+
+Exploratory Data Analysis is performed to identify patterns and
+relationships among customer attributes.
+
+Machine learning algorithms such as Logistic Regression, Decision Trees
+and Random Forest are used to build predictive models that classify
+customers according to their likelihood of leaving the service.
+
+The model performance is evaluated using metrics such as accuracy,
+precision, recall and F1-score.
+
+The results help companies identify potential customer losses and
+develop effective customer retention strategies.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Pandas, NumPy, Scikit-learn
+    and Matplotlib.
+
+6.  Load the telecommunications customer dataset.
+
+7.  Preprocess the dataset by handling missing values and categorical
+    data.
+
+8.  Perform categorical encoding and normalization where required.
+
+9.  Divide the dataset into training and testing datasets.
+
+10. Train machine learning models such as Logistic Regression, Decision
+    Tree and Random Forest.
+
+11. Predict customer churn using the testing dataset.
+
+12. Evaluate models using accuracy, precision, recall and F1-score.
+
+13. Visualize churn patterns and important features.
+
+14. Display the analysis results.
+
+15. End.
+
+16. FLOWCHART START | Import Libraries | Load Telecom Customer Dataset |
+    Preprocess the Dataset | Handle Missing Values and Encode
+    Categorical Data | Normalize Required Features | Split Training and
+    Testing Data | Train ML Models | Logistic Regression / Decision Tree
+    / Random Forest | Predict Customer Churn | Evaluate Model
+    Performance | Visualize Churn Patterns | Display Results | END
+
+17. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Customer Churn: Situation in which a customer stops using a
+    company’s products or services.
+-   Churn Prediction: Identifying customers likely to discontinue a
+    service using historical customer information and machine learning.
+-   Exploratory Data Analysis: Used to identify patterns, relationships
+    and important features in customer data.
+-   Feature Engineering: Selecting, creating or transforming input
+    variables to improve model performance.
+-   Classification: Supervised machine learning technique used to
+    predict predefined categories.
+-   Logistic Regression: Supervised machine learning algorithm used
+    mainly for classification. It calculates the probability of an
+    observation belonging to a class.
+-   Decision Tree: Supervised learning algorithm that uses conditions
+    and decision rules to classify data.
+-   Random Forest: Combines multiple decision trees to produce a final
+    prediction through majority voting.
+-   Accuracy: Percentage of correct predictions made by a model.
+-   Precision: TP / (TP + FP). Measures how many customers predicted as
+    churners actually belong to the churn class.
+-   Recall: TP / (TP + FN). Measures how many actual churners are
+    correctly identified.
+-   F1-Score: Harmonic mean of precision and recall. F1 = 2 x (Precision
+    x Recall) / (Precision + Recall).
+
+------------------------------------------------------------------------
+
+PRACTICAL 4: DATA WRANGLING ON REAL ESTATE MARKET Dataset: Bengaluru
+House Data Title: Data Wrangling on Real Estate Market.
+
+1.  AIM To collect real estate data from multiple sources, clean and
+    preprocess the raw data, handle missing values and duplicates,
+    standardize inconsistent information and prepare a structured
+    dataset for analysis and visualization.
+
+2.  THEORY Data Wrangling, also known as Data Munging, is the process of
+    cleaning, structuring and transforming raw data into a suitable
+    format for analysis.
+
+Real estate data is generally obtained from multiple sources such as CSV
+files, Excel files, APIs and web scraping. The collected data may
+contain missing values, duplicate records, inconsistent formats and
+unnecessary columns.
+
+Data wrangling helps improve the quality and consistency of raw datasets
+by handling missing values, removing duplicates, correcting inconsistent
+entries and standardizing column names and data types.
+
+Python libraries such as Pandas and NumPy are used to perform these
+operations.
+
+After cleaning and transformation, the data is converted into a
+structured DataFrame suitable for further analysis and visualization.
+
+In this practical, real estate information such as property location,
+property type, area, bedrooms, bathrooms and price is processed to
+prepare a clean dataset.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Pandas, NumPy, Matplotlib and
+    Seaborn.
+
+6.  Load real estate datasets from CSV, Excel or API sources.
+
+7.  Inspect the dataset for missing values, duplicates and
+    inconsistencies.
+
+8.  Handle missing values using imputation or removal techniques.
+
+9.  Remove duplicate records and correct inconsistent formatting.
+
+10. Standardize units, column names and data types.
+
+11. Merge or concatenate datasets if multiple sources are used.
+
+12. Create a clean and structured DataFrame.
+
+13. Display the processed dataset.
+
+14. End.
+
+15. FLOWCHART START | Import Libraries | Load Real Estate Dataset |
+    Inspect Dataset | Identify Missing Values, Duplicates and
+    Inconsistencies | Handle Missing Values | Remove Duplicates |
+    Standardize Column Names, Units and Data Types | Merge Multiple
+    Datasets if Required | Create Clean DataFrame | Display Processed
+    Data | END
+
+16. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Data Wrangling: Process of converting raw data into a clean,
+    structured and usable format for analysis.
+-   Data Munging: Another term for data wrangling; involves cleaning,
+    transforming and organizing data.
+-   Missing Values: Data entries that are unavailable or not recorded in
+    a dataset.
+-   Data Imputation: Replacing missing values with suitable values such
+    as mean, median or mode.
+-   Duplicate Records: Repeated entries in a dataset. Removing them
+    helps avoid incorrect analysis.
+-   Data Standardization: Ensures values, units, formats and column
+    names are consistent.
+-   Data Transformation: Converts data into an appropriate format or
+    structure for analysis.
+-   Data Merging: Combines multiple datasets using common columns or
+    keys.
+-   Data Concatenation: Combines datasets by joining their rows or
+    columns.
+-   Structured Dataset: Data organized in a predefined tabular format
+    containing rows and columns. Mathematical representation: D_clean =
+    f(D_raw) D_raw = Original raw dataset D_clean = Cleaned dataset f =
+    Data wrangling operations
+
+------------------------------------------------------------------------
+
+PRACTICAL 5: ANALYZING AIR QUALITY INDEX (AQI) TRENDS IN A CITY Data:
+Air Quality Index and pollutants Title: Analyzing Air Quality Index
+(AQI) Trends in a City.
+
+1.  AIM To collect real-time and historical Air Quality Index (AQI)
+    data, preprocess and clean the dataset, analyze pollution trends and
+    visualize the changes in air quality across different locations,
+    seasons and time periods.
+
+2.  THEORY Air Quality Index (AQI) is an indicator used to represent the
+    level of air pollution and the associated health risk.
+
+AQI analysis helps understand the concentration of pollutants in the
+atmosphere and identify periods of poor air quality.
+
+Important air pollutants include PM2.5, PM10, Nitrogen Dioxide (NO2),
+Carbon Monoxide (CO), Sulphur Dioxide (SO2) and Ozone (O3).
+
+AQI data can be collected from official government portals and APIs such
+as OpenAQ.
+
+The collected data may contain missing values, duplicate entries and
+inconsistent date or time formats. Therefore, preprocessing is necessary
+before performing analysis.
+
+The data is analyzed over different time periods such as hourly, daily,
+monthly and yearly intervals to identify pollution trends and seasonal
+variations.
+
+Visualization techniques such as line graphs, bar charts and heatmaps
+are used to represent pollution levels and identify areas or time
+periods with poor air quality.
+
+This analysis supports environmental monitoring, public health awareness
+and pollution-control decision-making.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Pandas, NumPy, Matplotlib,
+    Seaborn and Requests.
+
+6.  Collect AQI data using APIs or CSV files.
+
+7.  Inspect the dataset for missing values, duplicates and
+    inconsistencies.
+
+8.  Handle missing and inconsistent entries using imputation or removal
+    techniques.
+
+9.  Convert date and time columns into appropriate datetime formats.
+
+10. Aggregate data by day, month or year as required.
+
+11. Analyze pollutant trends such as PM2.5, PM10, NO2, CO and O3.
+
+12. Generate visualizations using line charts, heatmaps and bar charts.
+
+13. Interpret the trends and identify pollution patterns.
+
+14. Display the results.
+
+15. End.
+
+16. FLOWCHART START | Import Libraries | Collect AQI Dataset using API /
+    CSV | Inspect Dataset | Identify Missing Values, Duplicates and
+    Inconsistencies | Clean the Dataset | Convert Date and Time Columns
+    into Datetime | Aggregate Data by Time | Analyze Pollutant Trends |
+    Generate Graphs | Identify Pollution Patterns | Display Results |
+    END
+
+17. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Air Quality Index (AQI): Indicator used to represent air pollution
+    levels and communicate associated health risks.
+-   PM2.5: Fine particulate matter having a diameter of 2.5 micrometres
+    or smaller.
+-   PM10: Particulate matter having a diameter of 10 micrometres or
+    smaller.
+-   Nitrogen Dioxide (NO2): Air pollutant commonly produced by
+    combustion processes, particularly vehicle engines and industrial
+    activities.
+-   Carbon Monoxide (CO): Colourless and odourless gas produced mainly
+    through incomplete combustion of carbon-containing fuels.
+-   Sulphur Dioxide (SO2): Air pollutant commonly associated with
+    burning sulphur-containing fuels and industrial processes.
+-   Ozone (O3): Ground-level air pollutant formed through chemical
+    reactions involving other pollutants in the presence of sunlight.
+-   Time-Series Analysis: Examines data collected over successive time
+    intervals to identify trends and seasonal patterns.
+-   Data Aggregation: Combines individual records into summarized
+    information, such as daily or monthly average pollutant levels.
+-   Heatmap: Graphical representation that uses colour intensities to
+    display values and identify patterns.
+-   Temporal Analysis: Examines how pollution levels change over time,
+    such as hourly, daily or seasonal changes.
+-   Spatial Analysis: Examines differences in pollution levels across
+    geographical locations or monitoring stations.
+
+------------------------------------------------------------------------
+
+PRACTICAL 6: ANALYZING SALES PERFORMANCE BY REGION IN A RETAIL COMPANY
+Application: Regional sales analysis Title: Analyzing Sales Performance
+by Region in a Retail Company.
+
+1.  AIM To collect and consolidate sales data from different regions,
+    preprocess and clean the dataset, analyze regional sales performance
+    and visualize high-performing and low-performing regions using
+    suitable charts.
+
+2.  THEORY Sales Performance Analysis is the process of evaluating sales
+    revenue and business performance across different geographical
+    regions.
+
+Retail companies operate in multiple regions, and their sales
+information is often stored in different sources such as CSV files,
+Excel files and databases.
+
+Data preprocessing is performed to handle missing values, remove
+duplicate records and correct inconsistent entries.
+
+The cleaned datasets are consolidated into a structured dataset for
+analysis.
+
+Sales data is then grouped according to region and time period to
+calculate total revenue, growth rates and product-wise performance.
+
+Visualization techniques such as bar charts, line graphs and heatmaps
+help identify high-performing and low-performing regions.
+
+Regional sales analysis provides valuable information to management for
+identifying growth opportunities, improving sales strategies and
+allocating business resources effectively.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Pandas, NumPy, Matplotlib and
+    Seaborn.
+
+6.  Load sales datasets from CSV files, Excel files or databases.
+
+7.  Inspect the dataset for missing values, duplicates and
+    inconsistencies.
+
+8.  Handle missing values and remove duplicate records.
+
+9.  Standardize column names, data types and units.
+
+10. Aggregate sales data by region and time period.
+
+11. Analyze total sales, growth rates and product performance.
+
+12. Generate visualizations using bar charts, line charts and heatmaps.
+
+13. Interpret the results and identify high-performing and
+    low-performing regions.
+
+14. Display the results.
+
+15. End.
+
+16. FLOWCHART START | Import Libraries | Load Sales Datasets: CSV /
+    Excel / Database | Inspect Dataset | Identify Missing Values and
+    Duplicate Records | Clean the Data | Standardize Columns, Units and
+    Data Types | Group Sales by Region and Time Period | Calculate Total
+    Sales and Growth Rates | Analyze Product Performance | Generate
+    Charts | Identify High and Low Performing Regions | Display Results
+    | END
+
+17. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Sales Performance Analysis: Evaluating revenue, sales growth and
+    product performance to understand business performance.
+-   Regional Sales Analysis: Comparing revenue generated by geographical
+    regions to identify strong and weak business areas.
+-   Data Aggregation: Combining individual sales transactions into
+    summarized information based on region, product or time period.
+-   Grouping: Organizing records based on common values, such as North,
+    South, East and West regions.
+-   Total Sales: Total revenue generated from selling products. Total
+    Sales = Sum of (Quantity Sold x Unit Price).
+-   Sales Growth: Increase or decrease in sales revenue over a period of
+    time.
+-   Product Performance: Evaluates how different products contribute to
+    total sales of a region.
+-   Bar Chart: Represents categorical data using rectangular bars and is
+    useful for comparing sales across regions.
+-   Line Chart: Represents changes in sales over time and helps identify
+    sales trends.
+-   Heatmap: Represents data using colour intensity and is useful for
+    comparing sales performance across multiple regions and periods.
+
+------------------------------------------------------------------------
+
+PRACTICAL 7: ANALYSIS AND VISUALIZATION OF STOCK MARKET DATA Data
+source: Yahoo Finance / CSV Title: Analysis and Visualization of Stock
+Market Data.
+
+1.  AIM To collect historical and real-time stock market data,
+    preprocess and clean the dataset, analyze stock price trends and
+    volatility, and visualize stock performance using suitable graphs
+    and charts.
+
+2.  THEORY Stock Market Analysis is the process of examining historical
+    stock prices, trading volumes and other financial indicators to
+    understand market trends and evaluate stock performance.
+
+Stock market datasets generally contain information such as opening
+price, closing price, highest price, lowest price, adjusted closing
+price and trading volume.
+
+Historical stock market data can be collected using online APIs such as
+Yahoo Finance or through CSV files.
+
+The collected data is preprocessed to handle missing values, remove
+duplicate records and standardize column names and data types.
+
+Various financial indicators, such as moving averages, returns and
+volatility, are calculated to understand stock price movements.
+
+Moving averages help identify the overall direction of stock prices by
+smoothing short-term fluctuations.
+
+Visualization techniques such as line charts, candlestick charts and bar
+charts are used to represent stock performance over time.
+
+Stock market analysis helps identify price patterns, market trends,
+volatility and trading activity, supporting informed investment and
+financial decision-making.
+
+3.  ALGORITHM
+
+4.  Start.
+
+5.  Import the required libraries such as Pandas, NumPy, Matplotlib,
+    Seaborn, yfinance and Plotly.
+
+6.  Collect stock market data using APIs or CSV files.
+
+7.  Inspect the dataset for missing values, duplicate records and
+    inconsistencies.
+
+8.  Handle missing values and standardize column names and data types.
+
+9.  Calculate additional financial metrics such as moving averages,
+    returns and volatility.
+
+10. Visualize stock price trends using line charts, candlestick charts
+    and bar charts.
+
+11. Analyze price patterns, peaks and volatility.
+
+12. Draw insights to support investment decisions.
+
+13. Display the analysis results.
+
+14. End.
+
+15. FLOWCHART START | Import Libraries | Collect Stock Market Data: API
+    / CSV | Inspect Dataset | Identify Missing Values, Duplicates and
+    Inconsistencies | Clean the Data | Standardize Columns and Data
+    Types | Calculate Financial Metrics | Moving Averages, Returns and
+    Volatility | Generate Charts | Analyze Price Trends and Market
+    Patterns | Draw Financial Insights | END
+
+16. SEPARATE THEORETICAL CONCEPTS USED
+
+-   Stock Market Analysis: Examining historical prices, trading volumes
+    and financial indicators to understand stock performance and market
+    behaviour.
+-   Open Price: Price at which a stock begins trading during a
+    particular trading session.
+-   Close Price: Final trading price of a stock at the end of a trading
+    session.
+-   High Price: Highest price reached by a stock during a trading
+    session.
+-   Low Price: Lowest price reached by a stock during a trading session.
+-   Adjusted Close Price: Closing price adjusted for certain corporate
+    actions, such as stock splits and dividends.
+-   Trading Volume: Total number of shares traded during a particular
+    period.
+-   Moving Average: Technical indicator that calculates the average
+    stock price over a specified number of previous trading periods.
+    Simple Moving Average = (P1 + P2 + … + Pn) / n
+-   Stock Return: Percentage change in stock price over a particular
+    period. Return = ((Current Price - Previous Price) / Previous Price)
+    x 100
+-   Volatility: Degree of variation in stock prices or returns over
+    time. High volatility indicates larger price fluctuations.
+-   Line Chart: Represents stock price movements over time and helps
+    identify upward and downward trends.
+-   Candlestick Chart: Represents opening, closing, highest and lowest
+    stock prices for a particular trading period.
+-   Financial Data Visualization: Represents stock prices, returns,
+    trading volumes and other financial indicators through graphical
+    representations.
+
+============================================================ FINAL
+REVISION: IMPORTANT CONCEPTS ACROSS ALL 13 PRACTICALS
+============================================================
+
+ML Practical 1: PCA - Unsupervised Learning ML Practical 2: Linear
+Regression - Supervised Learning ML Practical 3: SVM - Supervised
+Learning ML Practical 4: K-Means and Elbow Method - Unsupervised
+Learning ML Practical 5: Random Forest - Supervised Learning and
+Ensemble Learning ML Practical 6: Q-Learning - Reinforcement Learning
+
+DMV Practical 1: Data Integration and EDA - Data Analysis DMV Practical
+2: API and Weather Analysis - Data Analysis DMV Practical 3: Customer
+Churn Prediction - Predictive Analysis DMV Practical 4: Data Wrangling -
+Data Preprocessing DMV Practical 5: AQI Trend Analysis - Time-Series
+Analysis DMV Practical 6: Regional Sales Analysis - Business Analytics
+DMV Practical 7: Stock Market Analysis - Financial Analytics
+
+IMPORTANT DIFFERENCES - Classification: Predicts a category or class. -
+Regression: Predicts a continuous numerical value. - Clustering: Groups
+similar data without predefined labels. - Dimensionality Reduction:
+Reduces the number of features while retaining important information. -
+Ensemble Learning: Combines multiple models for better predictions. -
+Reinforcement Learning: Learns through actions, rewards and penalties. -
+Data Wrangling: Cleans and transforms raw data. - EDA: Explores data to
+discover patterns and relationships. - Data Visualization: Represents
+information graphically. - Time-Series Analysis: Studies how data
+changes over time.
+
+RECOMMENDED STUDY ORDER 1. Understand PCA, Linear Regression and SVM. 2.
+Study K-Means, Random Forest and Q-Learning. 3. Understand DataFrames,
+data cleaning, data integration and EDA. 4. Study the application-based
+DMV practicals: Weather, Churn, Real Estate, AQI, Regional Sales and
+Stock Market.
+
+NOTE These notes contain the aim, theory, algorithm, flowchart and
+separate theoretical concepts for all 6 ML and 7 DMV practicals. They do
+not include Python code explanations. The flowcharts are text-based
+representations constructed from the algorithms. The source manuals
+largely provide flowchart headings without completed diagrams.
